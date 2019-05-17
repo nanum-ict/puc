@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <title>평택도시공사</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/fontello/css/fontello.css">
+        <link rel="stylesheet" href="/assets/css/default.css">
+    </head>
+    
+    <body>
+        <!-- Header -->
+        <header id="header">
+            <h1 class="logo">
+                <a href="/"><img src="/assets/images/logo.jpg" alt="평택도시공사로고"></a>
+            </h1>
+            
+            <button type="button" class="btn nav-open">
+                <span class="sr-only">메뉴 열기</span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            
+        </header>
+        
+        <!-- Main Content -->
+        <main id="content">
+            <div class="jumbotron">
+                <ul class="slider" style="overflow: hidden;">
+                    <li>
+                        <figure>
+                            <img src="/assets/images/main/img_slider01.jpg" class="img-fluid" alt="">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="/assets/images/main/img_slider01.jpg" class="img-fluid" alt="">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="/assets/images/main/img_slider01.jpg" class="img-fluid" alt="">
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="container">
+                <ul class="policy">
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이메일추출방지정책</a></li>
+                    <li><a href="#">찾아오시는 길</a></li>
+                    <li><a href="#">전체메뉴</a></li>
+                </ul>
+                <div class="puc-info">
+                    <ul>
+                        <li><address>(17725) 평택시 도일유통길 25(도일동)</address></li>
+                        <li>
+                            <a href="tel:03180538800">TEL.031)8053-8800</a>
+                            <p>FAX.031)692-4337</p>
+                        </li>
+                        <li>
+                            <p>대표자 : 김재수</p>
+                            <p>사업자등록번호 : 125-81-73344</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown family-site">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="family-site" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        유관기관 사이트
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="family-site">
+                        <a href="http://www.pyeongtaek.go.kr/" class="dropdown-item" target="_blank">평택시청</a>
+                        <a href="http://www.ptcouncil.net/" class="dropdown-item" target="_blank">평택시의회</a>
+                        <a href="http://www.mopas.go.kr/" class="dropdown-item" target="_blank">행정안전부</a>
+                        <a href="http://www.kolmi.or.kr/" class="dropdown-item" target="_blank">한국자치경영평가원</a>
+                        <a href="http://www.mltm.go.kr/" class="dropdown-item" target="_blank">국토해양부</a>
+                        <a href="http://www.lplus.or.kr/" class="dropdown-item" target="_blank">한국토지공사</a>
+                        <a href="http://portal.gg.go.kr/" class="dropdown-item" target="_blank">경기도청</a>
+                        <a href="http://www.gico.or.kr/" class="dropdown-item" target="_blank">경기도시공사</a>
+                    </div>
+                </div>
+                <p class="summary">본 홈페이지는 게시된 이메일주소의 자동수집을 거부하며 이를 위반할 시 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.</p>
+                <b class="copyright">Copyright⒞Pyeongtaek Urban Corporation. All rights reserved.</b>
+                <div class="excellent-firm">
+                    <a href="#" target="_blank">
+                        <img src="/assets/images/img_human.jpg" alt="한국산업인력공단 인증마크">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="/assets/images/img_family_friendly.jpg" alt="가족친화지원산업 인증마크">
+                    </a>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/assets/bxslider/js/jquery.bxslider.js"></script>
+        <script>
+            (function($){
+                // 모바일 메뉴
+                $(document).on('click','.nav-open', function(){
+                    $('body').addClass('opened');
+                });
+                
+                /*$(window).on('load resize', function() {
+                    var jumboHeight = $('.jumbotron').height();
+                    console.log(jumboHeight);
+                    $('.jumbotron').css('height',jumboHeight);
+                });*/
+                
+                // 메인 슬라이더
+                $(document).ready(function(){
+                    $('.slider').bxSlider({
+                        controls: false
+                    });
+                });
+                
+                setTimeout(function() {
+                    $('.jumbotron').addClass('active');
+                }, 100);
+            })(jQuery);
+        </script>
+    </body>
+</html>
