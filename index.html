@@ -7,44 +7,411 @@
         <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="/assets/fontello/css/fontello.css">
         <link rel="stylesheet" href="/assets/css/default.css">
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <!--[if IE 9]>
+          <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie9.min.js"></script>
+        <![endif]-->
+        <!--[if lte IE 8]>
+          <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie8.min.js"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.js"></script>
+        <![endif]-->
     </head>
     
     <body>
         <!-- Header -->
         <header id="header">
             <h1 class="logo">
-                <a href="/"><img src="/assets/images/logo.jpg" alt="평택도시공사로고"></a>
+                <a href="/"><img src="/assets/images/logo.jpg" alt="평택도시공사"></a>
             </h1>
-            
             <button type="button" class="btn nav-open">
                 <span class="sr-only">메뉴 열기</span>
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </button>
-            
+            <!-- Nav -->
+            <nav id="gnb">
+                <div class="backdrop"></div>
+                <button type="button" class="btn nav-close">
+                    <span class="sr-only">메뉴 닫기</span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <div class="nav-container">
+                    <div class="nav-head">
+                        <h2 class="logo">
+                            <a href="/"><img src="/assets/images/logo.jpg" alt="평택도시공사"></a>
+                        </h2>
+                    </div>
+                    <div class="nav-body">
+                        <ul>
+                            <li>
+                                <a href="#">사업안내</a>
+                                <ul>
+                                    <li><a href="#">택지개발사업</a></li>
+                                    <li><a href="#">산업단지조성사업</a></li>
+                                    <li><a href="#">위수탁사업</a></li>
+                                    <li><a href="#">황해경제자유구역 개발사업</a></li>
+                                    <li><a href="#">브레인시티 일반산업단지 조성사업</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">분양안내</a>
+                                <ul>
+                                    <li><a href="#">용지분양</a></li>
+                                    <li><a href="#">세금안내 및 기타</a></li>
+                                    <li><a href="#">보상</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">고객광장</a>
+                                <ul>
+                                    <li><a href="#">고객서비스</a></li>
+                                    <li><a href="#">자주 묻는 질문</a></li>
+                                    <li><a href="#">온라인 상담</a></li>
+                                    <li><a href="#">칭찬합시다</a></li>
+                                    <li><a href="#">개인정보취급방법</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">PUC소식</a>
+                                <ul>
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">보도자료</a></li>
+                                    <li><a href="#">입찰정보</a></li>
+                                    <li><a href="#">채용정보</a></li>
+                                    <li><a href="#">발주계획</a></li>
+                                    <li><a href="#">수의계약 견적제출</a></li>
+                                    <li><a href="#">수의계약 내역공개</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">공사소개</a>
+                                <ul>
+                                    <li><a href="#">CEO 인사말</a></li>
+                                    <li><a href="#">공사 CI</a></li>
+                                    <li><a href="#">비전과 미션</a></li>
+                                    <li><a href="#">일반현황</a></li>
+                                    <li><a href="#">경영공시</a></li>
+                                    <li><a href="#">조직 및 업무</a></li>
+                                    <li><a href="#">찾아오시는길</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-foot">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="icon"></div>
+                                    <p>분양정보</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="icon"></div>
+                                    <p>사업현황</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.epeople.go.kr/" target="_blank">
+                                    <div class="icon"></div>
+                                    <p>국민 신문고</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mId=0201030000" target="_blank">
+                                    <div class="icon"></div>
+                                    <p>평택시<br>시민신문고</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://puc08.tistory.com/" target="_blank">
+                                    <div class="icon"></div>
+                                    <p>분양 블로그</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="icon"></div>
+                                    <p>고객센터</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
         
-        <!-- Main Content -->
+        <!-- Content -->
         <main id="content">
             <div class="jumbotron">
-                <ul class="slider" style="overflow: hidden;">
+                <ul class="main-slider">
                     <li>
                         <figure>
                             <img src="/assets/images/main/img_slider01.jpg" class="img-fluid" alt="">
+                            <figcaption>
+                                <p>시민을 위한 친화기업<br><b>평택도시공사</b></p>
+                                <small>환경을 생각하고, 가치를 추구하는 <br>환경중심기관으로 <br>지역 성장의 밑거름이 되겠습니다.</small>
+                            </figcaption>
                         </figure>
                     </li>
                     <li>
                         <figure>
                             <img src="/assets/images/main/img_slider01.jpg" class="img-fluid" alt="">
+                            <figcaption>
+                                <p>시민을 위한 친화기업<br><b>평택도시공사</b></p>
+                                <small>환경을 생각하고, 가치를 추구하는 <br>환경중심기관으로 <br>지역 성장의 밑거름이 되겠습니다.</small>
+                            </figcaption>
                         </figure>
                     </li>
                     <li>
                         <figure>
                             <img src="/assets/images/main/img_slider01.jpg" class="img-fluid" alt="">
+                            <figcaption>
+                                <p>시민을 위한 친화기업<br><b>평택도시공사</b></p>
+                                <small>환경을 생각하고, 가치를 추구하는 <br>환경중심기관으로 <br>지역 성장의 밑거름이 되겠습니다.</small>
+                            </figcaption>
                         </figure>
                     </li>
                 </ul>
+            </div>
+            
+            <div class="puc-content">
+                <section class="puc-news">
+                    <div class="container">
+                        <div class="section-header">
+                            <h3>PUC 소식</h3>
+                            <p>평택도시공사의 다양한 분양, 입찰 소식을 확인할 수있습니다.</p>
+                        </div>
+                        <div class="section-content">
+                            <nav>
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#tab-1" aria-controls="tab-1" aria-selected="true">공지사항</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tab-2" aria-controls="tab-2" aria-selected="false">입찰안내</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tab-3" aria-controls="tab-3" aria-selected="false">분양정보</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tab-4" aria-controls="tab-4" aria-selected="false">채용정보</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="more"></a>
+                            </nav>
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="tab-1" role="tabpanel">
+                                    <ul class="board-list">
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="tab-2" role="tabpanel">
+                                    <ul class="board-list">
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="tab-3" role="tabpanel">
+                                    <ul class="board-list">
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="tab-4" role="tabpanel">
+                                    <ul class="board-list">
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                평택 브레인시티일반산업단지 1단계
+                                                <span>2019-01-31</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <article class="banner">
+                    <ul class="banner-slider">
+                        <li>
+                            <figure>
+                                <img src="/assets/images/main/img_banner01.jpg" class="img-fluid" alt="공공분야 갑질피해 신고하세요!!">
+                                <figcaption>
+                                    <div class="details">
+                                        <div class="align">
+                                            <h4>공공분야 갑질피해 <br>신고하세요!!</h4>
+                                            <div class="btn-area">
+                                                <a href="#" class="btn btn-white" role="button">신고ㆍ지원센터 바로가기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="/assets/images/main/img_banner01.jpg" class="img-fluid" alt="공공분야 갑질피해 신고하세요!!">
+                                <figcaption>
+                                    <div class="details">
+                                        <div class="align">
+                                            <h4>공공분야 갑질피해 <br>신고하세요!!</h4>
+                                            <div class="btn-area">
+                                                <a href="#" class="btn btn-white" role="button">신고ㆍ지원센터 바로가기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="/assets/images/main/img_banner01.jpg" class="img-fluid" alt="공공분야 갑질피해 신고하세요!!">
+                                <figcaption>
+                                    <div class="details">
+                                        <div class="align">
+                                            <h4>공공분야 갑질피해 <br>신고하세요!!</h4>
+                                            <div class="btn-area">
+                                                <a href="#" class="btn btn-white" role="button">신고ㆍ지원센터 바로가기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </article>
+                <article class="community">
+                    <a href="#" class="communication">
+                        <h3>시민 소통광장</h3>
+                        <p>평택도시공사는 365일, 언제나 <br>시민 여러분과 소통하겠습니다.</p>
+                    </a>
+                    <a href="#" class="satisfaction-research">
+                        <h3>고객 만족도 조사</h3>
+                        <p>평택도시공사는 365일, <br>언제나 시민 여러분과 <br>소통하겠습니다.</p>
+                    </a>
+                </article>
+                <section class="news">
+                    <h3>NEWS</h3>
+                    <div class="section-content">
+                        
+                    </div>
+                </section>
             </div>
         </main>
         
@@ -89,10 +456,10 @@
                 <b class="copyright">Copyright⒞Pyeongtaek Urban Corporation. All rights reserved.</b>
                 <div class="excellent-firm">
                     <a href="#" target="_blank">
-                        <img src="/assets/images/img_human.jpg" alt="한국산업인력공단 인증마크">
+                        <img src="/assets/images/img_human.jpg" alt="한국산업인력공단">
                     </a>
                     <a href="#" target="_blank">
-                        <img src="/assets/images/img_family_friendly.jpg" alt="가족친화지원산업 인증마크">
+                        <img src="/assets/images/img_family_friendly.jpg" alt="가족친화지원산업">
                     </a>
                 </div>
             </div>
@@ -104,27 +471,42 @@
         <script src="/assets/bxslider/js/jquery.bxslider.js"></script>
         <script>
             (function($){
-                // 모바일 메뉴
+                // 모바일 메뉴 메뉴관련
                 $(document).on('click','.nav-open', function(){
                     $('body').addClass('opened');
                 });
-                
-                /*$(window).on('load resize', function() {
-                    var jumboHeight = $('.jumbotron').height();
-                    console.log(jumboHeight);
-                    $('.jumbotron').css('height',jumboHeight);
-                });*/
+                $(document).on('click','.nav-close, .backdrop', function(){
+                    $('body').removeClass('opened');
+                });
+                $(document).on("click", ".nav-body > ul > li> a", function(){
+                    if($(this).parent().hasClass("active")){
+                        $(this).parent().removeClass("active");
+                    } else {
+                        $(this).parent().addClass("active").siblings().removeClass("active");
+                    }
+                });
                 
                 // 메인 슬라이더
                 $(document).ready(function(){
-                    $('.slider').bxSlider({
-                        controls: false
+                    $('.main-slider, .banner-slider').bxSlider({
+                        auto: true,
+                        autoControls: true,
+                        autoControlsCombine: true,
+                        controls: false,
+                        infiniteLoop: true
                     });
                 });
-                
                 setTimeout(function() {
-                    $('.jumbotron').addClass('active');
+                    $('.jumbotron, .banner-slider').addClass('on');
                 }, 100);
+                
+                
+                
+                $(window).on('load resize', function(){
+                    var contW = $('.community > a').width();
+                    var contBox = $('.community > a');
+                    contBox.css('height',contW)
+                });
             })(jQuery);
         </script>
     </body>
