@@ -247,7 +247,7 @@
                 <div class="section-content">
                     <a href="#">
                         <figure>
-                            <img src="/assets/images/main/img_news.jpg" class="img-fluid" alt="">
+                            <img src="/assets/images/main/img_news.jpg" class="img-fluid" alt="뉴스">
                         </figure>
                         <div class="details">
                             <h4>평택도시공사, 설 명절 맞아 불우이웃돕기 모금전달</h4>

@@ -155,10 +155,10 @@
                     </dl>
                     <b class="copyright">Copyright⒞Pyeongtaek Urban Corpora-tion. All rights reserved.</b>
                     <div class="excellent-firm">
-                        <a href="#" target="_blank">
+                        <a href="http://www.hrdkorea.or.kr/3/1/2/2" target="_blank">
                             <img src="/assets/images/img_human.jpg" alt="한국산업인력공단">
                         </a>
-                        <a href="#" target="_blank">
+                        <a href="http://www.ffsb.kr/ffm/ffmCertRqnGuide.do" target="_blank">
                             <img src="/assets/images/img_family_friendly.jpg" alt="가족친화지원산업">
                         </a>
                     </div>

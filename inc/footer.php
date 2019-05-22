@@ -37,10 +37,10 @@
     <p class="summary">본 홈페이지는 게시된 이메일주소의 자동수집을 거부하며 이를 위반할 시 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.</p>
     <b class="copyright">Copyright⒞Pyeongtaek Urban Corporation. All rights reserved.</b>
     <div class="excellent-firm">
-        <a href="#" target="_blank">
+        <a href="http://www.hrdkorea.or.kr/3/1/2/2" target="_blank">
             <img src="/assets/images/img_human.jpg" alt="한국산업인력공단">
         </a>
-        <a href="#" target="_blank">
+        <a href="http://www.ffsb.kr/ffm/ffmCertRqnGuide.do" target="_blank">
             <img src="/assets/images/img_family_friendly.jpg" alt="가족친화지원산업">
         </a>
     </div>
