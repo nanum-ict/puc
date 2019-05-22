@@ -399,9 +399,7 @@ a {
       html #content .puc-content .community, body #content .puc-content .community {
         height: 22%; }
       html #content .puc-content .news, body #content .puc-content .news {
-        height: 22%; }
-  html #footer, body #footer {
-    display: none; } }
+        height: 22%; } }
 
 .jumbotron {
   position: relative;
@@ -541,7 +539,7 @@ a {
             .jumbotron .bx-wrapper ul li.third, .jumbotron .bx-viewport ul li.third {
               background-image: url(/assets/images/main/bg_slider01_lg.jpg); }
             .jumbotron .bx-wrapper ul li .details, .jumbotron .bx-viewport ul li .details {
-              padding: 40% 0 0 40px; }
+              padding: 20% 0 0 40px; }
               .jumbotron .bx-wrapper ul li .details p, .jumbotron .bx-viewport ul li .details p {
                 font-size: 68px;
                 line-height: 76px; }
@@ -549,6 +547,9 @@ a {
                 font-size: 22px;
                 line-height: 33px;
                 margin-top: 20px; } }
+  @media (min-width: 1400px) {
+    .jumbotron .bx-wrapper ul li .details, .jumbotron .bx-viewport ul li .details {
+      padding-top: 18%; } }
 
 .puc-news {
   padding: 0 20px; }
