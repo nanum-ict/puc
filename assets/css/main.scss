@@ -68,7 +68,7 @@ html, body {
                     font-size: 25px;
                     line-height: 30px;
                     color: #568080;
-                    font-weight: 300;
+                    font-weight: lighter;
                     b {
                         font-weight: 500;
                     }
@@ -276,6 +276,7 @@ html, body {
                         position: relative;
                         padding: 0;
                         border: 0;
+                        color: #888;
                         border-radius: 0;
                         padding-bottom: 10px;
                         &:after {

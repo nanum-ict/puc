@@ -1,4 +1,4 @@
-@import url(/assets/css/font/notosanskr.css);
+@import url(/assets/css/font/noto-sans-korean.css);
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -381,7 +381,7 @@ a {
 html, body {
   font-size: 13px;
   color: #333;
-  font-family: 'Noto Sans KR';
+  font-family: "Noto Sans Korean";
   font-weight: 400;
   word-break: keep-all; }
   @media (min-width: 1200px) {

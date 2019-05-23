@@ -1,4 +1,4 @@
-@import url(/assets/css/font/notosanskr.css);
+@import url(/assets/css/font/noto-sans-korean.css);
 
 $sm: "768px";
 $md: "992px";
@@ -17,7 +17,7 @@ $xl: "1400px";
 }
 
 @mixin noto() {
-    font-family: 'Noto Sans KR';
+    font-family: "Noto Sans Korean";
 }
 
 h1, h2, h3,h4, h5, h6 {
