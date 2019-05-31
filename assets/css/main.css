@@ -410,7 +410,7 @@ a {
   box-shadow: none;
   background: none;
   opacity: 0; }
-  .jumbotron.on {
+  .jumbotron.action {
     opacity: 1; }
   .jumbotron .main-slider li {
     background-repeat: no-repeat;
@@ -674,7 +674,7 @@ a {
   position: relative; }
   .banner .banner-slider {
     opacity: 0; }
-    .banner .banner-slider.on {
+    .banner .banner-slider.action {
       opacity: 1; }
     .banner .banner-slider li {
       background-repeat: no-repeat;

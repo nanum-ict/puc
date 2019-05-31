@@ -23,17 +23,32 @@
         $(this).removeClass('on');
         $('#gnb').removeClass('open');
     });
-    
 
     // 1200 nav class 제거
     $(window).on('load resize', function(){
-        var $body = $('body').width();
-        if ($body > 1199) {
-            $('body').removeClass('opened');
+        if ($('body').width() > 1199) {
+            $('body').removeClass('opened, hidden-screen');
             $('.nav-body > ul > li').removeClass('active');
             $('#gnb').addClass('responsive-gnb');
+            $('.quick').removeClass('open');
         } else {
             $('#gnb').removeClass('responsive-gnb');
         }
     });
+    
+    // quick menu 관련
+    $(document).on('click','.btn-quick', function(){
+        if($('.quick').hasClass('open')){
+            $('body').removeClass('hidden-screen');
+            $('.quick').removeClass('open');
+        } else {
+            $('.quick').addClass('open');
+            $('body').addClass('hidden-screen');
+        }
+    });
+    $(document).on('click','.backdrop', function(){
+        $('body').removeClass('hidden-screen');
+        $('.quick').removeClass('open');
+    });
+    
 })(jQuery);

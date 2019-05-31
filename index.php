@@ -258,11 +258,12 @@
                 </div>
             </section>
         </div>
-    </main>
-
+    </main>    
+    
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/quick.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
-    <script src="/assets/bxslider/js/jquery.bxslider.js"></script>
+    <script src="/assets/bxslider/jquery.bxslider.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
 </html>

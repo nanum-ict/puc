@@ -44,7 +44,7 @@ html, body {
     box-shadow: none;
     background: none;
     opacity: 0;
-    &.on {
+    &.action {
         opacity: 1;
     }
     .main-slider {
@@ -415,7 +415,7 @@ html, body {
     position: relative;
     .banner-slider {
         opacity: 0;
-        &.on {
+        &.action {
             opacity: 1;
         }
         li {

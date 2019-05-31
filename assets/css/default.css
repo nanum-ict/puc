@@ -702,7 +702,7 @@ html, body {
                 height: 42px;
                 font-size: 12px;
                 color: #9d9d9d;
-                font-weight: lighter;
+                font-weight: 400;
                 text-align: left;
                 padding: 0 20px;
                 line-height: 42px;
@@ -937,7 +937,7 @@ html, body {
       height: 42px;
       font-size: 12px;
       color: #9d9d9d;
-      font-weight: lighter;
+      font-weight: 400;
       text-align: left;
       padding: 0 20px;
       line-height: 42px;
@@ -1017,5 +1017,156 @@ html, body {
       font-size: 13px; }
     #footer .copyright {
       font-size: 13px; } }
+
+.quick {
+  position: fixed;
+  top: 0;
+  width: 0;
+  height: 100%;
+  right: -100%;
+  z-index: 103;
+  display: none; }
+  .quick .btn-quick {
+    position: fixed;
+    top: 202px;
+    right: -64px;
+    z-index: 104;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: .5px;
+    font-weight: 400;
+    padding: 10px 30px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #016ece;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
+    .quick .btn-quick:after {
+      margin-left: 10px;
+      content: "\E802";
+      font-family: "fontello"; }
+    .quick .btn-quick:hover {
+      background-color: #0148ea; }
+  .quick .quick-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    .quick .quick-wrap .backdrop {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6); }
+    .quick .quick-wrap .quick-menu {
+      z-index: 104;
+      position: fixed;
+      top: 0;
+      right: -120px;
+      width: 120px;
+      height: 100%;
+      background-color: #fff;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .quick .quick-wrap .quick-menu .quick-head > a {
+        font-size: 13px;
+        color: #fff;
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 38px;
+        display: block;
+        text-align: center;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
+        .quick .quick-wrap .quick-menu .quick-head > a:before {
+          position: relative;
+          top: 2px;
+          display: inline-block;
+          margin-right: 5px; }
+        .quick .quick-wrap .quick-menu .quick-head > a.join {
+          background-color: #016ece; }
+          .quick .quick-wrap .quick-menu .quick-head > a.join:before {
+            content: url(/assets/images/ico_join.png); }
+        .quick .quick-wrap .quick-menu .quick-head > a.login {
+          background-color: #8fa8c2; }
+          .quick .quick-wrap .quick-menu .quick-head > a.login:before {
+            content: url(/assets/images/ico_login.png); }
+        .quick .quick-wrap .quick-menu .quick-head > a:hover {
+          background-color: #0148ea; }
+      .quick .quick-wrap .quick-menu .quick-body {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd; }
+        .quick .quick-wrap .quick-menu .quick-body > ul {
+          margin-top: 30px; }
+          .quick .quick-wrap .quick-menu .quick-body > ul > li ~ li {
+            margin-top: 35px; }
+          .quick .quick-wrap .quick-menu .quick-body > ul > li > a {
+            display: block;
+            text-align: center;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+            .quick .quick-wrap .quick-menu .quick-body > ul > li > a img {
+              display: block;
+              margin: 0 auto; }
+            .quick .quick-wrap .quick-menu .quick-body > ul > li > a p {
+              display: block;
+              font-size: 14px;
+              color: #333;
+              font-weight: 500;
+              line-height: 20px;
+              margin-top: 5px; }
+              .quick .quick-wrap .quick-menu .quick-body > ul > li > a p span {
+                display: block;
+                color: #666; }
+            .quick .quick-wrap .quick-menu .quick-body > ul > li > a:hover p {
+              color: #3d8cdc; }
+              .quick .quick-wrap .quick-menu .quick-body > ul > li > a:hover p span {
+                color: #3d8cdc; }
+  .quick.open {
+    right: 0;
+    width: 100%; }
+    .quick.open .btn-quick {
+      margin-right: 120px; }
+      .quick.open .btn-quick:after {
+        content: "\E804"; }
+    .quick.open .quick-wrap .quick-menu {
+      right: 0; }
+  @media (min-width: 1200px) {
+    .quick {
+      display: block; } }
+
+.hidden-screen {
+  overflow: hidden; }
 
 /*# sourceMappingURL=default.css.map */
