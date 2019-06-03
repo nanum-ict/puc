@@ -36,7 +36,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">분양안내</a>
+                        <a href="javascript:;">분양안내</a>
                         <ul>
                             <li><a href="#">용지분양</a></li>
                             <li><a href="#">세금안내 및 기타</a></li>
@@ -44,7 +44,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">고객광장</a>
+                        <a href="javascript:;">고객광장</a>
                         <ul>
                             <li><a href="#">고객서비스</a></li>
                             <li><a href="#">자주 묻는 질문</a></li>
@@ -54,7 +54,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">PUC소식</a>
+                        <a href="javascript:;">PUC소식</a>
                         <ul>
                             <li><a href="#">공지사항</a></li>
                             <li><a href="#">보도자료</a></li>
@@ -66,7 +66,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">공사소개</a>
+                        <a href="javascript:;">공사소개</a>
                         <ul>
                             <li><a href="#">CEO 인사말</a></li>
                             <li><a href="#">공사 CI</a></li>

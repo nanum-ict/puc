@@ -30,6 +30,10 @@ button {
 .form-group {
   margin-bottom: 0; }
 
+label {
+  font-weight: 400;
+  margin: 0; }
+
 input, .form-control {
   margin-bottom: 0;
   outline: none !important;
@@ -43,6 +47,9 @@ a {
     color: #444;
     box-shadow: none;
     text-decoration: none; }
+
+.table {
+  margin: 0; }
 
 .btn {
   padding: 0;
@@ -397,6 +404,12 @@ html, body {
         float: left; }
         html #header .nav-open, body #header .nav-open {
           display: none; }
+      html #content, body #content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-left: 280px;
+        height: 100%; }
       html #footer, body #footer {
         display: none; } }
 

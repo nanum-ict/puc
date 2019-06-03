@@ -30,6 +30,10 @@ button {
 .form-group {
   margin-bottom: 0; }
 
+label {
+  font-weight: 400;
+  margin: 0; }
+
 input, .form-control {
   margin-bottom: 0;
   outline: none !important;
@@ -43,6 +47,9 @@ a {
     color: #444;
     box-shadow: none;
     text-decoration: none; }
+
+.table {
+  margin: 0; }
 
 .btn {
   padding: 0;
@@ -379,27 +386,21 @@ a {
           padding-right: 15px; } }
 
 @media (min-width: 1200px) {
-  html #content, body #content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 280px;
+  html #content .jumbotron, body #content .jumbotron {
+    float: left;
+    width: 53%; }
+  html #content .puc-content, body #content .puc-content {
+    float: left;
+    width: 47%;
     height: 100%; }
-    html #content .jumbotron, body #content .jumbotron {
-      float: left;
-      width: 53%; }
-    html #content .puc-content, body #content .puc-content {
-      float: left;
-      width: 47%;
-      height: 100%; }
-      html #content .puc-content .puc-news, body #content .puc-content .puc-news {
-        height: 28%; }
-      html #content .puc-content .banner, body #content .puc-content .banner {
-        height: 28%; }
-      html #content .puc-content .community, body #content .puc-content .community {
-        height: 22%; }
-      html #content .puc-content .news, body #content .puc-content .news {
-        height: 22%; } }
+    html #content .puc-content .puc-news, body #content .puc-content .puc-news {
+      height: 28%; }
+    html #content .puc-content .banner, body #content .puc-content .banner {
+      height: 28%; }
+    html #content .puc-content .community, body #content .puc-content .community {
+      height: 22%; }
+    html #content .puc-content .news, body #content .puc-content .news {
+      height: 22%; } }
 
 .jumbotron {
   position: relative;

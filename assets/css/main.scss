@@ -3,11 +3,6 @@
 html, body {
     @media(min-width: $lg) {
         #content {
-            position: absolute;
-            top: 0;
-            left: 0;
-            padding-left: 280px;
-            height: 100%;
             .jumbotron {
                 float: left;
                 width: 53%;

@@ -61,6 +61,11 @@ button {
     margin-bottom: 0;
 }
 
+label {
+    font-weight: 400;
+    margin: 0;
+}
+
 input, .form-control {
     margin-bottom: 0;
     outline: none !important;
@@ -76,6 +81,10 @@ a {
         box-shadow: none;
         text-decoration: none;
 	}
+}
+
+.table {
+    margin: 0;
 }
 
 .btn {

@@ -20,6 +20,13 @@ html, body {
                 display: none;
             }
         }
+        #content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding-left: 280px;
+            height: 100%;
+        }
         #footer {
             display: none;
         }
