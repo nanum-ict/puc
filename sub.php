@@ -6,7 +6,7 @@
     
     <!-- Content -->
     <main id="content" class="sub "> <!-- 폴더별 class -->
-        <section class=" "> <!-- 페이지명 class -->
+        <section class="sub-content "> <!-- 페이지명 class -->
             <div class="section-header">
                 <div class="page-path">
                     <h3>사업안내</h3>
@@ -33,6 +33,22 @@
                         </ul>
                     </div>
                 </nav>
+                
+                <br><br>
+                <!-- search-form -->
+                <div class="search-form">
+                    <form action="#">
+                        <div class="form-group">
+                            <input type="text" id="board-search" class="form-control" placeholder="검색어를 입력해 주세요.">
+                            <label for="board-search" class="sr-only">게시판 검색</label>
+                            <button type="submit" class="btn btn-search">
+                                <i class="icon-search">
+                                    <span class="sr-only">검색버튼</span>
+                                </i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
                 
                 <br><br>
                 <!-- section-title -->
@@ -75,11 +91,129 @@
                             </tr>
                         </tbody>
                     </table>
+                    
+                    <br><br>
+                    
+                    <table class="table list-type1">
+                        <thead>
+                            <tr>
+                                <th scope="col">번호</th>
+                                <th scope="col" class="subject">공고명</th>
+                                <th scope="col">공고일</th>
+                                <th scope="col">마감일</th>
+                                <th scope="col" class="state">진행상태</th>
+                                <th scope="col">조회</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10</td>
+                                <td class="subject"><a href="#">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td>2018-05-23</td>
+                                <td>2019-12-31</td>
+                                <td class="state">
+                                    <span class="ongoing">진행중</span>
+                                </td>
+                                <td>1619</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td class="subject"><a href="#">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td>2018-05-23</td>
+                                <td>2019-12-31</td>
+                                <td class="state">
+                                    <span class="end">신청마감</span>
+                                </td>
+                                <td>1619</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td class="subject"><a href="#">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td>2018-05-23</td>
+                                <td>2019-12-31</td>
+                                <td class="state">
+                                    <span class="end">신청마감</span>
+                                </td>
+                                <td>1619</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td class="subject"><a href="#">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td>2018-05-23</td>
+                                <td>2019-12-31</td>
+                                <td class="state">
+                                    <span class="end">신청마감</span>
+                                </td>
+                                <td>1619</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td class="subject"><a href="#">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td>2018-05-23</td>
+                                <td>2019-12-31</td>
+                                <td class="state">
+                                    <span class="end">신청마감</span>
+                                </td>
+                                <td>1619</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td class="subject"><a href="#">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td>2018-05-23</td>
+                                <td>2019-12-31</td>
+                                <td class="state">
+                                    <span class="end">신청마감</span>
+                                </td>
+                                <td>1619</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td class="subject"><a href="#">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td>2018-05-23</td>
+                                <td>2019-12-31</td>
+                                <td class="state">
+                                    <span class="end">신청마감</span>
+                                </td>
+                                <td>1619</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td class="subject"><a href="#">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td>2018-05-23</td>
+                                <td>2019-12-31</td>
+                                <td class="state">
+                                    <span class="end">신청마감</span>
+                                </td>
+                                <td>1619</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td class="subject"><a href="#">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td>2018-05-23</td>
+                                <td>2019-12-31</td>
+                                <td class="state">
+                                    <span class="end">신청마감</span>
+                                </td>
+                                <td>1619</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td class="subject"><a href="#">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td>2018-05-23</td>
+                                <td>2019-12-31</td>
+                                <td class="state">
+                                    <span class="end">신청마감</span>
+                                </td>
+                                <td>1619</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
                 
                 <br><br>
-                <!-- table -->
+                <!-- table style red -->
                 <p class="attention">개별교육: 월,화,목,금 15:00~16:00</p>
+                <p class="attention red">개별교육: 월,화,목,금 15:00~16:00</p>
                 
                 <br><br>
                 <!-- faq-list -->
@@ -104,6 +238,41 @@
                     </ul>
                 </div>
                 
+                <br><br>
+                <!-- box-content style color gray -->
+                <div class="box">
+                    내용<br>
+                    내용<br>
+                    내용<br>
+                    내용
+                </div>
+                
+                <br><br>
+                <!-- pagenation -->
+                <nav class="paging">
+                    <ul class="pagination">
+                        <li class="prev">
+                            <a href="#" aria-label="Previous">
+                                <i class="icon-left-open-big">
+                                    <span class="sr-only">이전 페이지 이동</span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li class="next">
+                            <a href="#" aria-label="Next">
+                                <i class="icon-right-open-big">
+                                    <span class="sr-only">다음 페이지 이동</span>
+                                </i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
             </div>
         </section>
         
@@ -116,7 +285,3 @@
     <script src="/assets/js/sub.js"></script>
 </body>
 </html>
-
-
-
-

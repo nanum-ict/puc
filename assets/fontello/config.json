@@ -47,6 +47,24 @@
       "css": "left-open",
       "code": 59400,
       "src": "entypo"
+    },
+    {
+      "uid": "221947bea81f49a11b863c686a7bd235",
+      "css": "search",
+      "code": 59397,
+      "src": "websymbols"
+    },
+    {
+      "uid": "884cfc3e6e2d456dd2a2ca0dbb9e6337",
+      "css": "left-open-big",
+      "code": 59398,
+      "src": "entypo"
+    },
+    {
+      "uid": "004882ab2d5c418c5b2060e80596279b",
+      "css": "right-open-big",
+      "code": 59401,
+      "src": "entypo"
     }
   ]
 }

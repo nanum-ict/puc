@@ -12,4 +12,5 @@
     setTimeout(function(){
         $('.jumbotron, .banner-slider').addClass('action');
     }, 100);
+    
 })(jQuery);

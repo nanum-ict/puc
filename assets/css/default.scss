@@ -4,7 +4,7 @@ html, body {
     font-size: 13px;
     color: #333;
     @include noto();
-    font-weight: 400;
+    font-weight: 300;
     word-break: keep-all;
     @media(min-width: $lg) {
         position: relative;
@@ -388,7 +388,6 @@ html, body {
                 display: none;
             }
             .nav-body {
-                /*margin-top: 150px;*/
                 border-top: 1px solid #e5e5e5;
                 > ul {
                     > li {
@@ -468,6 +467,8 @@ html, body {
                             min-width: 100%;
                             margin: 0;
                             padding: 0;
+                            border-left: 0;
+                            border-right: 0;
                             border-radius: 0;
                             border-color: #ccc;
                             transform: none !important;
@@ -476,7 +477,8 @@ html, body {
                                 color: #333;
                                 padding: 0 20px;
                                 line-height: 30px;
-                                border-bottom: 1px solid #ccc;
+                                border: 1px solid #ccc;
+                                border-top: 0;
                                 &:last-child {
                                     border-bottom: 0;
                                 }

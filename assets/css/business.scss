@@ -1,0 +1,568 @@
+@import 'common';
+
+.housing {
+    .nav-tab {
+        .dropdown-menu {
+            > ul {
+                > li {
+                    > a {
+                        @media(min-width: 1400px) {
+                            color: #fff !important;
+                            width: 400px;
+                            border-bottom: 2px solid $kcolor;
+                            background-color: $kcolor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    article {
+        & ~ article {
+            margin-top: 40px;
+        }
+        figure {
+            border: 1px solid #ddd;
+            img {
+                width: 100%;
+            }
+        }
+        &.outline {
+            > .square-list {
+                > li {
+                    > dl {
+                        overflow: hidden;
+                        dt {
+                            position: relative;
+                            display: inline-block;
+                            height: 100%;
+                            float: left;
+                            clear: both;
+                            &:after {
+                                position: relative;
+                                top: -1px;
+                                content: ":";
+                                margin: 0 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.status {
+            > ol {
+                > li {
+                    font-size: 16px;
+                    color: #666;
+                    line-height: 24px;
+                    & ~ li {
+                        margin-top: 15px;
+                        @media(min-width: $lg) {
+                            margin-top: 20px;
+                        }
+                    }
+                    > dl {
+                        position: relative;
+                        padding-left: 120px;
+                        > dt {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+        &.implement {
+            .attention {
+                margin-top: 10px;
+                span {
+                    color: $kcolor;
+                }
+            }
+            .table-wrap {
+                margin-top: 20px;
+                .table {
+                    thead {
+                        tr {
+                            th {
+                                font-size: 14px;
+                                &:nth-of-type(3) {
+                                    width: 80%;
+                                    @media(min-width: $sm) {
+                                        width: 70%;
+                                    }
+                                }
+                                &:nth-of-type(2) {
+                                    display: none;
+                                    @media(min-width: $sm) {
+                                        display: table-cell;
+                                    }
+                                }
+                                &:nth-of-type(4) {
+                                    display: none;
+                                    @media(min-width: $md) {
+                                        display: table-cell;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                font-weight: lighter;
+                                vertical-align: middle;
+                                &:first-child {
+                                    font-weight: 300;
+                                }
+                                &:nth-of-type(3) {
+                                    text-align: left;
+                                    @media(min-width: $md) {
+                                        padding-left: 20px;
+                                        padding-right: 20px;
+                                    }
+                                }
+                                &:nth-of-type(2) {
+                                    display: none;
+                                    @media(min-width: $sm) {
+                                        display: table-cell;
+                                    }
+                                }
+                                &:nth-of-type(4) {
+                                    display: none;
+                                    @media(min-width: $md) {
+                                        display: table-cell;
+                                    }
+                                }
+                                strong {
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    display: block;
+                                    color: $kcolor;
+                                    margin-bottom: 10px;
+                                    &:before {
+                                        content: '· ';
+                                    }
+                                }
+                                .dashed-list {
+                                    li {
+                                        font-size: 14px;
+                                        @media(min-width: $md) {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: $md) {
+            & ~ article {
+                margin-top: 60px;
+            }
+            &.implement {
+                .attention {
+                    margin-top: 20px;
+                }
+                .table-wrap {
+                    margin-top: 30px;
+                    .table {
+                        thead {
+                            tr {
+                                th {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    font-size: 16px;
+                                    strong {
+                                        font-size: 18px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.industrial-complex {
+    article {
+        & ~ article {
+            margin-top: 40px;
+            @media(min-width: $md) {
+                margin-top: 60px;
+            }
+        }
+        figure {
+            border: 1px solid #ddd;
+            img {
+                width: 100%;
+            }
+        }
+        &.outline {
+            > .square-list {
+                > li {
+                    > dl {
+                        overflow: hidden;
+                        dt {
+                            position: relative;
+                            display: inline-block;
+                            height: 100%;
+                            float: left;
+                            clear: both;
+                            &:after {
+                                position: relative;
+                                top: -1px;
+                                content: ":";
+                                margin: 0 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.implement, &.plan {
+            > ol {
+                > li {
+                    font-size: 16px;
+                    color: #666;
+                    line-height: 24px;
+                    & ~ li {
+                        margin-top: 15px;
+                        @media(min-width: $lg) {
+                            margin-top: 20px;
+                        }
+                    }
+                    > dl {
+                        position: relative;
+                        padding-left: 120px;
+                        > dt {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                    &.space {
+                        dl {
+                            dd {
+                                br {
+                                    @media(min-width: $sm) {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                        @media(min-width: $sm) {
+                            height: 48px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.substitute {
+    article {
+        & ~ article {
+            margin-top: 40px;
+            @media(min-width: $md) {
+                margin-top: 60px;
+            }
+        }
+        ul, ol {
+            > li {
+                font-weight: 300;
+                color: #666;
+                > ul, ol {
+                    padding-left: 10px;
+                    > li {
+                        font-weight: 300;
+                        color: #666;
+                        > dl {
+                            dt {
+                                display: inline-block;
+                                float: left;
+                                clear: both;
+                                font-weight: 300;
+                                color: #666;
+                                &:after {
+                                    position: relative;
+                                    top: -1px;
+                                    content: ":";
+                                    margin: 0 3px;
+                                }
+                            }
+                            dd {
+                                font-size: 16px;
+                                font-weight: 300;
+                                color: #666;
+                            }
+                        }
+                        > .note {
+                            font-size: 16px;
+                            color: #666;
+                            display: block;
+                            font-weight: 300;
+                            line-height: 24px;
+                            padding-left: 40px;
+                            @media(min-width: $md) {
+                                line-height: 26px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.traffic-playground {
+        .section-title {
+            margin-bottom: 20px;
+            @media(min-width: $md) {
+                margin-bottom: 45px;
+            }
+            small {
+                font-size: 16px;
+                @media(min-width: $md) {
+                    font-size: 18px;
+                }
+            }
+        }
+        .square-list {
+            li {
+                > b {
+                    font-weight: 400;
+                    display: block;
+                    color: $kcolor;
+                }
+                > dl {
+                    > dt {
+                        float: left;
+                        clear: both;
+                        display: inline-block;
+                        font-weight: 300;
+                        &:after {
+                            position: relative;
+                            top: -1px;
+                            content: ":";
+                            margin: 0 3px;
+                        }
+                        &.bl {
+                            color: $kcolor;
+                        }
+                        &.clear {
+                            float: none;
+                            &:after {
+                                display: none;
+                            }
+                        }
+                    }
+                    > dd {
+                        font-weight: 300;
+                        > span {
+                            color: #e51a22;
+                        }
+                        a {
+                            &.bl {
+                                color: $kcolor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .table-responsive {
+            margin-top: 20px;
+            thead {
+                tr {
+                    &:nth-of-type(1) {
+                        th {
+                            &:nth-of-type(3) {
+                                border-right: 1px solid rgba(#ddd, .0);
+                            }
+                        }
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    &:nth-of-type(1) {
+                        td {
+                            &:nth-of-type(4) {
+                                border-right: 1px solid rgba(#ddd, .0);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .educational-contents {
+            > div {
+                & ~ div {
+                    margin-top: 40px;
+                }
+                .square-list {
+                    padding-left: 15px;
+                    li {
+                        margin-top: 0 !important;
+                        line-height: 26px;
+                    }
+                }
+                figure {
+                    padding-left: 15px;
+                    margin-top: 20px;
+                }
+            }
+            @media(min-width: $sm) {
+                overflow: hidden;
+                > div {
+                    float: left;
+                    width: 50%;
+                    & ~ div {
+                        margin-top: 0;
+                    }
+                    &:nth-of-type(2) ~ div {
+                        margin-top: 60px;
+                    }
+                    &:nth-of-type(2n + 1) {
+                        clear: both;
+                    }
+                    .square-list {
+                        height: 52px;
+                    }
+                }
+            }
+        }
+    }
+    &.parking-lot {
+        article {
+            &.parking-guide {
+                > a {
+                    font-size: 16px;
+                    color: $kcolor;
+                    &:before {
+                        content: '\E803';
+                        font-family: 'fontello';
+                        margin-right: 5px;
+                    }
+                }
+            }
+            &.charge, &.regular-charge {
+                .table-responsive {
+                    .table {
+                        thead {
+                            tr {
+                                th {
+                                    &:last-child {
+                                        border-right: 0;
+                                    }
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    &:last-child {
+                                        border-right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.reduce-tariff {
+                overflow: hidden;
+                .table-responsive {
+                    .table {
+                        thead {
+                            tr {
+                                th {
+                                    min-width: 160px;
+                                    &:last-child {
+                                        border-right: 0;
+                                    }
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    white-space: normal;
+                                    text-align: left;
+                                    .attention {
+                                        position: relative;
+                                        padding-left: 20px;
+                                        &:before {
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                        }
+                                    }
+                                    &:last-child {
+                                        border-right: 0;
+                                    }
+                                    &.center {
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                > .attention {
+                    float: right;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
