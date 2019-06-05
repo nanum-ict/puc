@@ -211,6 +211,79 @@
                 </div>
                 
                 <br><br>
+                <!-- board-view -->
+                <div class="board-view">
+                    <div class="view-head">
+                        <h5 class="title">주차요금 미납차량 공시 송달 공고 (독촉분_2019_2월)</h5>
+                        <ul class="information">
+                            <li>
+                                <dl>
+                                    <dt>사업부문</dt>
+                                    <dd>용지 수의계약</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>작성부서</dt>
+                                    <dd>포승산단주식회사</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>상태</dt>
+                                    <dd>진행중</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>공고일</dt>
+                                    <dd>2018-05-23</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>마감일</dt>
+                                    <dd>2019-12-31</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>조회</dt>
+                                    <dd>1627</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="view-content">
+                        content <br>
+                        content <br>
+                        content <br>
+                        content
+                    </div>
+                    <dl class="attach">
+                        <dt>첨부파일</dt>
+                        <dd><a href="#">주차요금 미납차량 공시송달 명단 (독촉분_2019_2월).xls</a></dd>
+                    </dl>
+                    <div class="btn-area">
+                        <a href="#" class="btn btn-default" role="button">목차</a>
+                    </div>
+                    <ul class="page-move">
+                        <li class="prev">
+                            <dl>
+                                <dt>이전글</dt>
+                                <dd><a href="#">주차요금 미납차량 공시송달 공고 (2차분_2019_2월)</a></dd>
+                            </dl>
+                        </li>
+                        <li class="next">
+                            <dl>
+                                <dt>다음글</dt>
+                                <dd><a href="#">주차요금 미납차량 공시송달 공고 (2차분_2019_2월)</a></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+                
+                <br><br>
                 <!-- table style red -->
                 <p class="attention">개별교육: 월,화,목,금 15:00~16:00</p>
                 <p class="attention red">개별교육: 월,화,목,금 15:00~16:00</p>

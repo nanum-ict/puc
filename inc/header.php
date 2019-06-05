@@ -28,11 +28,11 @@
                     <li>
                         <a href="javascript:;">사업안내</a>
                         <ul>
-                            <li><a href="#">택지개발사업</a></li>
-                            <li><a href="#">산업단지조성사업</a></li>
-                            <li><a href="#">위수탁사업</a></li>
-                            <li><a href="#">황해경제자유구역 개발사업</a></li>
-                            <li><a href="#">브레인시티 일반산업단지 조성사업</a></li>
+                            <li><a href="/business/housing.php">택지개발사업</a></li>
+                            <li><a href="/business/jinwi02.php">산업단지조성사업</a></li>
+                            <li><a href="/business/moving_support.php">위수탁사업</a></li>
+                            <li><a href="/business/yellowsea.php">황해경제자유구역 개발사업</a></li>
+                            <li><a href="/business/braincity.php">브레인시티 일반산업단지 조성사업</a></li>
                         </ul>
                     </li>
                     <li>

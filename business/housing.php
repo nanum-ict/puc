@@ -25,7 +25,7 @@
                     </button>
                     <div class="dropdown-menu" aria-labelledby="nav-tab">
                         <ul>
-                            <li class="active"><a href="#">고덕국제화계획지구 택지개발사업</a></li>
+                            <li class="active"><a href="/business/housing.php">고덕국제화계획지구 택지개발사업</a></li>
                         </ul>
                     </div>
                 </nav>

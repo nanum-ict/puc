@@ -28,7 +28,6 @@
                 </li>
             </ul>
         </div>
-
         <div class="puc-content">
             <section class="puc-news">
                 <div class="section-header">

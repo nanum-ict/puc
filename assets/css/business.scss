@@ -447,12 +447,15 @@
         article {
             &.parking-guide {
                 > a {
-                    font-size: 16px;
+                    font-size: 14px;
                     color: $kcolor;
                     &:before {
                         content: '\E803';
                         font-family: 'fontello';
                         margin-right: 5px;
+                    }
+                    @media(min-width: $sm) {
+                        font-size: 16px;
                     }
                 }
             }
@@ -524,14 +527,292 @@
                     margin-top: 10px;
                 }
             }
+            &.exempt {
+                .decimal-list {
+                    > li {
+                        @media(min-width: $md) {
+                            line-height: 28px !important;
+                        }
+                        & ~ li {
+                            margin-top: 20px;
+                            @media(min-width: $md) {
+                                margin-top: 30px;
+                            }
+                        }
+                        > ol, ul {
+                            padding-left: 0;
+                        }
+                        .hangul {
+                            li {
+                                & ~ li  {
+                                    margin-top: 20px;
+                                }
+                            }
+                        }
+                        .dashed-list {
+                            padding-left: 23px;
+                        }
+                    }
+                    &.type-2 {
+                        padding-left: 23px;
+                        > li {
+                            margin-top: 0 !important;
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
+.yellowsea {
+    .nav-tab {
+        .dropdown-menu {
+            > ul {
+                > li {
+                    > a {
+                        @media(min-width: 1400px) {
+                            color: #fff !important;
+                            width: 400px;
+                            border-bottom: 2px solid $kcolor;
+                            background-color: $kcolor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    article {
+        & ~ article {
+            margin-top: 40px;
+        }
+        figure {
+            border: 1px solid #ddd;
+            img {
+                width: 100%;
+            }
+        }
+        &.outline {
+            > .square-list {
+                > li {
+                    > dl {
+                        overflow: hidden;
+                        dt {
+                            position: relative;
+                            display: inline-block;
+                            height: 100%;
+                            float: left;
+                            clear: both;
+                            &:after {
+                                position: relative;
+                                top: -1px;
+                                content: ":";
+                                margin: 0 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.implement {
+            > ol {
+                > li {
+                    font-size: 16px;
+                    color: #666;
+                    line-height: 24px;
+                    & ~ li {
+                        margin-top: 15px;
+                        @media(min-width: $lg) {
+                            margin-top: 20px;
+                        }
+                    }
+                    > dl {
+                        position: relative;
+                        padding-left: 120px;
+                        > dt {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: $md) {
+            & ~ article {
+                margin-top: 60px;
+            }
+        }
+    }
+}
 
+.braincity {
+    figure {
+        border: 1px solid #ddd;
+        img {
+            width: 100%;
+        }
+    }
+    article {
+        & ~ article {
+            margin-top: 40px;
+        }
+        figure {
+            border: 1px solid #ddd;
+            img {
+                width: 100%;
+            }
+        }
+        &.outline {
+            > .square-list {
+                > li {
+                    > dl {
+                        overflow: hidden;
+                        dt {
+                            position: relative;
+                            display: inline-block;
+                            height: 100%;
+                            float: left;
+                            clear: both;
+                            &:after {
+                                position: relative;
+                                top: -1px;
+                                content: ":";
+                                margin: 0 5px;
+                            }
+                        }
+                        dd {
+                            .table-responsive {
+                                margin-top: 20px;
+                                @media(min-width: $md) {
+                                    margin-top: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.implement, &.plan {
+            > ol {
+                > li {
+                    font-size: 16px;
+                    color: #666;
+                    line-height: 24px;
+                    & ~ li {
+                        margin-top: 15px;
+                        @media(min-width: $lg) {
+                            margin-top: 20px;
+                        }
+                    }
+                    > dl {
+                        position: relative;
+                        padding-left: 120px;
+                        > dt {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                    &.space {
+                        dl {
+                            dd {
+                                br {
+                                    @media(min-width: $sm) {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                        @media(min-width: $sm) {
+                            height: 48px;
+                        }
+                    }
+                    .attention {
+                        font-weight: lighter;
+                    }
+                }
+            }
+        }
+        @media(min-width: $md) {
+            & ~ article {
+                margin-top: 60px;
+            }
+        }
+    }
+}
 
-
-
+.reward {
+    .cartoon-slide {
+        padding: 40px 20px;
+        .bx-wrapper {
+            position: relative;
+            .bx-viewport {
+                ul {
+                    li {
+                        figure {
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            .bx-controls {
+                .bx-controls-direction {
+                    > a {
+                        position: absolute;
+                        top: 50%;
+                        display: block;
+                        width: 40px;
+                        height: 40px;
+                        font-size: 18px;
+                        color: #fff;
+                        line-height: 40px;
+                        text-align: center;
+                        margin-top: -20px;
+                        opacity: .6;
+                        @include transition();
+                        background-color: #000;
+                        i {
+                            display: inline-block;
+                        }
+                        &:hover {
+                            color: #000;
+                            background-color: #ddd;
+                        }
+                        &.bx-prev {
+                            left: -20px;
+                        }
+                        &.bx-next {
+                            right: -20px;
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: $lg) {
+            .bx-wrapper {
+                .bx-controls {
+                    .bx-controls-direction {
+                        > a {
+                            width: 50px;
+                            height: 50px;
+                            line-height: 50px;
+                            font-size: 22px;
+                            &.bx-prev {
+                                left: -25px;
+                            }
+                            &.bx-next {
+                                right: -25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

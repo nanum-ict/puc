@@ -65,6 +65,12 @@
       "css": "right-open-big",
       "code": 59401,
       "src": "entypo"
+    },
+    {
+      "uid": "rrb2e7qiu68cw7itzq0wzm2hugw1u4lu",
+      "css": "volume-up",
+      "code": 59402,
+      "src": "modernpics"
     }
   ]
 }

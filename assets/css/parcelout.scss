@@ -1,0 +1,520 @@
+@import 'common';
+
+.parcelout {
+    
+}
+
+.common-list {
+    .search-form {
+        margin-top: 45px;
+    }
+    .table-wrap {
+        margin-top: 30px;
+    }
+    .paging {
+        margin-top: 30px;
+    }
+    @media(min-width: $md) {
+        .search-form {
+            margin-top: 60px;
+        }
+        .table-wrap {
+            margin-top: 40px;
+        }
+    }
+}
+.parcelout-list {
+    .table-wrap {
+        .list-type1 {
+            thead {
+                tr {
+                    th {
+                        display: none;
+                        &.subject {
+                            width: 68%;
+                            display: table-cell;
+                        }
+                        &.state {
+                            width: 32%;
+                            display: table-cell;
+                        }
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        display: none;
+                        &.subject {
+                            display: table-cell;
+                        }
+                        &.state {
+                            display: table-cell;
+                            span {
+                                display: block;
+                                width: 80px;
+                                line-height: 32px;
+                                color: #fff;
+                                margin: 0 auto;
+                                &.ongoing {
+                                    background-color: $kcolor;
+                                }
+                                &.end {
+                                    background-color: #6f6f6f;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                thead {
+                    tr {
+                        th {
+                            display: table-cell;
+                            &:nth-of-type(1) {
+                                width: 10%;
+                            }
+                            &:nth-of-type(3) {
+                                width: 15%;
+                            }
+                            &:nth-of-type(4) {
+                                width: 15%;
+                            }
+                            &.subject {
+                                width: 45%;
+                            }
+                            &.state {
+                                width: 15%;
+                            }
+                            &:nth-of-type(6) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            display: table-cell;
+                            &:nth-of-type(6) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+            @media(min-width: $md) {
+                thead {
+                    tr {
+                        th {
+                            display: table-cell;
+                            &:nth-of-type(1) {
+                                width: 8%;
+                            }
+                            &:nth-of-type(3) {
+                                width: 15%;
+                            }
+                            &:nth-of-type(4) {
+                                width: 15%;
+                            }
+                            &.subject {
+                                width: 37%;
+                            }
+                            &.state {
+                                width: 15%;
+                            }
+                            &:nth-of-type(6) {
+                                width: 10%;
+                                display: table-cell;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            &:nth-of-type(6) {
+                                display: table-cell;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.examination-list {
+    .table-wrap {
+        .list-type1 {
+            thead {
+                tr {
+                    th {
+                        text-align: center;
+                        display: none;
+                        &.num {
+                            display: table-cell;
+                            width: 70px;
+                        }
+                        &.subject {
+                            display: table-cell;
+                        }
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        text-align: center;
+                        display: none;
+                        line-height: 30px;
+                        &.num {
+                            display: table-cell;
+                            &.notice {
+                                > i {
+                                    width: 30px;
+                                    height: 30px;
+                                    line-height: 28px;
+                                    text-align: center;
+                                    display: block;
+                                    color: #fff;
+                                    margin: 0 auto;
+                                    border-radius: 50%;
+                                    background-color: $kcolor;
+                                }
+                            }
+                        }
+                        &.subject {
+                            display: table-cell;
+                        }
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                thead {
+                    tr {
+                        th {
+                            display: table-cell;
+                            &.num {
+                                width: 90px;
+                            }
+                            &.subject {
+                                width: 45%;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            display: table-cell;
+                        }
+                    }
+                }
+            }
+            @media(min-width: $md) {
+                thead {
+                    tr {
+                        th {
+                            display: table-cell;
+                            &.num {
+                                width: 10%;
+                            }
+                            &.subject {
+                                width: 50%;
+                            }
+                            &:nth-of-type(3) {
+                                width: 15%;
+                            }
+                            &:nth-of-type(4) {
+                                width: 15%;
+                            }
+                            &:nth-of-type(5) {
+                                width: 10%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ownership {
+    article {
+        & ~ article {
+            margin-top: 40px;
+            @media(min-width: $md) {
+                margin-top: 60px;
+            }
+        }
+        &.required-documents {
+            .table-responsive {
+                thead {
+                    tr {
+                        th {
+                            &:last-child {
+                                border-right: 0;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            &:first-child {
+                                text-align: left;
+                            }
+                            &:last-child {
+                                border-right: 0;
+                            }
+                        }
+                        &:nth-of-type(2) {
+                            td {
+                                background-color: #fbfbfb;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.purchase {
+            > dl {
+                overflow: hidden;
+                > dt {
+                    display: inline-block;
+                    float: left;
+                    clear: both;
+                    font-size: 14px;
+                    color: #333;
+                    float: left;
+                    margin-bottom: 10px;
+                    &:after {
+                        content: "=";
+                        margin: 0 5px;
+                    }
+                }
+                > dd {
+                    float: left;
+                    display: inline;
+                    float: left;
+                    font-size: 14px;
+                    color: #666;
+                    font-weight: 300;
+                    margin-bottom: 10px;
+                }
+                @media(min-width: $sm){
+                    dt {
+                        font-size: 16px;
+                    }
+                    dd {
+                        font-size: 16px;
+                    }
+                }
+            }
+            > .attention {
+                font-size: 14px;
+                color: #666;
+                line-height: 22px;
+                font-weight: 300;
+                @media(min-width: $sm){
+                    font-size: 16px;
+                }
+            }
+            > strong {
+                font-size: 16px;
+                display: block;
+                color: $kcolor;
+                margin-top: 30px;
+            }
+            .table-responsive {
+                margin-top: 20px;
+                .table {
+                    thead {
+                        tr {
+                            th {
+                                &:last-child {
+                                    border-right: 0;
+                                }
+                            }
+                            &:nth-of-type(2) {
+                                th {
+                                    background-color: #fbfbfb;
+                                }
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                &:last-child {
+                                    border-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.taxguide {
+    article {
+        & ~ article {
+            margin-top: 40px;
+            @media(min-width: $md) {
+                margin-top: 60px;
+            }
+        }
+        strong {
+            display: block;
+            color: $kcolor;
+            font-size: 16px;
+            & ~ strong {
+                margin-top: 30px;
+            }
+        }
+        > p {
+            font-size: 16px;
+            color: #666;
+            font-weight: 300;
+            line-height: 24px;
+            margin-top: 10px;
+            @media(min-width: $md) {
+                line-height: 28px;
+            }
+        }
+        > ul {
+            margin-top: 10px;
+            > li {
+                & ~ li {
+                    margin-top: 5px;
+                }
+                > dl {
+                    > dt {
+                        display: inline-block;
+                        font-size: 16px;
+                        line-height: 24px;
+                        font-weight: 400;
+                        &:after {
+                            content: ': ';
+                        }
+                    }
+                    > dd {
+                        display: inline;
+                        color: #666;
+                        font-size: 16px;
+                        line-height: 24px;
+                        font-weight: 300;
+                    }
+                    @media(min-width: $md) {
+                        dt {
+                            line-height: 28px;
+                        }
+                        dd {
+                            line-height: 28px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.examination-view {
+    @media(min-width: $sm) {
+        .view-head {
+            .information {
+                li {
+                    border-bottom: 0 !important;
+                }
+            }
+        }
+    }
+}
+
+.faqlist {
+    .search-form {
+        margin-top: 45px;
+    }
+    .faq-list {
+        margin-top: 30px;
+    }
+    .paging {
+        margin-top: 30px;
+    }
+    @media(min-width: $md) {
+        .search-form {
+            margin-top: 60px;
+        }
+        .faq-list {
+            margin-top: 40px;
+        }
+    }
+    @media(min-width: $lg) {
+        .section-content {
+            padding-bottom: 300px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
