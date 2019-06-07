@@ -459,8 +459,305 @@
     }
 }
 
+.request-write {
+    .box {
+        > .btn-area {
+            margin-top: 20px;
+            text-align: center;
+            .btn-default {
+                width: 180px;
+                line-height: 38px;
+                font-size: 16px;
+                display: inline-block;
+                color: #fff;
+                background-color: #f8b500;
+                @include transition();
+                &:hover {
+                    opacity: .7;
+                }
+            }
+        }
+        @media(min-width: $sm) {
+            position: relative;
+            padding-right: 220px;
+            .btn-area {
+                position: absolute;
+                top: 50%;
+                right: 40px;
+                line-height: 45px;
+                margin-top: -23px;
+            }
+        }
+    }
+    .write-form {
+        .table-wrap {
+            text-align: right;
+            margin-top: 30px;
+            @media(min-width: $sm) {
+                margin-top: 40px;
+            }
+            @media(min-width: $lg) {
+                margin-top: 60px;
+            }
+            > .indispensable {
+                display: inline-block;
+                font-size: 16px;
+                color: #666;
+                margin-bottom: 10px;
+                &:before {
+                    content: '* ';
+                    color: $kcolor;
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        .form-group {
+                            textarea {
+                                padding: 10px !important;
+                                width: 100% !important;
+                                height: 140px !important;
+                            }
+                        }
+                        &.lot-number {
+                            .form-group {
+                                span {
+                                    vertical-align: top;
+                                    display: inline-block;
+                                    line-height: 40px;
+                                    &:first-child {
+                                        display: block;
+                                        margin-right: 10px;
+                                    }
+                                    &:last-child {
+                                        margin-left: 10px;
+                                    }
+                                }
+                                .form-control {
+                                    width: 150px;
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                        &.apply, &.contact {
+                            .form-group {
+                                & ~ .form-group {
+                                    margin-top: 10px;
+                                }
+                                label {
+                                    margin-right: 10px;
+                                }
+                                .form-control {
+                                    width: 79%;
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                    }
+                }
+                @media(min-width: $sm) {
+                    .form-group {
+                            textarea {
+                                height: 200px !important;
+                            }
+                        }
+                    tr {
+                        td {
+                            &.lot-number {
+                                .form-group {
+                                    span {
+                                        &:first-child {
+                                            display: inline-block;
+                                        }
+                                    }
+                                    .form-control {
+                                        width: 300px;
+                                    }
+                                }
+                            }
+                            &.apply, &.contact {
+                                .form-group {
+                                    display: inline-block;
+                                    & ~ .form-group {
+                                        margin: 0;
+                                        margin-left: 30px;
+                                    }
+                                    .form-control {
+                                        width: 230px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                @media(min-width: $md) {
+                    tr {
+                        td {
+                            &.apply, &.contact {
+                                .form-group {
+                                    .form-control {
+                                        width: 200px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                @media(min-width: $md) {
+                    tr {
+                        td {
+                            &.apply, &.contact {
+                                .form-group {
+                                    .form-control {
+                                        &.addr {
+                                            width: 370px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                @media(min-width: 1400px) {
+                    tr {
+                        td {
+                            &.apply {
+                                .form-group {
+                                    position: relative;
+                                    padding-left: 45px;
+                                    &:first-child {
+                                        width: 30%;
+                                    }
+                                    &:last-child {
+                                        width: 60%;
+                                    }
+                                    .form-control {
+                                        width: 100% !important;
+                                    }
+                                    label {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            text-align: center;
+            margin-top: 30px;
+            .btn-submit {
+                width: 150px;
+                line-height: 40px;
+                font-size: 16px;
+                text-align: center;
+                color: #fff;
+                background-color: $kcolor;
+                @include transition();
+                &:hover {
+                    opacity: .7;
+                }
+            }
+            @media(min-width: $sm) {
+                margin-top: 45px;
+                .btn-submit {
+                    width: 180px;
+                    line-height: 45px;
+                }
+            }
+        }
+    }
+}
+
+.compensation {
+    .section-content {
+        figure {
+            margin-top: 30px;
+            img {
+                width: 100%;
+            }
+            @media(min-width: $md) {
+                margin-top: 60px;
+            }
+        }
+    }
+}
 
 
+
+
+#modal-popup {
+    padding-right: 0 !important;
+    .modal-dialog {
+        margin-top: 150px;
+        margin-bottom: 150px;
+        .modal-content {
+            border: 0;
+            border-radius: 0;
+            .modal-header {
+                padding: 10px;
+                text-align: left;
+                border-radius: 0;
+                background-color: $kcolor;
+                > h6 {
+                    font-size: 20px;
+                    color: #fff;
+                    font-weight: 400;
+                    line-height: 40px;
+                }
+            }
+            .modal-body {
+                border: 0;
+                padding: 10px;
+                figure {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .modal-footer {
+                text-align: center;
+                border: 0;
+                padding-top: 10px;
+                padding-bottom: 20px;
+                .btn-close {
+                    display: block;
+                    font-size: 16px;
+                    color: #fff;
+                    width: 138px;
+                    line-height: 38px;
+                    margin: 0 auto;
+                    @include transition();
+                    background-color: $kcolor;
+                    &:hover {
+                        opacity: .7;
+                    }
+                }
+            }
+        }
+        @media(min-width: $md) {
+            max-width: 800px;
+            .modal-content {
+                .modal-header {
+                    padding: 10px 20px;
+                }
+                .modal-body {
+                    padding: 20px;
+                }
+                .modal-footer {
+                    padding-bottom: 30px;
+                    .btn-close {
+                        width: 180px;
+                        line-height: 45px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

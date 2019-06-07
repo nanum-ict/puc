@@ -11,7 +11,7 @@
     
     // body 관련 min-height
     $(window).on('load resize', function(){
-        var $height = $('.sub-content').height()
+        var $height = $('.sub-content').height();
         if($('body').width() > 1199) {
             $('html, body').css('min-height', $height);
         } else {

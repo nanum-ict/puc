@@ -32,9 +32,106 @@
                         </ul>
                     </div>
                 </nav>
+                <div class="box">
+                    <p>분묘이장 절차와 필요한 서류를 확인하신 후 분묘신청접수를 해주세요.</p>
+                    <div class="btn-area">
+                        <a href="#" class="btn btn-default btn-popup" data-toggle="modal" data-target="#modal-popup" role="button">분묘이장절차 안내보기</a>
+                    </div>
+                </div>
                 
+                <div class="write-form">
+                    <form action="#">
+                        <div class="table-wrap">
+                            <span class="indispensable">필수입력</span>
+                            <table class="table write">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row" class="indispensable">
+                                            <label for="u-lotnumber">소재지번</label>
+                                        </th>
+                                        <td class="lot-number">
+                                            <div class="form-group">
+                                                <span>경기도 평택시 서정동</span><input type="text" id="u-lotnumber" class="form-control">
+                                                <span>번지</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="indispensable">
+                                            <label for="grave-number">분묘번호</label>
+                                        </th>
+                                        <td>
+                                            <div class="form-group">
+                                                <input type="text" id="grave-number" class="form-control">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="indispensable">신청인</th>
+                                        <td class="apply">
+                                            <div class="form-group">
+                                                <label for="u-name">성명</label>
+                                                <input type="text" id="u-name" class="form-control u-name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="u-addr">주소</label>
+                                                <input type="text" id="u-addr" class="form-control addr">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="indispensable">연락처</th>
+                                        <td class="contact">
+                                            <div class="form-group">
+                                                <label for="u-tel">TEL</label>
+                                                <input type="text" id="u-tel" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="u-phone">H.P</label>
+                                                <input type="text" id="u-phone" class="form-control">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="indispensable">
+                                            <label for="u-note">비고</label>
+                                        </th>
+                                        <td>
+                                            <div class="form-group">
+                                                <textarea id="u-note" class="form-control"></textarea>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="btn-area">
+                            <button type="submit" class="btn btn-submit">분묘이장 신청하기</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="modal-popup" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h6>분묘이장 절차안내</h6>
+                    </div>
+                    <div class="modal-body">
+                        <figure>
+                            <img src="/assets/images/parcelout/img_modal_sm.png" class="img-fluid d-md-none" alt="분묘이장 절차안내">
+                            <img src="/assets/images/parcelout/img_modal_lg.png" class="img-fluid d-none d-md-block" alt="분묘이장 절차안내">
+                        </figure>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-close" data-dismiss="modal">닫기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side_quick.php'); ?>
     </main>
     

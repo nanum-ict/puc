@@ -634,4 +634,202 @@ a {
   .faqlist .section-content {
     padding-bottom: 300px; } }
 
+.request-write .box > .btn-area {
+  margin-top: 20px;
+  text-align: center; }
+  .request-write .box > .btn-area .btn-default {
+    width: 180px;
+    line-height: 38px;
+    font-size: 16px;
+    display: inline-block;
+    color: #fff;
+    background-color: #f8b500;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
+    .request-write .box > .btn-area .btn-default:hover {
+      opacity: .7; }
+@media (min-width: 768px) {
+  .request-write .box {
+    position: relative;
+    padding-right: 220px; }
+    .request-write .box .btn-area {
+      position: absolute;
+      top: 50%;
+      right: 40px;
+      line-height: 45px;
+      margin-top: -23px; } }
+.request-write .write-form .table-wrap {
+  text-align: right;
+  margin-top: 30px; }
+  @media (min-width: 768px) {
+    .request-write .write-form .table-wrap {
+      margin-top: 40px; } }
+  @media (min-width: 1200px) {
+    .request-write .write-form .table-wrap {
+      margin-top: 60px; } }
+  .request-write .write-form .table-wrap > .indispensable {
+    display: inline-block;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px; }
+    .request-write .write-form .table-wrap > .indispensable:before {
+      content: '* ';
+      color: #016ecd; }
+  .request-write .write-form .table-wrap tbody tr td .form-group textarea {
+    padding: 10px !important;
+    width: 100% !important;
+    height: 140px !important; }
+  .request-write .write-form .table-wrap tbody tr td.lot-number .form-group span {
+    vertical-align: top;
+    display: inline-block;
+    line-height: 40px; }
+    .request-write .write-form .table-wrap tbody tr td.lot-number .form-group span:first-child {
+      display: block;
+      margin-right: 10px; }
+    .request-write .write-form .table-wrap tbody tr td.lot-number .form-group span:last-child {
+      margin-left: 10px; }
+  .request-write .write-form .table-wrap tbody tr td.lot-number .form-group .form-control {
+    width: 150px;
+    display: inline-block; }
+  .request-write .write-form .table-wrap tbody tr td.apply .form-group ~ .form-group, .request-write .write-form .table-wrap tbody tr td.contact .form-group ~ .form-group {
+    margin-top: 10px; }
+  .request-write .write-form .table-wrap tbody tr td.apply .form-group label, .request-write .write-form .table-wrap tbody tr td.contact .form-group label {
+    margin-right: 10px; }
+  .request-write .write-form .table-wrap tbody tr td.apply .form-group .form-control, .request-write .write-form .table-wrap tbody tr td.contact .form-group .form-control {
+    width: 79%;
+    display: inline-block; }
+  @media (min-width: 768px) {
+    .request-write .write-form .table-wrap tbody .form-group textarea {
+      height: 200px !important; }
+    .request-write .write-form .table-wrap tbody tr td.lot-number .form-group span:first-child {
+      display: inline-block; }
+    .request-write .write-form .table-wrap tbody tr td.lot-number .form-group .form-control {
+      width: 300px; }
+    .request-write .write-form .table-wrap tbody tr td.apply .form-group, .request-write .write-form .table-wrap tbody tr td.contact .form-group {
+      display: inline-block; }
+      .request-write .write-form .table-wrap tbody tr td.apply .form-group ~ .form-group, .request-write .write-form .table-wrap tbody tr td.contact .form-group ~ .form-group {
+        margin: 0;
+        margin-left: 30px; }
+      .request-write .write-form .table-wrap tbody tr td.apply .form-group .form-control, .request-write .write-form .table-wrap tbody tr td.contact .form-group .form-control {
+        width: 230px; } }
+  @media (min-width: 992px) {
+    .request-write .write-form .table-wrap tbody tr td.apply .form-group .form-control, .request-write .write-form .table-wrap tbody tr td.contact .form-group .form-control {
+      width: 200px; } }
+  @media (min-width: 992px) {
+    .request-write .write-form .table-wrap tbody tr td.apply .form-group .form-control.addr, .request-write .write-form .table-wrap tbody tr td.contact .form-group .form-control.addr {
+      width: 370px; } }
+  @media (min-width: 1400px) {
+    .request-write .write-form .table-wrap tbody tr td.apply .form-group {
+      position: relative;
+      padding-left: 45px; }
+      .request-write .write-form .table-wrap tbody tr td.apply .form-group:first-child {
+        width: 30%; }
+      .request-write .write-form .table-wrap tbody tr td.apply .form-group:last-child {
+        width: 60%; }
+      .request-write .write-form .table-wrap tbody tr td.apply .form-group .form-control {
+        width: 100% !important; }
+      .request-write .write-form .table-wrap tbody tr td.apply .form-group label {
+        position: absolute;
+        top: 0;
+        left: 0; } }
+.request-write .write-form .btn-area {
+  text-align: center;
+  margin-top: 30px; }
+  .request-write .write-form .btn-area .btn-submit {
+    width: 150px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #016ecd;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
+    .request-write .write-form .btn-area .btn-submit:hover {
+      opacity: .7; }
+  @media (min-width: 768px) {
+    .request-write .write-form .btn-area {
+      margin-top: 45px; }
+      .request-write .write-form .btn-area .btn-submit {
+        width: 180px;
+        line-height: 45px; } }
+
+.compensation .section-content figure {
+  margin-top: 30px; }
+  .compensation .section-content figure img {
+    width: 100%; }
+  @media (min-width: 992px) {
+    .compensation .section-content figure {
+      margin-top: 60px; } }
+
+#modal-popup {
+  padding-right: 0 !important; }
+  #modal-popup .modal-dialog {
+    margin-top: 150px;
+    margin-bottom: 150px; }
+    #modal-popup .modal-dialog .modal-content {
+      border: 0;
+      border-radius: 0; }
+      #modal-popup .modal-dialog .modal-content .modal-header {
+        padding: 10px;
+        text-align: left;
+        border-radius: 0;
+        background-color: #016ecd; }
+        #modal-popup .modal-dialog .modal-content .modal-header > h6 {
+          font-size: 20px;
+          color: #fff;
+          font-weight: 400;
+          line-height: 40px; }
+      #modal-popup .modal-dialog .modal-content .modal-body {
+        border: 0;
+        padding: 10px; }
+        #modal-popup .modal-dialog .modal-content .modal-body figure img {
+          width: 100%; }
+      #modal-popup .modal-dialog .modal-content .modal-footer {
+        text-align: center;
+        border: 0;
+        padding-top: 10px;
+        padding-bottom: 20px; }
+        #modal-popup .modal-dialog .modal-content .modal-footer .btn-close {
+          display: block;
+          font-size: 16px;
+          color: #fff;
+          width: 138px;
+          line-height: 38px;
+          margin: 0 auto;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+          background-color: #016ecd; }
+          #modal-popup .modal-dialog .modal-content .modal-footer .btn-close:hover {
+            opacity: .7; }
+    @media (min-width: 992px) {
+      #modal-popup .modal-dialog {
+        max-width: 800px; }
+        #modal-popup .modal-dialog .modal-content .modal-header {
+          padding: 10px 20px; }
+        #modal-popup .modal-dialog .modal-content .modal-body {
+          padding: 20px; }
+        #modal-popup .modal-dialog .modal-content .modal-footer {
+          padding-bottom: 30px; }
+          #modal-popup .modal-dialog .modal-content .modal-footer .btn-close {
+            width: 180px;
+            line-height: 45px; } }
+
 /*# sourceMappingURL=parcelout.css.map */

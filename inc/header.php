@@ -38,9 +38,9 @@
                     <li>
                         <a href="javascript:;">분양안내</a>
                         <ul>
-                            <li><a href="#">용지분양</a></li>
-                            <li><a href="#">세금안내 및 기타</a></li>
-                            <li><a href="#">보상</a></li>
+                            <li><a href="/parcelout/parcelout_list.php">용지분양</a></li>
+                            <li><a href="/parcelout/ownership.php">세금안내 및 기타</a></li>
+                            <li><a href="/parcelout/examination_list.php">보상</a></li>
                         </ul>
                     </li>
                     <li>

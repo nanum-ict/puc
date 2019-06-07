@@ -736,7 +736,7 @@ a {
   padding-left: 10px; }
   .dashed-list > li:before {
     position: absolute;
-    top: 0;
+    top: -2px;
     left: 0;
     content: "-"; }
   @media (min-width: 992px) {
@@ -817,6 +817,49 @@ a {
       .table-wrap > .table tbody tr td {
         padding-top: 20px;
         padding-bottom: 20px; } }
+  .table-wrap > .table.write tbody tr th {
+    width: 90px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 10px;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    background-color: #f6f6f6; }
+    .table-wrap > .table.write tbody tr th.indispensable:before {
+      color: #016ecd;
+      content: '* '; }
+    @media (min-width: 768px) {
+      .table-wrap > .table.write tbody tr th {
+        font-size: 16px;
+        width: 130px; } }
+  .table-wrap > .table.write tbody tr td {
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid #ddd; }
+    .table-wrap > .table.write tbody tr td label {
+      display: inline-block;
+      line-height: 40px;
+      vertical-align: top; }
+    .table-wrap > .table.write tbody tr td .form-group .form-control {
+      font-size: 14px;
+      height: 40px;
+      padding: 0 10px;
+      border: 1px solid #e5e5e5; }
+    @media (min-width: 768px) {
+      .table-wrap > .table.write tbody tr td {
+        font-size: 16px; }
+        .table-wrap > .table.write tbody tr td .form-group .form-control {
+          font-size: 16px; } }
+  @media (min-width: 992px) {
+    .table-wrap > .table.write tbody tr th {
+      padding: 10px 20px; }
+    .table-wrap > .table.write tbody tr td {
+      padding: 10px 20px; } }
   .table-wrap > .table.list-type1 thead tr th {
     border: 0;
     border-bottom: 1px solid #ddd; }
@@ -1026,12 +1069,13 @@ a {
     font-size: 18px;
     color: #333;
     font-weight: 500; }
+    .box strong ~ p {
+      margin-top: 10px; }
   .box p {
     font-size: 16px;
     color: #666;
     line-height: 24px;
-    font-weight: 300;
-    margin-top: 10px; }
+    font-weight: 300; }
   .box.gray {
     border-color: #ddd;
     background: none;
