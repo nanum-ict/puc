@@ -630,9 +630,6 @@ a {
     margin-top: 60px; }
   .faqlist .faq-list {
     margin-top: 40px; } }
-@media (min-width: 1200px) {
-  .faqlist .section-content {
-    padding-bottom: 300px; } }
 
 .request-write .box > .btn-area {
   margin-top: 20px;

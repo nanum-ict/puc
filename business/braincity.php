@@ -28,7 +28,7 @@
                             <li class="active"><a href="/business/braincity.php">브레인시티 사업안내</a></li>
                             <li><a href="/business/reward.php">만화로 보는 보상</a></li>
                             <li><a href="#">공지사항</a></li>
-                            <li><a href="#">자주 묻는 질문</a></li>
+                            <li><a href="/business/">자주 묻는 질문</a></li>
                             <li><a href="#">온라인상담</a></li>
                         </ul>
                     </div>
@@ -225,6 +225,5 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/quick.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
-    <script src="/assets/js/sub.js"></script>
 </body>
 </html>

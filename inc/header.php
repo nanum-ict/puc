@@ -46,11 +46,16 @@
                     <li>
                         <a href="javascript:;">고객광장</a>
                         <ul>
-                            <li><a href="#">고객서비스</a></li>
-                            <li><a href="#">자주 묻는 질문</a></li>
-                            <li><a href="#">온라인 상담</a></li>
-                            <li><a href="#">칭찬합시다</a></li>
-                            <li><a href="#">개인정보취급방법</a></li>
+                            <li><a href="/customer/charter.php">고객서비스</a></li>
+                            <li><a href="/customer/faq_list.php">자주 묻는 질문</a></li>
+                            <li><a href="/customer/advice_write.php">고객의 소리</a></li>
+                            <li><a href="/customer/praise_list.php">칭찬합시다</a></li>
+                            <li><a href="/customer/privacy.php">개인정보취급방법</a></li>
+                            <li><a href="/customer/email_policy.php">이메일 추출방지정책</a></li>
+                            <li><a href="/customer/bc_faqlist.php">브레인시티 자주 묻는 질문</a></li>
+                            <li><a href="/customer/counseling.php">브레인시티 온라인 상담</a></li>
+                            <li><a href="/customer/public_system.php">정보공개</a></li>
+                            <li><a href="/customer/sinmungo.php">안전신문고</a></li>
                         </ul>
                     </li>
                     <li>

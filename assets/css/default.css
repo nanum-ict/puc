@@ -463,6 +463,7 @@ html, body {
         margin-top: -32px; } }
   @media (min-width: 1200px) {
     #header {
+      height: 1300px !important;
       padding: 0; }
       #header > .logo {
         position: relative;

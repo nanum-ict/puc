@@ -1,40 +1,27 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/parcelout.css">
+<link rel="stylesheet" href="/assets/css/customer.css">
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     
     <!-- Content -->
-    <main id="content" class="sub parcelout"> <!-- 폴더별 class -->
-        <section class="sub-content common-list examination-list"> <!-- 페이지명 class -->
+    <main id="content" class="sub customer"> <!-- 폴더별 class -->
+        <section class="sub-content common-list praise-list"> <!-- 페이지명 class -->
             <div class="section-header">
                 <div class="page-path">
-                    <h3>분양안내</h3>
+                    <h3>고객광장</h3>
                     <ol class="breadcrumb">
-                        <li>분양안내</li>
-                        <li>보상</li>
+                        <li>고객광장</li>
+                        <li>칭찬합시다</li>
                     </ol>
                 </div>
-                <h4 class="title">보상</h4>
+                <h4 class="title">칭찬합시다</h4>
             </div>
             <div class="section-content">
-                <nav class="dropdown nav-tab">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="nav-tab" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        고시공고
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="nav-tab">
-                        <ul>
-                            <li class="active"><a href="/parcelout/examination_list.php">고시공고</a></li>
-                            <li><a href="/parcelout/compensation.php">보상안내</a></li>
-                            <li><a href="/parcelout/request_write.php">분묘신청접수</a></li>
-                            <li><a href="/parcelout/faq_list.php">보상FAQ</a></li>
-                        </ul>
-                    </div>
-                </nav>
                 <div class="box">
-                    <strong>보상 고시공고</strong>
-                    <p>언제나 시민과 더불어 함께하는 평택도시공사가 되겠습니다.</p>
+                    <strong>칭찬 받을 직원들을 추천해주세요.</strong>
+                    <p>게시판의 목적에 맞지 않는 게시물이나 타인을 비방하거나 욕설이 포함된 게시물은 삭제될수 있습니다.</p>
                 </div>
                 <div class="search-form">
                     <form action="#">
@@ -55,101 +42,79 @@
                             <tr>
                                 <th scope="col" class="num">번호</th>
                                 <th scope="col" class="subject">제목</th>
-                                <th scope="col">작성자</th>
+                                <th scope="col" class="writer">작성자</th>
                                 <th scope="col">등록일</th>
                                 <th scope="col">조회</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="num notice">
-                                    <i class="icon-volume-up">
-                                        <span class="sr-only">공지</span>
-                                    </i>
-                                </td>
-                                <td class="subject"><a href="/parcelout/examination_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
-                                <td>평택도시공사</td>
-                                <td>2016-04-12</td>
-                                <td>354</td>
-                            </tr>
-                            <tr>
-                                <td class="num notice">
-                                    <i class="icon-volume-up">
-                                        <span class="sr-only">공지</span>
-                                    </i>
-                                </td>
-                                <td class="subject"><a href="/parcelout/examination_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
-                                <td>평택도시공사</td>
-                                <td>2016-04-12</td>
-                                <td>354</td>
-                            </tr>
-                            <tr>
                                 <td class="num">10</td>
-                                <td class="subject"><a href="/parcelout/examination_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
-                                <td>평택도시공사</td>
+                                <td class="subject"><a href="/customer/praise_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td class="writer">평택도시공사</td>
                                 <td>2016-04-12</td>
                                 <td>354</td>
                             </tr>
                             <tr>
                                 <td class="num">9</td>
-                                <td class="subject"><a href="/parcelout/examination_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
-                                <td>평택도시공사</td>
+                                <td class="subject"><a href="/customer/praise_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td class="writer">평택도시공사</td>
                                 <td>2016-04-12</td>
                                 <td>354</td>
                             </tr>
                             <tr>
                                 <td class="num">8</td>
-                                <td class="subject"><a href="/parcelout/examination_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
-                                <td>평택도시공사</td>
+                                <td class="subject"><a href="/customer/praise_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td class="writer">평택도시공사</td>
                                 <td>2016-04-12</td>
                                 <td>354</td>
                             </tr>
                             <tr>
                                 <td class="num">7</td>
-                                <td class="subject"><a href="/parcelout/examination_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
-                                <td>평택도시공사</td>
+                                <td class="subject"><a href="/customer/praise_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td class="writer">평택도시공사</td>
                                 <td>2016-04-12</td>
                                 <td>354</td>
                             </tr>
                             <tr>
                                 <td class="num">6</td>
-                                <td class="subject"><a href="/parcelout/examination_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
-                                <td>평택도시공사</td>
+                                <td class="subject"><a href="/customer/praise_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td class="writer">평택도시공사</td>
                                 <td>2016-04-12</td>
                                 <td>354</td>
                             </tr>
                             <tr>
                                 <td class="num">5</td>
-                                <td class="subject"><a href="/parcelout/examination_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
-                                <td>평택도시공사</td>
+                                <td class="subject"><a href="/customer/praise_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td class="writer">평택도시공사</td>
                                 <td>2016-04-12</td>
                                 <td>354</td>
                             </tr>
                             <tr>
                                 <td class="num">4</td>
-                                <td class="subject"><a href="/parcelout/examination_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
-                                <td>평택도시공사</td>
+                                <td class="subject"><a href="/customer/praise_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td class="writer">평택도시공사</td>
                                 <td>2016-04-12</td>
                                 <td>354</td>
                             </tr>
                             <tr>
                                 <td class="num">3</td>
-                                <td class="subject"><a href="/parcelout/examination_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
-                                <td>평택도시공사</td>
+                                <td class="subject"><a href="/customer/praise_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td class="writer">평택도시공사</td>
                                 <td>2016-04-12</td>
                                 <td>354</td>
                             </tr>
                             <tr>
                                 <td class="num">2</td>
-                                <td class="subject"><a href="/parcelout/examination_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
-                                <td>평택도시공사</td>
+                                <td class="subject"><a href="/customer/praise_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td class="writer">평택도시공사</td>
                                 <td>2016-04-12</td>
                                 <td>354</td>
                             </tr>
                             <tr>
                                 <td class="num">1</td>
-                                <td class="subject"><a href="/parcelout/examination_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
-                                <td>평택도시공사</td>
+                                <td class="subject"><a href="/customer/praise_view.php">포승(2)일반산업단지 지원시설용지 수의계약 공고</a></td>
+                                <td class="writer">평택도시공사</td>
                                 <td>2016-04-12</td>
                                 <td>354</td>
                             </tr>
@@ -179,8 +144,12 @@
                         </li>
                     </ul>
                 </nav>
+                <div class="btn-area">
+                    <a href="/customer/praise_write.php" class="btn btn-default" role="button">글쓰기</a>
+                </div>
             </div>
         </section>
+        
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side_quick.php'); ?>
     </main>
     

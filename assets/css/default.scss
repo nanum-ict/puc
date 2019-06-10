@@ -93,6 +93,7 @@ html, body {
         }
     }
     @media(min-width: $lg) {
+        height: 1300px !important;
         padding: 0;
         > .logo {
             position: relative;

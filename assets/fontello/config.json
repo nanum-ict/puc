@@ -71,6 +71,12 @@
       "css": "volume-up",
       "code": 59402,
       "src": "modernpics"
+    },
+    {
+      "uid": "d30928620bda0d5eaa85d3b65bf19963",
+      "css": "right-circle",
+      "code": 59403,
+      "src": "websymbols"
     }
   ]
 }
