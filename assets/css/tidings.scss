@@ -1,0 +1,196 @@
+@import 'common';
+
+.common-list {
+    .search-form {
+        margin-top: 45px;
+    }
+    .table-wrap {
+        margin-top: 30px;
+    }
+    .paging {
+        margin-top: 30px;
+    }
+    @media(min-width: $md) {
+        .search-form {
+            margin-top: 60px;
+        }
+        .table-wrap {
+            margin-top: 40px;
+        }
+    }
+}
+
+.common-view {
+    .board-view {
+        margin-top: 30px;
+        @media(min-width: $md) {
+            margin-top: 40px;
+        }
+    }
+}
+
+.notice-list, .pr-list, .bid-list, .recruitment-list, .order-list, .estimate-list, .breakdown-list, .bc-noticelist {
+    .table-wrap {
+        .list-type1 {
+            thead {
+                tr {
+                    th {
+                        text-align: center;
+                        display: none;
+                        &.num {
+                            display: table-cell;
+                            width: 70px;
+                        }
+                        &.subject {
+                            display: table-cell;
+                        }
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        text-align: center;
+                        display: none;
+                        line-height: 30px;
+                        &.num {
+                            display: table-cell;
+                            &.notice {
+                                > i {
+                                    width: 30px;
+                                    height: 30px;
+                                    line-height: 28px;
+                                    text-align: center;
+                                    display: block;
+                                    color: #fff;
+                                    margin: 0 auto;
+                                    border-radius: 50%;
+                                    background-color: $kcolor;
+                                }
+                            }
+                        }
+                        &.subject {
+                            display: table-cell;
+                        }
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                thead {
+                    tr {
+                        th {
+                            display: table-cell;
+                            &.num {
+                                width: 90px;
+                            }
+                            &.subject {
+                                width: 45%;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            display: table-cell;
+                        }
+                    }
+                }
+            }
+            @media(min-width: $md) {
+                thead {
+                    tr {
+                        th {
+                            display: table-cell;
+                            &.num {
+                                width: 10%;
+                            }
+                            &.subject {
+                                width: 50%;
+                            }
+                            &:nth-of-type(3) {
+                                width: 15%;
+                            }
+                            &:nth-of-type(4) {
+                                width: 15%;
+                            }
+                            &:nth-of-type(5) {
+                                width: 10%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.notice-list, .bid-list, .recruitment-list, .order-list, .breakdown-list, .bc-noticelist {
+    .table-wrap {
+        .list-type1 {
+            tbody {
+                tr {
+                    td {
+                        &.subject {
+                            display: table-cell;
+                            > a {
+                                position: relative;
+                                padding-right: 20px;
+                                .icon-floppy {
+                                    position: absolute;
+                                    top: 0;
+                                    right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

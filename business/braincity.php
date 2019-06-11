@@ -27,9 +27,9 @@
                         <ul>
                             <li class="active"><a href="/business/braincity.php">브레인시티 사업안내</a></li>
                             <li><a href="/business/reward.php">만화로 보는 보상</a></li>
-                            <li><a href="#">공지사항</a></li>
-                            <li><a href="/business/">자주 묻는 질문</a></li>
-                            <li><a href="#">온라인상담</a></li>
+                            <li><a href="/tidings/bc_noticelist.php">공지사항</a></li>
+                            <li><a href="/customer/bc_faqlist.php">자주 묻는 질문</a></li>
+                            <li><a href="/customer/counseling.php">온라인상담</a></li>
                         </ul>
                     </div>
                 </nav>

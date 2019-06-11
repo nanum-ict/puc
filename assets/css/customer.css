@@ -1033,4 +1033,324 @@ a {
         font-size: 16px;
         line-height: 26px; } }
 
+.bc-faqlist .search-form {
+  margin-top: 45px; }
+  @media (min-width: 992px) {
+    .bc-faqlist .search-form {
+      margin-top: 60px; } }
+.bc-faqlist .faq-list {
+  margin-top: 30px; }
+  @media (min-width: 992px) {
+    .bc-faqlist .faq-list {
+      margin-top: 40px; } }
+  .bc-faqlist .faq-list .item .answer .content .note {
+    font-size: 12px;
+    color: #666;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: center;
+    padding: 15px 0;
+    margin: 10px 0;
+    border: 1px solid #333; }
+    @media (min-width: 768px) {
+      .bc-faqlist .faq-list .item .answer .content .note {
+        font-size: 16px; } }
+  .bc-faqlist .faq-list .item .answer .content span {
+    text-decoration: underline; }
+
+.counseling .write-form .table-wrap {
+  text-align: right;
+  margin-top: 30px; }
+  @media (min-width: 768px) {
+    .counseling .write-form .table-wrap {
+      margin-top: 40px; } }
+  @media (min-width: 1200px) {
+    .counseling .write-form .table-wrap {
+      margin-top: 60px; } }
+  .counseling .write-form .table-wrap > .indispensable {
+    display: inline-block;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px; }
+    .counseling .write-form .table-wrap > .indispensable:before {
+      content: '* ';
+      color: #016ecd; }
+  .counseling .write-form .table-wrap tbody tr td .form-group textarea {
+    padding: 10px !important;
+    width: 100% !important;
+    height: 140px !important; }
+  .counseling .write-form .table-wrap tbody tr td.u-name .form-group .form-control {
+    max-width: 300px; }
+  @media (min-width: 768px) {
+    .counseling .write-form .table-wrap tbody tr td .form-group textarea {
+      height: 200px !important; } }
+  @media (min-width: 1200px) {
+    .counseling .write-form .table-wrap tbody tr td .form-group textarea {
+      height: 300px !important; } }
+.counseling .write-form .btn-area {
+  text-align: center;
+  margin-top: 30px; }
+  .counseling .write-form .btn-area .btn-submit {
+    width: 150px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #016ecd;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
+    .counseling .write-form .btn-area .btn-submit:hover {
+      opacity: .7; }
+  @media (min-width: 768px) {
+    .counseling .write-form .btn-area {
+      margin-top: 45px; }
+      .counseling .write-form .btn-area .btn-submit {
+        width: 180px;
+        line-height: 45px; } }
+
+@media (min-width: 1200px) {
+  .outline, .claim, .nondisclosure, .procedure {
+    min-height: 1300px; } }
+.outline article .sub-title ~ .sub-title, .claim article .sub-title ~ .sub-title, .nondisclosure article .sub-title ~ .sub-title, .procedure article .sub-title ~ .sub-title {
+  margin-top: 30px; }
+  @media (min-width: 992px) {
+    .outline article .sub-title ~ .sub-title, .claim article .sub-title ~ .sub-title, .nondisclosure article .sub-title ~ .sub-title, .procedure article .sub-title ~ .sub-title {
+      margin-top: 60px; } }
+.outline article .sub-title > a, .claim article .sub-title > a, .nondisclosure article .sub-title > a, .procedure article .sub-title > a {
+  color: #016ecd; }
+.outline article > dl dt, .claim article > dl dt, .nondisclosure article > dl dt, .procedure article > dl dt {
+  font-size: 16px;
+  color: #016ecd;
+  font-weight: 400;
+  margin-bottom: 15px; }
+  .outline article > dl dt ~ dt, .claim article > dl dt ~ dt, .nondisclosure article > dl dt ~ dt, .procedure article > dl dt ~ dt {
+    margin-top: 40px; }
+.outline article > dl dd, .claim article > dl dd, .nondisclosure article > dl dd, .procedure article > dl dd {
+  font-size: 16px;
+  color: #666;
+  font-weight: 300; }
+  .outline article > dl dd strong, .claim article > dl dd strong, .nondisclosure article > dl dd strong, .procedure article > dl dd strong {
+    display: block;
+    font-weight: 400; }
+  .outline article > dl dd .dot-list li:before, .claim article > dl dd .dot-list li:before, .nondisclosure article > dl dd .dot-list li:before, .procedure article > dl dd .dot-list li:before {
+    color: #016ecd;
+    font-size: 18px; }
+  .outline article > dl dd .dot-list li ~ li, .claim article > dl dd .dot-list li ~ li, .nondisclosure article > dl dd .dot-list li ~ li, .procedure article > dl dd .dot-list li ~ li {
+    margin-top: 10px; }
+
+.procedure article > figure img {
+  display: block;
+  margin: 0 auto; }
+@media (min-width: 768px) {
+  .procedure article > figure {
+    padding: 45px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f6f6f6; } }
+@media (min-width: 1200px) {
+  .procedure article > figure {
+    padding: 65px 0; } }
+
+.officially article ~ article {
+  margin-top: 30px; }
+  @media (min-width: 992px) {
+    .officially article ~ article {
+      margin-top: 60px; } }
+.officially article .sub-title ~ .sub-title {
+  margin-top: 30px; }
+  @media (min-width: 992px) {
+    .officially article .sub-title ~ .sub-title {
+      margin-top: 60px; } }
+.officially article > dl dt {
+  font-size: 16px;
+  color: #016ecd;
+  font-weight: 400;
+  margin-bottom: 15px; }
+.officially article > dl dd {
+  font-size: 16px;
+  color: #666;
+  font-weight: 300; }
+.officially article.summary > p {
+  font-size: 16px;
+  color: #666;
+  font-weight: 300; }
+.officially .officially-list .search-form, .officially .officially-view .search-form {
+  margin-top: 30px; }
+.officially .officially-list .tab-menu, .officially .officially-view .tab-menu {
+  margin-top: 30px; }
+  .officially .officially-list .tab-menu > ul, .officially .officially-view .tab-menu > ul {
+    overflow: hidden; }
+    .officially .officially-list .tab-menu > ul > li, .officially .officially-view .tab-menu > ul > li {
+      float: left;
+      width: 25%;
+      color: #fff;
+      border: 1px solid #ddd;
+      border-right: 0; }
+      .officially .officially-list .tab-menu > ul > li:nth-of-type(4), .officially .officially-view .tab-menu > ul > li:nth-of-type(4) {
+        border-right: 1px solid #ddd; }
+      .officially .officially-list .tab-menu > ul > li:last-child, .officially .officially-view .tab-menu > ul > li:last-child {
+        border-right: 1px solid #ddd; }
+      .officially .officially-list .tab-menu > ul > li:nth-of-type(4) ~ li, .officially .officially-view .tab-menu > ul > li:nth-of-type(4) ~ li {
+        width: 33.33333%;
+        border-top: 0; }
+      .officially .officially-list .tab-menu > ul > li > a, .officially .officially-view .tab-menu > ul > li > a {
+        position: relative;
+        font-size: 13px;
+        color: #666;
+        font-weight: 400;
+        display: block;
+        text-align: center;
+        line-height: 42px;
+        letter-spacing: -1px;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
+        .officially .officially-list .tab-menu > ul > li > a:hover, .officially .officially-view .tab-menu > ul > li > a:hover {
+          opacity: .7;
+          color: #fff;
+          background-color: #016ecd; }
+      .officially .officially-list .tab-menu > ul > li.active > a, .officially .officially-view .tab-menu > ul > li.active > a {
+        color: #fff;
+        background-color: #016ecd; }
+        .officially .officially-list .tab-menu > ul > li.active > a:after, .officially .officially-view .tab-menu > ul > li.active > a:after {
+          position: absolute;
+          bottom: -1px;
+          left: 50%;
+          color: #fff;
+          content: '';
+          margin-left: -6px;
+          display: inline-block;
+          vertical-align: .255em;
+          border-top: 0;
+          border-right: 6px solid transparent;
+          border-bottom: 6px solid;
+          border-left: 6px solid transparent; }
+        .officially .officially-list .tab-menu > ul > li.active > a:hover, .officially .officially-view .tab-menu > ul > li.active > a:hover {
+          opacity: 1; }
+.officially .officially-list .table-wrap, .officially .officially-view .table-wrap {
+  margin-top: 30px; }
+  .officially .officially-list .table-wrap .table thead tr th, .officially .officially-view .table-wrap .table thead tr th {
+    font-size: 13px;
+    display: none; }
+    .officially .officially-list .table-wrap .table thead tr th:nth-of-type(2), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(2) {
+      width: 35%;
+      display: table-cell; }
+    .officially .officially-list .table-wrap .table thead tr th.subject, .officially .officially-view .table-wrap .table thead tr th.subject {
+      width: 65%;
+      display: table-cell; }
+  .officially .officially-list .table-wrap .table tbody tr td, .officially .officially-view .table-wrap .table tbody tr td {
+    font-size: 13px;
+    display: none; }
+    .officially .officially-list .table-wrap .table tbody tr td:nth-of-type(2), .officially .officially-view .table-wrap .table tbody tr td:nth-of-type(2) {
+      letter-spacing: -.5px;
+      display: table-cell; }
+    .officially .officially-list .table-wrap .table tbody tr td.subject, .officially .officially-view .table-wrap .table tbody tr td.subject {
+      display: table-cell; }
+      .officially .officially-list .table-wrap .table tbody tr td.subject > a, .officially .officially-view .table-wrap .table tbody tr td.subject > a {
+        position: relative;
+        padding-left: 10px;
+        padding-right: 20px; }
+        .officially .officially-list .table-wrap .table tbody tr td.subject > a .icon-floppy, .officially .officially-view .table-wrap .table tbody tr td.subject > a .icon-floppy {
+          position: absolute;
+          top: 0;
+          right: 0;
+          color: #333; }
+.officially .officially-list .paging, .officially .officially-view .paging {
+  margin-top: 30px; }
+.officially .officially-list .board-view, .officially .officially-view .board-view {
+  margin-top: 30px; }
+@media (min-width: 768px) {
+  .officially .officially-list .search-form, .officially .officially-view .search-form {
+    margin-top: 40px; }
+  .officially .officially-list .tab-menu, .officially .officially-view .tab-menu {
+    margin-top: 40px; }
+    .officially .officially-list .tab-menu > ul > li, .officially .officially-view .tab-menu > ul > li {
+      width: 15% !important; }
+      .officially .officially-list .tab-menu > ul > li:nth-of-type(1), .officially .officially-view .tab-menu > ul > li:nth-of-type(1) {
+        width: 10% !important; }
+      .officially .officially-list .tab-menu > ul > li:nth-of-type(4), .officially .officially-view .tab-menu > ul > li:nth-of-type(4) {
+        border-right: 0; }
+      .officially .officially-list .tab-menu > ul > li:nth-of-type(4) ~ li, .officially .officially-view .tab-menu > ul > li:nth-of-type(4) ~ li {
+        border-top: 1px solid #ddd; }
+      .officially .officially-list .tab-menu > ul > li > a, .officially .officially-view .tab-menu > ul > li > a {
+        font-size: 14px; }
+  .officially .officially-list .table-wrap, .officially .officially-view .table-wrap {
+    margin-top: 40px; }
+    .officially .officially-list .table-wrap .table thead tr th, .officially .officially-view .table-wrap .table thead tr th {
+      font-size: 14px; }
+      .officially .officially-list .table-wrap .table thead tr th:nth-of-type(2), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(2) {
+        width: 20%; }
+      .officially .officially-list .table-wrap .table thead tr th:nth-of-type(3), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(3) {
+        width: 10%;
+        display: table-cell; }
+      .officially .officially-list .table-wrap .table thead tr th.subject, .officially .officially-view .table-wrap .table thead tr th.subject {
+        width: 50%; }
+      .officially .officially-list .table-wrap .table thead tr th:nth-of-type(5), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(5) {
+        width: 20%;
+        display: table-cell; }
+    .officially .officially-list .table-wrap .table tbody tr td, .officially .officially-view .table-wrap .table tbody tr td {
+      font-size: 14px; }
+      .officially .officially-list .table-wrap .table tbody tr td:nth-of-type(3), .officially .officially-view .table-wrap .table tbody tr td:nth-of-type(3) {
+        display: table-cell; }
+      .officially .officially-list .table-wrap .table tbody tr td:nth-of-type(5), .officially .officially-view .table-wrap .table tbody tr td:nth-of-type(5) {
+        display: table-cell; }
+  .officially .officially-list .paging, .officially .officially-view .paging {
+    margin-top: 40px; }
+  .officially .officially-list .board-view, .officially .officially-view .board-view {
+    margin-top: 40px; } }
+@media (min-width: 992px) {
+  .officially .officially-list .table-wrap .table thead tr th, .officially .officially-view .table-wrap .table thead tr th {
+    font-size: 15px;
+    display: table-cell; }
+    .officially .officially-list .table-wrap .table thead tr th:nth-of-type(1), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(1) {
+      width: 10%; }
+    .officially .officially-list .table-wrap .table thead tr th:nth-of-type(2), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(2) {
+      width: 15%; }
+    .officially .officially-list .table-wrap .table thead tr th:nth-of-type(3), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(3) {
+      width: 10%; }
+    .officially .officially-list .table-wrap .table thead tr th.subject, .officially .officially-view .table-wrap .table thead tr th.subject {
+      width: 29%; }
+    .officially .officially-list .table-wrap .table thead tr th:nth-of-type(5), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(5) {
+      width: 13%; }
+    .officially .officially-list .table-wrap .table thead tr th:nth-of-type(6), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(6) {
+      width: 13%; }
+    .officially .officially-list .table-wrap .table thead tr th:nth-of-type(7), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(7) {
+      width: 10%; }
+  .officially .officially-list .table-wrap .table tbody tr td, .officially .officially-view .table-wrap .table tbody tr td {
+    font-size: 15px;
+    display: table-cell; } }
+@media (min-width: 1400px) {
+  .officially .officially-list .table-wrap .table thead tr th:nth-of-type(1), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(1) {
+    width: 8%; }
+  .officially .officially-list .table-wrap .table thead tr th:nth-of-type(2), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(2) {
+    width: 15%; }
+  .officially .officially-list .table-wrap .table thead tr th:nth-of-type(3), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(3) {
+    width: 10%; }
+  .officially .officially-list .table-wrap .table thead tr th.subject, .officially .officially-view .table-wrap .table thead tr th.subject {
+    /*width: 29%;*/ }
+  .officially .officially-list .table-wrap .table thead tr th:nth-of-type(5), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(5) {
+    width: 13%; }
+  .officially .officially-list .table-wrap .table thead tr th:nth-of-type(6), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(6) {
+    width: 13%; }
+  .officially .officially-list .table-wrap .table thead tr th:nth-of-type(7), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(7) {
+    width: 8%; } }
+@media (min-width: 1600px) {
+  .officially .officially-list .tab-menu > ul > li > a, .officially .officially-view .tab-menu > ul > li > a {
+    font-size: 16px; }
+  .officially .officially-list .table-wrap .table thead tr th, .officially .officially-view .table-wrap .table thead tr th {
+    font-size: 16px; }
+  .officially .officially-list .table-wrap .table tbody tr td, .officially .officially-view .table-wrap .table tbody tr td {
+    font-size: 16px; } }
+
 /*# sourceMappingURL=customer.css.map */

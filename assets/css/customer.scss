@@ -1023,14 +1023,536 @@
     }
 }
 
+.bc-faqlist {
+    .search-form {
+        margin-top: 45px;
+        @media(min-width: $md) {
+            margin-top: 60px;
+        }
+    }
+    .faq-list {
+        margin-top: 30px;
+        @media(min-width: $md) {
+            margin-top: 40px;
+        }
+        .item {
+            .answer {
+                .content {
+                    .note {
+                        font-size: 12px;
+                        color: #666;
+                        font-weight: 300;
+                        line-height: 26px;
+                        text-align: center;
+                        padding: 15px 0;
+                        margin: 10px 0;
+                        border: 1px solid #333;
+                        @media(min-width: $sm) {
+                            font-size: 16px;
+                        }
+                    }
+                    span {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
 
+.counseling {
+    .write-form {
+        .table-wrap {
+            text-align: right;
+            margin-top: 30px;
+            @media(min-width: $sm) {
+                margin-top: 40px;
+            }
+            @media(min-width: $lg) {
+                margin-top: 60px;
+            }
+            > .indispensable {
+                display: inline-block;
+                font-size: 16px;
+                color: #666;
+                margin-bottom: 10px;
+                &:before {
+                    content: '* ';
+                    color: $kcolor;
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        .form-group {
+                            textarea {
+                                padding: 10px !important;
+                                width: 100% !important;
+                                height: 140px !important;
+                            }
+                        }
+                        &.u-name {
+                            .form-group {
+                                .form-control {
+                                    max-width: 300px;
+                                }
+                            }
+                        }
+                    }
+                }
+                @media(min-width: $sm) {
+                    tr {
+                        td {
+                            .form-group {
+                                textarea {
+                                    height: 200px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+                @media(min-width: $lg) {
+                    tr {
+                        td {
+                            .form-group {
+                                textarea {
+                                    height: 300px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            text-align: center;
+            margin-top: 30px;
+            .btn-submit {
+                width: 150px;
+                line-height: 40px;
+                font-size: 16px;
+                text-align: center;
+                color: #fff;
+                background-color: $kcolor;
+                @include transition();
+                &:hover {
+                    opacity: .7;
+                }
+            }
+            @media(min-width: $sm) {
+                margin-top: 45px;
+                .btn-submit {
+                    width: 180px;
+                    line-height: 45px;
+                }
+            }
+        }
+    }
+}
 
+.outline, .claim, .nondisclosure, .procedure {
+    @media(min-width: $lg) {
+        min-height: 1300px;
+    }
+    article {
+        .sub-title {
+            & ~ .sub-title {
+                margin-top: 30px;
+                @media(min-width: $md) {
+                    margin-top: 60px;
+                }
+            }
+            > a {
+                color: $kcolor;
+            }
+        }
+        > dl {
+            dt {
+                font-size: 16px;
+                color: $kcolor;
+                font-weight: 400;
+                margin-bottom: 15px;
+                & ~ dt {
+                    margin-top: 40px;
+                }
+            }
+            dd {
+                font-size: 16px;
+                color: #666;
+                font-weight: 300;
+                strong {
+                    display: block;
+                    font-weight: 400;
+                }
+                .dot-list {
+                    li {
+                        &:before {
+                            color: $kcolor;
+                            font-size: 18px;
+                        }
+                        & ~ li {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
+.procedure {
+    article {
+        > figure {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+            @media(min-width: $sm) {
+                padding: 45px 0;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                background-color: #f6f6f6;
+            }
+            @media(min-width: $lg) {
+                padding: 65px 0;
+            }
+        }
+    }
+}
 
-
-
-
-
+.officially {
+    article {
+        & ~ article {
+            margin-top: 30px;
+            @media(min-width: $md) {
+                margin-top: 60px;
+            }
+        }
+        .sub-title {
+            & ~ .sub-title {
+                margin-top: 30px;
+                @media(min-width: $md) {
+                    margin-top: 60px;
+                }
+            }
+        }
+        > dl {
+            dt {
+                font-size: 16px;
+                color: $kcolor;
+                font-weight: 400;
+                margin-bottom: 15px;
+            }
+            dd {
+                font-size: 16px;
+                color: #666;
+                font-weight: 300;
+            }
+        }
+        &.summary {
+            > p {
+                font-size: 16px;
+                color: #666;
+                font-weight: 300;
+            }
+        }
+    }
+    .officially-list, .officially-view {
+        .search-form {
+            margin-top: 30px;
+        }
+        .tab-menu {
+            margin-top: 30px;
+            > ul {
+                overflow: hidden;
+                > li {
+                    float: left;
+                    width: 25%;
+                    color: #fff;
+                    border: 1px solid #ddd;
+                    border-right: 0;
+                    &:nth-of-type(4) {
+                        border-right: 1px solid #ddd;
+                    }
+                    &:last-child {
+                        border-right: 1px solid #ddd;
+                    }
+                    &:nth-of-type(4) ~ li {
+                        width: 33.33333%;
+                        border-top: 0;
+                    }
+                    > a {
+                        position: relative;
+                        font-size: 13px;
+                        color: #666;
+                        font-weight: 400;
+                        display: block;
+                        text-align: center;
+                        line-height: 42px;
+                        letter-spacing: -1px;
+                        @include transition();
+                        &:hover {
+                            opacity: .7;
+                            color: #fff;
+                            background-color: $kcolor;
+                        }
+                    }
+                    &.active {
+                        > a {
+                            color: #fff;
+                            background-color: $kcolor;
+                            &:after {
+                                position: absolute;
+                                bottom: -1px;
+                                left: 50%;
+                                color: #fff;
+                                content: '';
+                                margin-left: -6px;
+                                display: inline-block;
+                                vertical-align: .255em;
+                                border-top: 0;
+                                border-right: 6px solid transparent;
+                                border-bottom: 6px solid;
+                                border-left: 6px solid transparent;
+                            }
+                            &:hover {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .table-wrap {
+            margin-top: 30px;
+            .table {
+                thead {
+                    tr {
+                        th {
+                            font-size: 13px;
+                            display: none;
+                            &:nth-of-type(2) {
+                                width: 35%;
+                                display: table-cell;
+                            }
+                            &.subject {
+                                width: 65%;
+                                display: table-cell;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            font-size: 13px;
+                            display: none;
+                            &:nth-of-type(2) {
+                                letter-spacing: -.5px;
+                                display: table-cell;
+                            }
+                            &.subject {
+                                display: table-cell;
+                                > a {
+                                    position: relative;
+                                    padding-left: 10px;
+                                    padding-right: 20px;
+                                    .icon-floppy {
+                                        position: absolute;
+                                        top: 0;
+                                        right: 0;
+                                        color: #333;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 30px;
+        }
+        .board-view {
+            margin-top: 30px;
+        }
+        @media(min-width: $sm) {
+            .search-form {
+                margin-top: 40px;
+            }
+            .tab-menu {
+                margin-top: 40px;
+                > ul {
+                    > li {
+                        width: 15% !important;
+                        &:nth-of-type(1) {
+                            width: 10% !important;
+                        }
+                        &:nth-of-type(4) {
+                            border-right: 0;
+                        }
+                        &:nth-of-type(4) ~ li {
+                            border-top: 1px solid #ddd;
+                        }
+                        > a {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .table-wrap {
+                margin-top: 40px;
+                .table {
+                    thead {
+                        tr {
+                            th {
+                                font-size: 14px;
+                                &:nth-of-type(2) {
+                                    width: 20%;
+                                }
+                                &:nth-of-type(3) {
+                                    width: 10%;
+                                    display: table-cell;
+                                }
+                                &.subject {
+                                    width: 50%;
+                                }
+                                &:nth-of-type(5) {
+                                    width: 20%;
+                                    display: table-cell;
+                                }
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                font-size: 14px;
+                                &:nth-of-type(3) {
+                                    display: table-cell;
+                                }
+                                &:nth-of-type(5) {
+                                    display: table-cell;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .paging {
+                margin-top: 40px;
+            }
+            .board-view {
+                margin-top: 40px;
+            }
+        }
+        @media(min-width: $md) {
+            .table-wrap {
+                .table {
+                    thead {
+                        tr {
+                            th {
+                                font-size: 15px;
+                                display: table-cell;
+                                &:nth-of-type(1) {
+                                    width: 10%;
+                                }
+                                &:nth-of-type(2) {
+                                    width: 15%;
+                                }
+                                &:nth-of-type(3) {
+                                    width: 10%;
+                                }
+                                &.subject {
+                                    width: 29%;
+                                }
+                                &:nth-of-type(5) {
+                                    width: 13%;
+                                }
+                                &:nth-of-type(6) {
+                                    width: 13%;
+                                }
+                                &:nth-of-type(7) {
+                                    width: 10%;
+                                }
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                font-size: 15px;
+                                display: table-cell;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: 1400px) {
+            .table-wrap {
+                .table {
+                    thead {
+                        tr {
+                            th {
+                                &:nth-of-type(1) {
+                                    width: 8%;
+                                }
+                                &:nth-of-type(2) {
+                                    width: 15%;
+                                }
+                                &:nth-of-type(3) {
+                                    width: 10%;
+                                }
+                                &.subject {
+                                    /*width: 29%;*/
+                                }
+                                &:nth-of-type(5) {
+                                    width: 13%;
+                                }
+                                &:nth-of-type(6) {
+                                    width: 13%;
+                                }
+                                &:nth-of-type(7) {
+                                    width: 8%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: 1600px) {
+            .tab-menu {
+                > ul {
+                    > li {
+                        > a {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+            .table-wrap {
+                .table {
+                    thead {
+                        tr {
+                            th {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

@@ -54,20 +54,22 @@
                             <li><a href="/customer/email_policy.php">이메일 추출방지정책</a></li>
                             <li><a href="/customer/bc_faqlist.php">브레인시티 자주 묻는 질문</a></li>
                             <li><a href="/customer/counseling.php">브레인시티 온라인 상담</a></li>
-                            <li><a href="/customer/public_system.php">정보공개</a></li>
+                            <li><a href="/customer/outline.php">정보공개</a></li>
                             <li><a href="/customer/sinmungo.php">안전신문고</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="javascript:;">PUC소식</a>
                         <ul>
-                            <li><a href="#">공지사항</a></li>
-                            <li><a href="#">보도자료</a></li>
-                            <li><a href="#">입찰정보</a></li>
-                            <li><a href="#">채용정보</a></li>
-                            <li><a href="#">발주계획</a></li>
-                            <li><a href="#">수의계약 견적제출</a></li>
-                            <li><a href="#">수의계약 내역공개</a></li>
+                            <li><a href="/tidings/notice_list.php">공지사항</a></li>
+                            <li><a href="/tidings/pr_list.php">보도자료</a></li>
+                            <li><a href="/tidings/bid_list.php">입찰정보</a></li>
+                            <li><a href="/tidings/recruitment_list.php">채용정보</a></li>
+                            <li><a href="/tidings/order_list.php">발주계획</a></li>
+                            <li><a href="/tidings/estimate_list.php">수의계약 견적제출</a></li>
+                            <li><a href="/tidings/breakdown_list.php">수의계약 내역공개</a></li>
+                            <li><a href="/tidings/bc_noticelist.php">브레인시티 공지사항</a></li>
+                            <li><a href="#">윤리경영</a></li>
                         </ul>
                     </li>
                     <li>
