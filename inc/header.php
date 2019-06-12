@@ -69,7 +69,7 @@
                             <li><a href="/tidings/estimate_list.php">수의계약 견적제출</a></li>
                             <li><a href="/tidings/breakdown_list.php">수의계약 내역공개</a></li>
                             <li><a href="/tidings/bc_noticelist.php">브레인시티 공지사항</a></li>
-                            <li><a href="#">윤리경영</a></li>
+                            <li><a href="/tidings/ethical.php">윤리경영</a></li>
                         </ul>
                     </li>
                     <li>

@@ -1,5 +1,11 @@
 @import 'common';
 
+section {
+    @media(min-width: $lg) {
+        min-height: 1300px;
+    }
+}
+
 #content {
     .side-quick {
         display: none;
@@ -59,7 +65,7 @@
     @media(min-width: 1400px) {
         padding-right: 350px;
         > section {
-            padding: 0 40px;
+            padding: 0 30px;
         }
         .side-quick {
             position: fixed;

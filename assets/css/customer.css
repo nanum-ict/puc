@@ -44,6 +44,9 @@ input, .form-control {
   box-shadow: none !important;
   border-radius: 0; }
 
+input[type="file"] {
+  padding-top: 5px !important; }
+
 a {
   color: #666;
   outline: none !important; }

@@ -44,6 +44,9 @@ input, .form-control {
   box-shadow: none !important;
   border-radius: 0; }
 
+input[type="file"] {
+  padding-top: 5px !important; }
+
 a {
   color: #666;
   outline: none !important; }
@@ -389,6 +392,10 @@ a {
           padding-left: 15px;
           padding-right: 15px; } }
 
+@media (min-width: 1200px) {
+  section {
+    min-height: 1300px; } }
+
 #content .side-quick {
   display: none; }
   #content .side-quick > .quick-list {
@@ -444,7 +451,7 @@ a {
   #content {
     padding-right: 350px; }
     #content > section {
-      padding: 0 40px; }
+      padding: 0 30px; }
     #content .side-quick {
       position: fixed;
       top: 0;
