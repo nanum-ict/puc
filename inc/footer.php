@@ -1,9 +1,9 @@
 <!-- Footer -->
 <footer id="footer">
     <ul class="policy">
-        <li><a href="#">개인정보처리방침</a></li>
-        <li><a href="#">이메일추출방지정책</a></li>
-        <li><a href="#">찾아오시는 길</a></li>
+        <li><a href="/customer/privacy.php">개인정보처리방침</a></li>
+        <li><a href="/customer/email_policy.php">이메일추출방지정책</a></li>
+        <li><a href="/introduction/location.php">찾아오시는 길</a></li>
         <li><a href="#">전체메뉴</a></li>
     </ul>
     <div class="puc-info">

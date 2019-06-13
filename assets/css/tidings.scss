@@ -975,11 +975,11 @@
     }
 }
 
-.photo-list {
+.activity-list {
     .search-form, .paging {
         margin-top: 30px;
     }
-    .list-content {
+    .photo-list {
         margin-top: 30px;
         > ul {
             > li {
@@ -1019,9 +1019,6 @@
                         .infor-list {
                             margin-top: 20px;
                             li {
-                                & ~ li {
-                                    margin-top: 10px;
-                                }
                                 > dl {
                                     overflow: hidden;
                                     display: table;
@@ -1031,19 +1028,33 @@
                                         position: relative;
                                         font-size: 16px;
                                         color: #333;
-                                        width: 80px;
+                                        width: 70px;
                                         font-weight: 300;
                                         display: table-cell;
+                                        line-height: 34px;
                                         vertical-align: middle;
-                                        padding-left: 25px;
+                                        padding-left: 23px;
                                         background-repeat: no-repeat;
                                         background-position: 0 50%;
                                         background-size: auto;                                        
                                         &:after {
+                                            position: absolute;
+                                            top: -1px;
+                                            right: 8px;
                                             content: '|';
                                         }
+                                        &.date {
+                                            background-image: url(/assets/images/tidings/ico_date.png);
+                                        }
+                                        &.place {
+                                            background-image: url(/assets/images/tidings/ico_place.png);
+                                        }
                                         &.personnel {
-                                            width: 110px;
+                                            width: 100px;
+                                            background-image: url(/assets/images/tidings/ico_personnel.png);
+                                        }
+                                        &.content {
+                                            background-image: url(/assets/images/tidings/ico_document.png);
                                         }
                                     }
                                     > dd {
@@ -1051,6 +1062,8 @@
                                         vertical-align: middle;
                                         font-size: 16px;
                                         color: #666;
+                                        letter-spacing: -1px;
+                                        line-height: 34px;
                                         font-weight: 300;
                                         > p {
                                             overflow: hidden;
@@ -1078,10 +1091,81 @@
         .search-form, .paging {
             margin-top: 40px;
         }
+        .photo-list {
+            margin-top: 40px;
+            > ul {
+                > li {
+                    > a {
+                        position: relative;
+                        padding: 40px 0 40px 190px;
+                        figure {
+                            position: absolute;
+                            top: 40px;
+                            left: 0;
+                            overflow: hidden;
+                            width: 190px;
+                            height: 140px;
+                            padding: 0;
+                        }
+                        .details {
+                            margin: 0;
+                            padding: 0 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .photo-list {
+            margin-top: 40px;
+            > ul {
+                > li {
+                    min-height: 222px;
+                    > a {
+                        .details {
+                            > ul {
+                                overflow: hidden;
+                                > li {
+                                    float: left;
+                                    width: 50%;
+                                    &:nth-of-type(2n + 1) {
+                                        clear: both;
+                                        padding-right: 15px;
+                                    }
+                                    &:nth-of-type(2n + 2) {
+                                        padding-left: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
-
+.activity-view {
+    .board-view {
+        margin-top: 30px;
+        @media(min-width: $sm) {
+            margin-top: 40px;
+        }
+        .view-content {
+            figure {
+                margin-bottom: 30px;
+                @media(min-width: $sm) {
+                    margin-bottom: 40px;
+                }
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
 
 
 

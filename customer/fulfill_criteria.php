@@ -89,8 +89,8 @@
                                     </colgroup>
                                     <thead>
                                         <tr>
-                                            <th>구분</th>
-                                            <th>연락처</th>
+                                            <th scope="col">구분</th>
+                                            <th scope="col">연락처</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -146,8 +146,8 @@
                                     </colgroup>
                                     <thead>
                                         <tr>
-                                            <th>구분</th>
-                                            <th>연락처</th>
+                                            <th scope="col">구분</th>
+                                            <th scope="col">연락처</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -194,8 +194,8 @@
                                     </colgroup>
                                     <thead>
                                         <tr>
-                                            <th>구분</th>
-                                            <th>연락처</th>
+                                            <th scope="col">구분</th>
+                                            <th scope="col">연락처</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -283,8 +283,8 @@
                                     </colgroup>
                                     <thead>
                                         <tr>
-                                            <th>구분</th>
-                                            <th>연락처</th>
+                                            <th scope="col">구분</th>
+                                            <th scope="col">연락처</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -383,8 +383,8 @@
                                             </colgroup>
                                             <thead>
                                                 <tr>
-                                                    <th>구분</th>
-                                                    <th>연락처</th>
+                                                    <th scope="col">구분</th>
+                                                    <th scope="col">연락처</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -476,8 +476,8 @@
                                             </colgroup>
                                             <thead>
                                                 <tr>
-                                                    <th>구분</th>
-                                                    <th>연락처</th>
+                                                    <th scope="col">구분</th>
+                                                    <th scope="col">연락처</th>
                                                 </tr>
                                             </thead>
                                             <tbody>

@@ -75,13 +75,13 @@
                     <li>
                         <a href="javascript:;">공사소개</a>
                         <ul>
-                            <li><a href="#">CEO 인사말</a></li>
-                            <li><a href="#">공사 CI</a></li>
-                            <li><a href="#">비전과 미션</a></li>
-                            <li><a href="#">일반현황</a></li>
-                            <li><a href="#">경영공시</a></li>
-                            <li><a href="#">조직 및 업무</a></li>
-                            <li><a href="#">찾아오시는길</a></li>
+                            <li><a href="/introduction/greeting.php">CEO 인사말</a></li>
+                            <li><a href="/introduction/ci.php">공사 CI</a></li>
+                            <li><a href="/introduction/vision.php">비전과 미션</a></li>
+                            <li><a href="/introduction/general_status.php">일반현황</a></li>
+                            <li><a href="/introduction/management.php">경영공시</a></li>
+                            <li><a href="/introduction/group.php">조직 및 업무</a></li>
+                            <li><a href="/introduction/location.php">찾아오시는길</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -89,13 +89,13 @@
             <div class="nav-foot">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="/parcelout/parcelout_list.php">
                             <div class="icon"></div>
                             <p>분양정보</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/business/housing.php">
                             <div class="icon"></div>
                             <p>사업현황</p>
                         </a>
@@ -128,9 +128,9 @@
             </div>
             <div class="footer">
                 <ul class="policy-list">
-                    <li><a href="#">개인정보취급방침</a></li>
-                    <li><a href="#">이메일 추출방지정책</a></li>
-                    <li><a href="#">찾아오시는길</a></li>
+                    <li><a href="/customer/privacy.php">개인정보취급방침</a></li>
+                    <li><a href="/customer/email_policy.php">이메일 추출방지정책</a></li>
+                    <li><a href="/introduction/location.php">찾아오시는길</a></li>
                     <li><a href="#">전체메뉴</a></li>
                 </ul>
                 <div class="information">

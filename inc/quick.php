@@ -10,7 +10,7 @@
             <div class="quick-body">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="/introduction/group.php">
                             <img src="/assets/images/ico_quick01.png" alt="조직도">
                             <p>조직도</p>
                         </a>
@@ -28,13 +28,13 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/customer/praise_list.php">
                             <img src="/assets/images/ico_quick04.png" alt="칭찬합시다">
                             <p>칭찬합시다</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/introduction/location.php">
                             <img src="/assets/images/ico_quick05.png" alt="찾아오시는 길">
                             <p>찾아오시는 길</p>
                         </a>

@@ -684,6 +684,24 @@
                         dd {
                             .table-responsive {
                                 margin-top: 20px;
+                                thead {
+                                    tr {
+                                        th {
+                                            &:last-child {
+                                                border-right: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                                tbody {
+                                    tr {
+                                        td {
+                                            &:last-child {
+                                                border-right: 0;
+                                            }
+                                        }
+                                    }
+                                }
                                 @media(min-width: $md) {
                                     margin-top: 30px;
                                 }

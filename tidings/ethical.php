@@ -28,7 +28,7 @@
                             <li class="active"><a href="/tidings/ethical.php">PUC 윤리경영</a></li>
                             <li><a href="/tidings/charter.php">윤리규범</a></li>
                             <li><a href="/tidings/clear.php">사이버감사실</a></li>
-                            <li><a href="/tidings/photo_list.php">사회공헌활동</a></li>
+                            <li><a href="/tidings/activity_list.php">사회공헌활동</a></li>
                             <li><a href="/tidings/human.php">인권경영</a></li>
                             <li><a href="/tidings/upright_list.php">PUC 청렴소식지</a></li>
                         </ul>
@@ -37,6 +37,63 @@
                 <figure>
                     <img src="/assets/images/tidings/img_ethical_xs.jpg" class="img-fluid d-lg-none" alt="윤리경영">
                     <img src="/assets/images/tidings/img_ethical_lg.jpg" class="img-fluid d-none d-lg-block" alt="윤리경영">
+                    <figcaption class="sr-only">
+                        <ol>
+                            <li>
+                                <h1>윤리경영</h1>
+                                <ul>
+                                    <li>
+                                        <h2>고객</h2>
+                                        <dl>
+                                            <dt>고객만족경영</dt>
+                                            <dd>
+                                                <ul>
+                                                    <li>고객의 권익보호</li>
+                                                    <li>앞선 생활문화구현</li>
+                                                </ul>
+                                            </dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h2>임직원</h2>
+                                        <dl>
+                                            <dt>임직원존중경영</dt>
+                                            <dd>
+                                                <ul>
+                                                    <li>유연하고 창의적인 기업문화 조성</li>
+                                                    <li>상호발전을 위한 책임완수</li>
+                                                </ul>
+                                            </dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h2>국가와 사회</h2>
+                                        <dl>
+                                            <dt>국가와 사회</dt>
+                                            <dd>
+                                                <ul>
+                                                    <li>사회질서 및 법규준수</li>
+                                                    <li>사회적 책임완수</li>
+                                                </ul>
+                                            </dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h2>협력회사</h2>
+                                        <dl>
+                                            <dt>협력회사</dt>
+                                            <dd>
+                                                <ul>
+                                                    <li>투명한 거래문화 정착</li>
+                                                    <li>합리적인 상호발전 추구</li>
+                                                </ul>
+                                            </dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </figcaption>
                 </figure>
             </div>
         </section>

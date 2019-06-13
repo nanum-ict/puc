@@ -59,11 +59,11 @@
                                                 </colgroup>
                                                 <thead>
                                                     <tr>
-                                                        <th>순번</th>
-                                                        <th>개인정보파일의 명칭</th>
-                                                        <th>운영근거 / 처리목적</th>
-                                                        <th>개인정보파일에 기록되는<br>개인정보의 항목</th>
-                                                        <th>보유기간</th>
+                                                        <th scope="col">순번</th>
+                                                        <th scope="col">개인정보파일의 명칭</th>
+                                                        <th scope="col">운영근거 / 처리목적</th>
+                                                        <th scope="col">개인정보파일에 기록되는<br>개인정보의 항목</th>
+                                                        <th scope="col">보유기간</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>

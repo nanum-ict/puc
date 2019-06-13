@@ -50,8 +50,8 @@
                             </colgroup>
                             <thead>
                                 <tr>
-                                    <th>구비서류</th>
-                                    <th>발급기관</th>
+                                    <th scope="col">구비서류</th>
+                                    <th scope="col">발급기관</th>
                                 </tr>
                             </thead>
                             <tbody>

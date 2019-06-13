@@ -12,6 +12,7 @@
         }
     }
     .promise {
+        margin-top: 30px;
         padding: 30px 20px;
         border-radius: 10px;
         border: 1px solid #ddd;
@@ -32,6 +33,7 @@
             }
         }
         @media(min-width: $md) {
+            margin-top: 40px;
             padding: 40px 30px;
             > li {
                 & ~ li {

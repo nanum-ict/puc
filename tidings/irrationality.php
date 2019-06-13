@@ -28,7 +28,7 @@
                             <li><a href="/tidings/ethical.php">PUC 윤리경영</a></li>
                             <li><a href="/tidings/charter.php">윤리규범</a></li>
                             <li class="active"><a href="/tidings/clear.php">사이버감사실</a></li>
-                            <li><a href="/tidings/photo_list.php">사회공헌활동</a></li>
+                            <li><a href="/tidings/activity_list.php">사회공헌활동</a></li>
                             <li><a href="/tidings/human.php">인권경영</a></li>
                             <li><a href="/tidings/upright_list.php">PUC 청렴소식지</a></li>
                         </ul>
@@ -67,7 +67,7 @@
                                 <table class="table write">
                                     <tbody>
                                         <tr>
-                                            <th class="indispensable">
+                                            <th scope="row" class="indispensable">
                                                 <label for="u-email">E-mail</label>
                                             </th>
                                             <td>
@@ -77,7 +77,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th class="indispensable">
+                                            <th scope="row" class="indispensable">
                                                 <label for="u-title">제목</label>
                                             </th>
                                             <td>
@@ -87,7 +87,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th class="indispensable">
+                                            <th scope="row" class="indispensable">
                                                 <label for="u-content">내용</label>
                                             </th>
                                             <td>
@@ -97,7 +97,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th>
+                                            <th scope="row">
                                                 <label for="u-attach">첨부파일</label>
                                             </th>
                                             <td>

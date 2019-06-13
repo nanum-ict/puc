@@ -38,6 +38,53 @@
                     <figure>
                         <img src="/assets/images/customer/img_claim_xs.png" class="img-fluid d-md-none" alt="정보공개 청구 절차">
                         <img src="/assets/images/customer/img_claim_md.png" class="d-none d-md-block" alt="정보공개 청구 절차">
+                        <figcaption class="sr-only">
+                            <ol>
+                                <li>
+                                    <dl>
+                                        <dt>1.청구인</dt>
+                                        <dd>
+                                            정보공개 청구서 제출
+                                            <p class="note">온라인 open.go.kr</p>
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>2.경영지원처</dt>
+                                        <dd>
+                                            <ul>
+                                                <li>정보공개 청구서 접수</li>
+                                                <li>처리부서 이송</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>3.처리부서</dt>
+                                        <dd>
+                                            공개 비공개 결정 통지 (10일이내, 10일 연장가능)
+                                            <dl class="note">
+                                                <dt>제3자 의견청취</dt>
+                                                <dd>
+                                                    <ul>
+                                                        <li>공개대상 정보가 제3자와 관련 있다고 인정되는 때에는 제3자 의견청취</li>
+                                                        <li>공개 청구된 정보중 다른 기관생산 정보는 당해기관 의견을 들어 공개여부를 결정</li>
+                                                    </ul>
+                                                </dd>
+                                            </dl>
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>4.청구인</dt>
+                                        <dd>이의신청 (공개통지를 받은날로부터 7일이내)</dd>
+                                    </dl>
+                                </li>
+                            </ol>
+                        </figcaption>
                     </figure>
                 </article>
             </div>

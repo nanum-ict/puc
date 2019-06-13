@@ -50,7 +50,7 @@
                                 <a class="nav-link" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">채용정보</a>
                             </li>
                         </ul>
-                        <a href="#" class="more" role="button">
+                        <a href="/tidings/notice_list.php" class="more" role="button">
                             <span class="sr-only">더보기</span>
                         </a>
                     </nav>
@@ -204,7 +204,7 @@
                         <div class="details">
                             <h4>공공분야 갑질피해 <br>신고하세요!!</h4>
                             <div class="btn-area">
-                                <a href="#" class="btn btn-white" role="button">신고ㆍ지원센터 바로가기</a>
+                                <a href="/tidings/overuse.php" class="btn btn-white" role="button">신고ㆍ지원센터 바로가기</a>
                             </div>
                         </div>
                     </li>
@@ -212,7 +212,7 @@
                         <div class="details">
                             <h4>공공분야 갑질피해 <br>신고하세요!!</h4>
                             <div class="btn-area">
-                                <a href="#" class="btn btn-white" role="button">신고ㆍ지원센터 바로가기</a>
+                                <a href="/tidings/overuse.php" class="btn btn-white" role="button">신고ㆍ지원센터 바로가기</a>
                             </div>
                         </div>
                     </li>
@@ -220,18 +220,18 @@
                         <div class="details">
                             <h4>공공분야 갑질피해 <br>신고하세요!!</h4>
                             <div class="btn-area">
-                                <a href="#" class="btn btn-white" role="button">신고ㆍ지원센터 바로가기</a>
+                                <a href="/tidings/overuse.php" class="btn btn-white" role="button">신고ㆍ지원센터 바로가기</a>
                             </div>
                         </div>
                     </li>
                 </ul>
             </article>
             <article class="community">
-                <a href="#" class="communication">
+                <a href="/customer/advice_write.php" class="communication">
                     <h3>시민 소통광장</h3>
                     <p>평택도시공사는 365일, 언제나 <br>시민 여러분과 소통하겠습니다.</p>
                 </a>
-                <a href="#" class="satisfaction-research">
+                <a href="/customer/advice_write.php" class="satisfaction-research">
                     <h3>고객 만족도 조사</h3>
                     <p>평택도시공사는 365일, <br>언제나 시민 여러분과 <br>소통하겠습니다.</p>
                 </a>
@@ -239,12 +239,12 @@
             <section class="news">
                 <div class="section-header">
                     <h3>NEWS</h3>
-                    <a href="#" class="more">
+                    <a href="/tidings/pr_list.php" class="more">
                         <span class="sr-only">더보기</span>
                     </a>
                 </div>
                 <div class="section-content">
-                    <a href="#">
+                    <a href="/tidings/pr_view.php">
                         <figure>
                             <img src="/assets/images/main/img_news.jpg" class="img-fluid" alt="뉴스">
                         </figure>

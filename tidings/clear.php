@@ -28,7 +28,7 @@
                             <li><a href="/tidings/ethical.php">PUC 윤리경영</a></li>
                             <li><a href="/tidings/charter.php">윤리규범</a></li>
                             <li class="active"><a href="/tidings/clear.php">사이버감사실</a></li>
-                            <li><a href="/tidings/photo_list.php">사회공헌활동</a></li>
+                            <li><a href="/tidings/activity_list.php">사회공헌활동</a></li>
                             <li><a href="/tidings/human.php">인권경영</a></li>
                             <li><a href="/tidings/upright_list.php">PUC 청렴소식지</a></li>
                         </ul>

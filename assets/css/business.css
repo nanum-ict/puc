@@ -779,6 +779,10 @@ a {
       margin: 0 5px; }
   .braincity article.outline > .square-list > li > dl dd .table-responsive {
     margin-top: 20px; }
+    .braincity article.outline > .square-list > li > dl dd .table-responsive thead tr th:last-child {
+      border-right: 0; }
+    .braincity article.outline > .square-list > li > dl dd .table-responsive tbody tr td:last-child {
+      border-right: 0; }
     @media (min-width: 992px) {
       .braincity article.outline > .square-list > li > dl dd .table-responsive {
         margin-top: 30px; } }
