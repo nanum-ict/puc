@@ -4,37 +4,44 @@
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     
-    <!-- Content -->
+    <!-- content -->
     <main id="content">
-        <div class="jumbotron">
-            <ul class="main-slider">
+        <section class="main-slider">
+            <ul>
                 <li class="first">
-                    <div class="details">
-                        <p>시민을 위한 친화기업<br><b>평택도시공사</b></p>
-                        <small>환경을 생각하고, 가치를 추구하는 <br>환경중심기관으로 <br>지역 성장의 밑거름이 되겠습니다.</small>
+                    <div class="slogan">
+                        <small><span>Ｐ</span>yeongtaek <span>U</span>rban <span>C</span>orporation</small>
+                        <h3>시민을 위한 친화기업 <strong>평택도시공사</strong></h3>
+                        <p>환경을 생각하고, 가치를 추구하는 환경중심기관으로 지역 성장의 밑거름이 되겠습니다.</p>
                     </div>
                 </li>
                 <li class="second">
-                    <div class="details">
-                        <p>시민을 위한 친화기업<br><b>평택도시공사</b></p>
-                        <small>환경을 생각하고, 가치를 추구하는 <br>환경중심기관으로 <br>지역 성장의 밑거름이 되겠습니다.</small>
+                    <div class="slogan">
+                        <small><span>Ｐ</span>yeongtaek <span>U</span>rban <span>C</span>orporation</small>
+                        <h3>시민을 위한 친화기업 <strong>평택도시공사</strong></h3>
+                        <p>환경을 생각하고, 가치를 추구하는 환경중심기관으로 지역 성장의 밑거름이 되겠습니다.</p>
                     </div>
                 </li>
                 <li class="third">
-                    <div class="details">
-                        <p>시민을 위한 친화기업<br><b>평택도시공사</b></p>
-                        <small>환경을 생각하고, 가치를 추구하는 <br>환경중심기관으로 <br>지역 성장의 밑거름이 되겠습니다.</small>
+                    <div class="slogan">
+                        <small><span>Ｐ</span>yeongtaek <span>U</span>rban <span>C</span>orporation</small>
+                        <h3>시민을 위한 친화기업 <strong>평택도시공사</strong></h3>
+                        <p>환경을 생각하고, 가치를 추구하는 환경중심기관으로 지역 성장의 밑거름이 되겠습니다.</p>
                     </div>
                 </li>
             </ul>
-        </div>
-        <div class="puc-content">
-            <section class="puc-news">
-                <div class="section-header">
-                    <h3>PUC 소식</h3>
-                    <p>평택도시공사의 다양한 분양, 입찰 소식을 확인할 수있습니다.</p>
-                </div>
-                <div class="section-content">
+        </section>
+        
+        <section class="content-wrap">
+            <article class="puc-news">
+                <h3>
+                    PUC 소식 
+                    <a href="/tidings/notice_list.php" class="more" role="button">
+                        <img src="/assets/images/main/ico_news_more.jpg" alt="">
+                        <span class="sr-only">PUC 소식 더보기</span>
+                    </a>
+                </h3>
+                <div class="article-content">
                     <nav class="board-tab">
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="nav-item">
@@ -50,9 +57,6 @@
                                 <a class="nav-link" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">채용정보</a>
                             </li>
                         </ul>
-                        <a href="/tidings/notice_list.php" class="more" role="button">
-                            <span class="sr-only">더보기</span>
-                        </a>
                     </nav>
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="tab-1" role="tabpanel">
@@ -197,29 +201,29 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <article class="banner">
-                <ul class="banner-slider">
+            </article>
+            <article class="banner-slider">
+                <ul>
                     <li class="first">
                         <div class="details">
-                            <h4>공공분야 갑질피해 <br>신고하세요!!</h4>
-                            <div class="btn-area">
+                            <div>
+                                <p>공공분야 갑질피해<br>신고하세요!!</p>
                                 <a href="/tidings/overuse.php" class="btn btn-white" role="button">신고ㆍ지원센터 바로가기</a>
                             </div>
                         </div>
                     </li>
                     <li class="second">
                         <div class="details">
-                            <h4>공공분야 갑질피해 <br>신고하세요!!</h4>
-                            <div class="btn-area">
+                            <div>
+                                <p>공공분야 갑질피해<br>신고하세요!!</p>
                                 <a href="/tidings/overuse.php" class="btn btn-white" role="button">신고ㆍ지원센터 바로가기</a>
                             </div>
                         </div>
                     </li>
                     <li class="third">
                         <div class="details">
-                            <h4>공공분야 갑질피해 <br>신고하세요!!</h4>
-                            <div class="btn-area">
+                            <div>
+                                <p>공공분야 갑질피해<br>신고하세요!!</p>
                                 <a href="/tidings/overuse.php" class="btn btn-white" role="button">신고ㆍ지원센터 바로가기</a>
                             </div>
                         </div>
@@ -229,35 +233,35 @@
             <article class="community">
                 <a href="/customer/advice_write.php" class="communication">
                     <h3>시민 소통광장</h3>
-                    <p>평택도시공사는 365일, 언제나 <br>시민 여러분과 소통하겠습니다.</p>
+                    <p>평택도시공사는 언제나<br>여러분과 소통하겠습니다. </p>
                 </a>
                 <a href="/customer/advice_write.php" class="satisfaction-research">
                     <h3>고객 만족도 조사</h3>
-                    <p>평택도시공사는 365일, <br>언제나 시민 여러분과 <br>소통하겠습니다.</p>
+                    <p>고객 만족도 평가에<br>참여해 주세요</p>
                 </a>
             </article>
-            <section class="news">
-                <div class="section-header">
-                    <h3>NEWS</h3>
-                    <a href="/tidings/pr_list.php" class="more">
-                        <span class="sr-only">더보기</span>
-                    </a>
-                </div>
-                <div class="section-content">
+            <article class="news">
+                <h3>
+                    NEWS 
+                    <a href="/tidings/pr_list.php" class="more"><img src="/assets/images/main/ico_news_more.png" alt="뉴스 더보기"></a>
+                </h3>
+                <div class="article-content">
                     <a href="/tidings/pr_view.php">
-                        <figure>
-                            <img src="/assets/images/main/img_news.jpg" class="img-fluid" alt="뉴스">
-                        </figure>
+                        <div class="item">
+                            <img src="/assets/images/main/img_news.jpg" alt="">
+                        </div>
                         <div class="details">
-                            <h4>평택도시공사, 설 명절 맞아 불우이웃돕기 모금전달</h4>
-                            <p>평택도시공사는 설 명절을 맞아 최근 평택도시공사는 설 명절을 맞아 최근 평택도시공사는 설 명절을 맞아 최근 평택도시공사는 설 명절을 맞아 최근</p>
-                            <span class="date">19.01.31</span>
+                            <h4>평택도시공사,홈페이지 개편</h4>
+                            <p>
+                                평택도시공사 홈페이지가 리뉴얼되었습니다. 더 스마트하고 편리해진 홈페이지를 이용 ..
+                            </p>
+                            <span>19.01.31</span>
                         </div>
                     </a>
                 </div>
-            </section>
-        </div>
-    </main>    
+            </article>
+        </section>
+    </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/quick.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
