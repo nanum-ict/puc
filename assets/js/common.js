@@ -16,7 +16,7 @@
 
     // 1200 nav class 제거
     $(window).on('load resize', function(){
-        if ($('#gnb').width() == 240) {
+        if ($('#header').width() == 240) {
             $('#gnb').addClass('responsive-gnb');
             $('body').removeClass('nav-opened');
             $('.nav-body > ul > li').removeClass('active');

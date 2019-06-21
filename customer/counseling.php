@@ -26,7 +26,7 @@
                                 </button>
                                 <div class="dropdown-menu">
                                     <a href="/customer/charter.php">고객서비스</a>
-                                    <a href="/customer/faqlist.php">자주 묻는 질문</a>
+                                    <a href="/customer/faq_list.php">자주 묻는 질문</a>
                                     <a href="/customer/advice_write.php">고객의 소리</a>
                                     <a href="/customer/praise_list.php">칭찬합시다</a>
                                     <a href="/customer/privacy.php">개인정보취급방법</a>

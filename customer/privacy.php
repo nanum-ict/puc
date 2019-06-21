@@ -26,7 +26,7 @@
                                 </button>
                                 <div class="dropdown-menu">
                                     <a href="/customer/charter.php">고객서비스</a>
-                                    <a href="/customer/faqlist.php">자주 묻는 질문</a>
+                                    <a href="/customer/faq_list.php">자주 묻는 질문</a>
                                     <a href="/customer/advice_write.php">고객의 소리</a>
                                     <a href="/customer/praise_list.php">칭찬합시다</a>
                                     <a href="/customer/privacy.php">개인정보취급방법</a>
@@ -227,7 +227,7 @@
                                                     &lt;전화 <a href="tel:0318053881">031-8053-881</a>1&gt;, &lt;이메일 <a href="mailto:ckshon@puc.or.kr">ckshon@puc.or.kr</a>&gt;, &lt;팩스 031-692-4337&gt;
                                                 </dd>
                                             </dl>
-                                            <br><br>
+                                            <br>
                                             <b><small>▶</small> 개인정보 보호 담당부서</b>
                                             <dl>
                                                 <dt>부서명</dt>
@@ -239,7 +239,7 @@
                                             </dl>
                                         </div>
                                     </li>
-                                    <li class="mt-0">
+                                    <li>
                                         정보주체께서는 평택도시공사의 서비스(또는 사업)을 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 보호채임자 및 담당부서로 문의하실 수 있습니다. 평택도시공사는 정보주체의 문의에 대해 지체없이 답변 및 처리해드릴 것입니다. 
                                     </li>
                                 </ol>

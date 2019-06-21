@@ -15,9 +15,9 @@ ul, ol {
 dl {
   margin-bottom: 0; }
   dl dt {
-    font-weight: 300; }
+    font-weight: 400; }
   dl dd {
-    font-weight: lighter;
+    font-weight: 300;
     margin-bottom: 0; }
 
 address {
@@ -424,7 +424,7 @@ a {
         display: inline-block;
         font-size: 14px;
         color: #333;
-        font-weight: 400;
+        font-weight: 300;
         margin-right: 10px;
         color: #787878;
         line-height: 24px; }
@@ -449,7 +449,7 @@ a {
         .section-header .page-path > .breadcrumb > li .depth-2 > .btn-secondary {
           font-size: 14px;
           color: #787878;
-          font-weight: 400;
+          font-weight: 300;
           line-height: 24px;
           vertical-align: top;
           background-color: #fff; }
@@ -478,7 +478,7 @@ a {
             display: block;
             font-size: 14px;
             color: #666;
-            font-weight: 400;
+            font-weight: 300;
             line-height: 18px;
             padding-left: 15px; }
             .section-header .page-path > .breadcrumb > li .depth-2 .dropdown-menu > a:before {
@@ -665,7 +665,7 @@ a {
                 color: #016ecd;
                 opacity: .8; }
             .nav-tab .dropdown-menu > ul > li.active > a {
-              font-weight: 500;
+              font-weight: 400;
               color: #333;
               border: 2px solid #016ecd !important;
               border-bottom: 0 !important; }
@@ -1039,10 +1039,10 @@ a {
         line-height: 44px; }
     .faq-list > ul > .item .answer .content {
       font-size: 16px;
-      padding: 18px 30px;
+      padding: 35px 30px 45px;
       padding-left: 125px; }
       .faq-list > ul > .item .answer .content:before {
-        top: 10px;
+        top: 26px;
         left: 30px;
         font-size: 26px;
         width: 44px;

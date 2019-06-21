@@ -15,9 +15,9 @@ ul, ol {
 dl {
   margin-bottom: 0; }
   dl dt {
-    font-weight: 300; }
+    font-weight: 400; }
   dl dd {
-    font-weight: lighter;
+    font-weight: 300;
     margin-bottom: 0; }
 
 address {
@@ -457,7 +457,7 @@ a {
         .housing article.implement .table-wrap .table thead tr th:nth-of-type(4) {
           display: table-cell; } }
   .housing article.implement .table-wrap .table tbody tr td {
-    font-weight: lighter;
+    font-weight: 300;
     vertical-align: middle; }
     .housing article.implement .table-wrap .table tbody tr td:first-child {
       font-weight: 300; }
@@ -809,7 +809,7 @@ a {
     .braincity article.implement > ol > li.space, .braincity article.plan > ol > li.space {
       height: 48px; } }
   .braincity article.implement > ol > li .attention, .braincity article.plan > ol > li .attention {
-    font-weight: lighter; }
+    font-weight: 300; }
 @media (min-width: 992px) {
   .braincity article ~ article {
     margin-top: 60px; } }

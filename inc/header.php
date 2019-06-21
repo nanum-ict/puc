@@ -11,7 +11,7 @@
         <span class="bar"></span>
         <span class="bar"></span>
     </button>
-    <nav id="gnb" class="responsive-gnb">
+    <nav id="gnb">
         <div class="backdrop"></div>
         <div class="nav-wrap">
             <h2 class="nav-logo">

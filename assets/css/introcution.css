@@ -14,9 +14,9 @@ ul, ol {
 dl {
   margin-bottom: 0; }
   dl dt {
-    font-weight: 300; }
+    font-weight: 400; }
   dl dd {
-    font-weight: lighter;
+    font-weight: 300;
     margin-bottom: 0; }
 
 address {
@@ -859,23 +859,10 @@ a {
         .tab-menu > ul > li > a:hover {
           opacity: .7;
           color: #fff;
-          background-color: #016ecd; }
+          background-color: #58626c; }
       .tab-menu > ul > li.active > a {
         color: #fff;
-        background-color: #016ecd; }
-        .tab-menu > ul > li.active > a:after {
-          position: absolute;
-          bottom: -1px;
-          left: 50%;
-          color: #fff;
-          content: '';
-          margin-left: -6px;
-          display: inline-block;
-          vertical-align: .255em;
-          border-top: 0;
-          border-right: 6px solid transparent;
-          border-bottom: 6px solid;
-          border-left: 6px solid transparent; }
+        background-color: #58626c; }
         .tab-menu > ul > li.active > a:hover {
           opacity: 1; }
       .tab-menu > ul > li.space > a {
@@ -883,9 +870,6 @@ a {
   @media (min-width: 768px) {
     .tab-menu {
       margin-top: 40px; } }
-  @media (min-width: 992px) {
-    .tab-menu {
-      max-width: 600px; } }
   @media (min-width: 1200px) {
     .tab-menu > ul > li > a {
       font-size: 16px; } }
@@ -920,9 +904,6 @@ a {
 .group figure img {
   display: block;
   margin: 0 auto; }
-@media (min-width: 992px) {
-  .group figure {
-    margin-top: 120px; } }
 .group .box {
   margin-top: 30px; }
   .group .box ul {

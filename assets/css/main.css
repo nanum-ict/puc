@@ -14,9 +14,9 @@ ul, ol {
 dl {
   margin-bottom: 0; }
   dl dt {
-    font-weight: 300; }
+    font-weight: 400; }
   dl dd {
-    font-weight: lighter;
+    font-weight: 300;
     margin-bottom: 0; }
 
 address {
