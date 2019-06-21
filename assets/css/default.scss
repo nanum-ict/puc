@@ -267,6 +267,7 @@ body {
             display: none;
         }
         .nav-wrap {
+            overflow: hidden;
             width: 100%;
             padding-bottom: 0;
             background-color: #fff;
@@ -477,7 +478,6 @@ body {
         display: none !important;
     }
 }
-
 
 .nav-opened {
     overflow: hidden;
@@ -773,6 +773,13 @@ body {
                         span {
                             color: $kcolor;
                         }
+                    }
+                }
+            }
+            &.qr-code {
+                > a {
+                    img {
+                        width: 48px;
                     }
                 }
             }

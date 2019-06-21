@@ -392,14 +392,15 @@ a {
           padding-left: 15px;
           padding-right: 15px; } }
 
-.charter .box {
+.charter .box .content {
   padding: 133px 20px 20px;
   background-image: url(/assets/images/customer/bg_logo.jpg); }
-  .charter .box strong {
+  .charter .box .content strong {
     color: #016ecd; }
   @media (min-width: 768px) {
-    .charter .box {
-      padding: 35px 40px 35px 173px; } }
+    .charter .box .content {
+      padding: 35px 40px 35px 140px;
+      background-position: 20px 50%; } }
 .charter .promise {
   margin-top: 30px;
   padding: 30px 20px;
@@ -536,9 +537,11 @@ a {
   font-size: 18px;
   color: #333;
   margin-bottom: 20px; }
-.fulfill-standard article .box.gray {
+.fulfill-standard article .box .content {
   text-align: left;
-  padding: 20px; }
+  padding: 20px;
+  background: none;
+  background-color: #fff; }
 .fulfill-standard article .box .white-dot > li {
   position: relative;
   font-size: 16px;
@@ -590,8 +593,6 @@ a {
   display: block;
   border-top: 1px solid #ddd; }
 @media (min-width: 768px) {
-  .fulfill-standard article .box.gray {
-    padding: 35px 40px; }
   .fulfill-standard article .decimal-list {
     margin-top: 30px; }
   .fulfill-standard article hr {
@@ -865,13 +866,13 @@ a {
         width: 180px;
         line-height: 45px; } }
 
-.privacy article > .article-header .box {
+.privacy article > .article-header .box .content {
   padding: 133px 20px 20px;
   background-image: url(/assets/images/customer/bg_logo.jpg); }
-  .privacy article > .article-header .box strong {
+  .privacy article > .article-header .box .content strong {
     color: #016ecd; }
   @media (min-width: 768px) {
-    .privacy article > .article-header .box {
+    .privacy article > .article-header .box .content {
       padding: 35px 40px 35px 173px; } }
 .privacy article > .article-header > strong {
   display: block;
@@ -1119,9 +1120,6 @@ a {
         width: 180px;
         line-height: 45px; } }
 
-@media (min-width: 1200px) {
-  .outline, .claim, .nondisclosure, .procedure {
-    min-height: 1300px; } }
 .outline article .sub-title ~ .sub-title, .claim article .sub-title ~ .sub-title, .nondisclosure article .sub-title ~ .sub-title, .procedure article .sub-title ~ .sub-title {
   margin-top: 30px; }
   @media (min-width: 992px) {

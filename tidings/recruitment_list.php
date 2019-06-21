@@ -9,19 +9,43 @@
     <main id="content" class="sub tidings"> <!-- 폴더별 class -->
         <section class="sub-content common-list recruitment-list"> <!-- 페이지명 class -->
             <div class="section-header">
+                <h3 class="depth-title">PUC 소식</h3>
+                <h4 class="title">채용정보</h4>
                 <div class="page-path">
-                    <h3>PUC소식</h3>
                     <ol class="breadcrumb">
-                        <li>PUC소식</li>
-                        <li>채용정보</li>
+                        <li>
+                            <a href="/">
+                                <i class="icon-home"><span class="sr-only">메인으로 이동</span></i>
+                            </a>
+                        </li>
+                        <li>PUC 소식</li>
+                        <li>
+                            <div class="depth-2">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    채용정보
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a href="/tidings/notice_list.php">공지사항</a>
+                                    <a href="/tidings/pr_list.php">보도자료</a>
+                                    <a href="/tidings/bid_list.php">입찰정보</a>
+                                    <a href="/tidings/recruitment_list.php">채용정보</a>
+                                    <a href="/tidings/order_list.php">발주계획</a>
+                                    <a href="/tidings/estimate_list.php">수의계약 견적제출</a>
+                                    <a href="/tidings/breakdown_list.php">수의계약 내역공개</a>
+                                    <a href="/tidings/bc_noticelist.php">브레인시티 공지사항</a>
+                                    <a href="/tidings/ethical.php">윤리경영</a>
+                                </div>
+                            </div>
+                        </li>
                     </ol>
                 </div>
-                <h4 class="title">채용정보</h4>
             </div>
             <div class="section-content">
                 <div class="box">
-                    <strong>평택의 미래를 함께할 인재를 찾습니다.</strong>
-                    <p>새로운 비전으로 뭉쳐진 인재들과 함께 평택의 미래를 설계하는 평택도시공사가 되겠습니다.</p>
+                    <div class="content">
+                        <strong>평택의 미래를 함께할 인재를 찾습니다.</strong>
+                        <p>새로운 비전으로 뭉쳐진 인재들과 함께 평택의 미래를 설계하는 평택도시공사가 되겠습니다.</p>
+                    </div>
                 </div>
                 <div class="search-form">
                     <form action="#">
@@ -146,7 +170,7 @@
                 </nav>
             </div>
         </section>
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side_quick.php'); ?>
+        
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/quick.php'); ?>

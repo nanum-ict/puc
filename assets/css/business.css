@@ -392,7 +392,7 @@ a {
           padding-left: 15px;
           padding-right: 15px; } }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .housing .nav-tab .dropdown-menu > ul > li > a {
     color: #fff !important;
     width: 400px;
@@ -709,7 +709,7 @@ a {
   .substitute.parking-lot article.exempt .decimal-list.type-2 > li {
     margin-top: 0 !important; }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .yellowsea .nav-tab .dropdown-menu > ul > li > a {
     color: #fff !important;
     width: 400px;

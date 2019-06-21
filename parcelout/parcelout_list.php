@@ -9,19 +9,37 @@
     <main id="content" class="sub parcelout"> <!-- 폴더별 class -->
         <section class="sub-content common-list parcelout-list"> <!-- 페이지명 class -->
             <div class="section-header">
+                <h3 class="depth-title">분양안내</h3>
+                <h4 class="title">용지분양</h4>
                 <div class="page-path">
-                    <h3>분양안내</h3>
                     <ol class="breadcrumb">
+                        <li>
+                            <a href="/">
+                                <i class="icon-home"><span class="sr-only">메인으로 이동</span></i>
+                            </a>
+                        </li>
                         <li>분양안내</li>
-                        <li>용지분양</li>
+                        <li>
+                            <div class="depth-2">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    용지분양
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a href="/parcelout/parcelout_list.php">용지분양</a>
+                                    <a href="/parcelout/ownership.php">세금안내 및 기타</a>
+                                    <a href="/parcelout/examination_list.php">보상</a>
+                                </div>
+                            </div>
+                        </li>
                     </ol>
                 </div>
-                <h4 class="title">용지분양</h4>
             </div>
             <div class="section-content">
                 <div class="box">
-                    <strong>용지분양공고</strong>
-                    <p>평택도시공사에서 추진하는 용지분양공고 자료입니다.</p>
+                    <div class="content">
+                        <strong>용지분양공고</strong>
+                        <p>평택도시공사에서 추진하는 용지분양공고 자료입니다.</p>
+                    </div>
                 </div>
                 <div class="search-form">
                     <form action="#">
@@ -178,7 +196,7 @@
             </div>
         </section>
         
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side_quick.php'); ?>
+        
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/quick.php'); ?>

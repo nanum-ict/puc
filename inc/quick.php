@@ -37,7 +37,7 @@
                 <p>콜센터<span>031)692-4337</span></p>
             </a>
         </li>
-        <li>
+        <li class="qr-code">
             <a href="#">
                 <img src="/assets/images/img_qrcode.jpg" alt="사이버감사실 QR코드">
                 <p>사이버감사실</p>

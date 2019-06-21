@@ -35,7 +35,9 @@
                     </div>
                 </nav>
                 <div class="box">
-                    <p>우리공사는 지역 사회의 한 일원으로서, 사회공헌활동을 몸소 실천하고 있습니다.</p>
+                    <div class="content">
+                        <p>우리공사는 지역 사회의 한 일원으로서, 사회공헌활동을 몸소 실천하고 있습니다.</p>
+                    </div>
                 </div>
                 
                 <div class="board-view">
@@ -96,7 +98,7 @@
                 
             </div>
         </section>
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side_quick.php'); ?>
+        
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/quick.php'); ?>

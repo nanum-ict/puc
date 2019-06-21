@@ -157,12 +157,6 @@
             margin: 0 auto;
         }
     }
-    @media(min-width: $lg) {
-        min-height: 1300px;
-        figure {
-            margin-top: 180px;
-        }
-    }
 }
 
 .tab-menu {
@@ -193,27 +187,13 @@
                 &:hover {
                     opacity: .7;
                     color: #fff;
-                    background-color: $kcolor;
+                    background-color: #58626c;
                 }
             }
             &.active {
                 > a {
                     color: #fff;
-                    background-color: $kcolor;
-                    &:after {
-                        position: absolute;
-                        bottom: -1px;
-                        left: 50%;
-                        color: #fff;
-                        content: '';
-                        margin-left: -6px;
-                        display: inline-block;
-                        vertical-align: .255em;
-                        border-top: 0;
-                        border-right: 6px solid transparent;
-                        border-bottom: 6px solid;
-                        border-left: 6px solid transparent;
-                    }
+                    background-color: #58626c;
                     &:hover {
                         opacity: 1;
                     }
@@ -333,11 +313,6 @@
                     }
                 }
             }
-        }
-    }
-    @media(min-width: $md) {
-        .tab-menu {
-            width: 600px;
         }
     }
 }
@@ -684,11 +659,6 @@
             .btn-area {
                 margin-top: 60px;
             }
-        }
-    }
-    @media(min-width: $lg) {
-        .tab-menu {
-            margin-bottom: 100px;
         }
     }
 }

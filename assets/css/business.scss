@@ -6,7 +6,7 @@
             > ul {
                 > li {
                     > a {
-                        @media(min-width: 1400px) {
+                        @media(min-width: $lg) {
                             color: #fff !important;
                             width: 400px;
                             border-bottom: 2px solid $kcolor;
@@ -571,7 +571,7 @@
             > ul {
                 > li {
                     > a {
-                        @media(min-width: 1400px) {
+                        @media(min-width: $lg) {
                             color: #fff !important;
                             width: 400px;
                             border-bottom: 2px solid $kcolor;

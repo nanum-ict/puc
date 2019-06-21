@@ -9,14 +9,32 @@
     <main id="content" class="sub business"> <!-- 폴더별 class -->
         <section class="sub-content substitute parking-lot"> <!-- 페이지명 class -->
             <div class="section-header">
+                <h3 class="depth-title">사업안내</h3>
+                <h4 class="title">대행사업</h4>
                 <div class="page-path">
-                    <h3>사업안내</h3>
                     <ol class="breadcrumb">
+                        <li>
+                            <a href="/">
+                                <i class="icon-home"><span class="sr-only">메인으로 이동</span></i>
+                            </a>
+                        </li>
                         <li>사업안내</li>
-                        <li>대행사업</li>
+                        <li>
+                            <div class="depth-2">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    위수탁사업
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a href="/business/housing.php">택지개발사업</a>
+                                    <a href="/business/jinwi02.php">산업단지조성사업</a>
+                                    <a href="/business/moving_support.php">위수탁사업</a>
+                                    <a href="/business/yellowsea.php">황해경제자유구역 개발사업</a>
+                                    <a href="/business/braincity.php">브레인시티 일반산업단지 조성사업</a>
+                                </div>
+                            </div>
+                        </li>
                     </ol>
                 </div>
-                <h4 class="title">대행사업</h4>
             </div>
             <div class="section-content">
                 <nav class="dropdown nav-tab">
@@ -209,7 +227,6 @@
                 </article>
             </div>
         </section>
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side_quick.php'); ?>
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/quick.php'); ?>

@@ -456,31 +456,35 @@
 
 .request-write {
     .box {
-        > .btn-area {
-            margin-top: 20px;
-            text-align: center;
-            .btn-default {
-                width: 180px;
-                line-height: 38px;
-                font-size: 16px;
-                display: inline-block;
-                color: #fff;
-                background-color: #f8b500;
-                @include transition();
-                &:hover {
-                    opacity: .7;
+        .content {
+            > .btn-area {
+                margin-top: 20px;
+                text-align: center;
+                .btn-default {
+                    width: 180px;
+                    line-height: 38px;
+                    font-size: 16px;
+                    display: inline-block;
+                    color: #fff;
+                    background-color: #f8b500;
+                    @include transition();
+                    &:hover {
+                        opacity: .7;
+                    }
                 }
             }
         }
         @media(min-width: $sm) {
-            position: relative;
-            padding-right: 220px;
-            .btn-area {
-                position: absolute;
-                top: 50%;
-                right: 40px;
-                line-height: 45px;
-                margin-top: -23px;
+            .content {
+                position: relative;
+                padding-right: 220px;
+                .btn-area {
+                    position: absolute;
+                    top: 50%;
+                    right: 40px;
+                    line-height: 45px;
+                    margin-top: -23px;
+                }
             }
         }
     }
@@ -605,7 +609,7 @@
                                 .form-group {
                                     .form-control {
                                         &.addr {
-                                            width: 370px;
+                                            width: 310px;
                                         }
                                     }
                                 }

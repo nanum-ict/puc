@@ -634,10 +634,10 @@ a {
   .faqlist .faq-list {
     margin-top: 40px; } }
 
-.request-write .box > .btn-area {
+.request-write .box .content > .btn-area {
   margin-top: 20px;
   text-align: center; }
-  .request-write .box > .btn-area .btn-default {
+  .request-write .box .content > .btn-area .btn-default {
     width: 180px;
     line-height: 38px;
     font-size: 16px;
@@ -652,13 +652,13 @@ a {
     transition-timing-function: linear;
     -webkit-transition-delay: 0s;
     transition-delay: 0s; }
-    .request-write .box > .btn-area .btn-default:hover {
+    .request-write .box .content > .btn-area .btn-default:hover {
       opacity: .7; }
 @media (min-width: 768px) {
-  .request-write .box {
+  .request-write .box .content {
     position: relative;
     padding-right: 220px; }
-    .request-write .box .btn-area {
+    .request-write .box .content .btn-area {
       position: absolute;
       top: 50%;
       right: 40px;
@@ -723,7 +723,7 @@ a {
       width: 200px; } }
   @media (min-width: 992px) {
     .request-write .write-form .table-wrap tbody tr td.apply .form-group .form-control.addr, .request-write .write-form .table-wrap tbody tr td.contact .form-group .form-control.addr {
-      width: 370px; } }
+      width: 310px; } }
   @media (min-width: 1400px) {
     .request-write .write-form .table-wrap tbody tr td.apply .form-group {
       position: relative;

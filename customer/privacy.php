@@ -9,21 +9,46 @@
     <main id="content" class="sub customer"> <!-- 폴더별 class -->
         <section class="sub-content privacy"> <!-- 페이지명 class -->
             <div class="section-header">
+                <h3 class="depth-title">고객광장</h3>
+                <h4 class="title">개인정보취급방법</h4>
                 <div class="page-path">
-                    <h3>고객광장</h3>
                     <ol class="breadcrumb">
+                        <li>
+                            <a href="/">
+                                <i class="icon-home"><span class="sr-only">메인으로 이동</span></i>
+                            </a>
+                        </li>
                         <li>고객광장</li>
-                        <li>개인정보취급방법</li>
+                        <li>
+                            <div class="depth-2">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    개인정보취급방법
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a href="/customer/charter.php">고객서비스</a>
+                                    <a href="/customer/faqlist.php">자주 묻는 질문</a>
+                                    <a href="/customer/advice_write.php">고객의 소리</a>
+                                    <a href="/customer/praise_list.php">칭찬합시다</a>
+                                    <a href="/customer/privacy.php">개인정보취급방법</a>
+                                    <a href="/customer/email_policy.php">이메일 추출방지정책</a>
+                                    <a href="/customer/bc_faqlist.php">브레인시티 자주 묻는 질문</a>
+                                    <a href="/customer/counseling.php">브레인시티 온라인 상담</a>
+                                    <a href="/customer/outline.php">정보공개</a>
+                                    <a href="/customer/sinmungo.php">안전신문고</a>
+                                </div>
+                            </div>
+                        </li>
                     </ol>
                 </div>
-                <h4 class="title">개인정보취급방법</h4>
             </div>
             <div class="section-content">
                 <article>
                     <div class="article-header">
                         <div class="box">
-                            <strong>평택도시공사 개인정보 처리방침</strong>
-                            <p>평택도시공사는 개인정보보호법 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립/공개합니다.</p>
+                            <div class="content">
+                                <strong>평택도시공사 개인정보 처리방침</strong>
+                                <p>평택도시공사는 개인정보보호법 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립/공개합니다.</p>
+                            </div>
                         </div>
                         <strong>평택도시공사 개인정보 처리방침</strong>
                         <p>평택도시공사는 개인정보보호법 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립/공개합니다.</p>
@@ -303,7 +328,7 @@
             </div>
         </section>
         
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side_quick.php'); ?>
+        
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/quick.php'); ?>

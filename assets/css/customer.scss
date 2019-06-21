@@ -2,13 +2,16 @@
 
 .charter {
     .box {
-        padding: 133px 20px 20px;
-        background-image: url(/assets/images/customer/bg_logo.jpg);
-        strong {
-            color: $kcolor;
-        }
-        @media(min-width: $sm) {
-            padding: 35px 40px 35px 173px;
+        .content {
+            padding: 133px 20px 20px;
+            background-image: url(/assets/images/customer/bg_logo.jpg);
+            strong {
+                color: $kcolor;
+            }
+            @media(min-width: $sm) {
+                padding: 35px 40px 35px 140px;
+                background-position: 20px 50%;
+            }
         }
     }
     .promise {
@@ -251,9 +254,11 @@
             margin-bottom: 20px;
         }
         .box {
-            &.gray {
+            .content {
                 text-align: left;
                 padding: 20px;
+                background: none;
+                background-color: #fff;
             }
             .white-dot {
                 > li {
@@ -333,11 +338,6 @@
     }
     @media(min-width: $sm) {
         article {
-            .box {
-                &.gray {
-                    padding: 35px 40px;
-                }
-            }
             .decimal-list {
                 margin-top: 30px;
             }
@@ -795,13 +795,15 @@
     article {
         > .article-header {
             .box {
-                padding: 133px 20px 20px;
-                background-image: url(/assets/images/customer/bg_logo.jpg);
-                strong {
-                    color: $kcolor;
-                }
-                @media(min-width: $sm) {
-                    padding: 35px 40px 35px 173px;
+                .content {
+                    padding: 133px 20px 20px;
+                    background-image: url(/assets/images/customer/bg_logo.jpg);
+                    strong {
+                        color: $kcolor;
+                    }
+                    @media(min-width: $sm) {
+                        padding: 35px 40px 35px 173px;
+                    }
                 }
             }
             > strong {
@@ -1153,9 +1155,6 @@
 }
 
 .outline, .claim, .nondisclosure, .procedure {
-    @media(min-width: $lg) {
-        min-height: 1300px;
-    }
     article {
         .sub-title {
             & ~ .sub-title {

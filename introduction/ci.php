@@ -9,32 +9,36 @@
     <main id="content" class="sub introcution"> <!-- 폴더별 class -->
         <section class="sub-content ci"> <!-- 페이지명 class -->
             <div class="section-header">
+                <h3 class="depth-title">공사소개</h3>
+                <h4 class="title">공사 CI</h4>
                 <div class="page-path">
-                    <h3>공사소개</h3>
                     <ol class="breadcrumb">
+                        <li>
+                            <a href="/">
+                                <i class="icon-home"><span class="sr-only">메인으로 이동</span></i>
+                            </a>
+                        </li>
                         <li>공사소개</li>
-                        <li>공사 CI</li>
+                        <li>
+                            <div class="depth-2">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    공사 CI
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a href="/introduction/greeting.php">CEO 인사말</a>
+                                    <a href="/introduction/ci.php">공사 CI</a>
+                                    <a href="/introduction/vision.php">비전과 미션</a>
+                                    <a href="/introduction/general_status.php">일반현황</a>
+                                    <a href="/introduction/management.php">경영공시</a>
+                                    <a href="/introduction/group.php">조직 및 업무</a>
+                                    <a href="/introduction/location.php">찾아오시는 길</a>
+                                </div>
+                            </div>
+                        </li>
                     </ol>
                 </div>
-                <h4 class="title">공사 CI</h4>
             </div>
             <div class="section-content">
-                <nav class="dropdown nav-tab">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="nav-tab" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        공사 CI
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="nav-tab">
-                        <ul>
-                            <li><a href="/introduction/greeting.php">CEO인사말</a></li>
-                            <li class="active"><a href="/introduction/ci.php">공사 CI</a></li>
-                            <li><a href="/introduction/vision.php">비전과 미션</a></li>
-                            <li><a href="/introduction/general_status.php">일반현황</a></li>
-                            <li><a href="/introduction/management.php">경영공시</a></li>
-                            <li><a href="/introduction/group.php">조직 및 업무</a></li>
-                            <li><a href="/introduction/location.php">찾아오시는 길</a></li>
-                        </ul>
-                    </div>
-                </nav>
                 <article class="symbol">
                     <h5 class="sub-title">심볼</h5>
                     <p>평택도시공사의 심볼마크는 평택도시공사 영문 대표글자 "P"를 붉은하늘과 푸른바다의 역동적인 모습으로 형상화하여 "환경친화기업", "고객을 위해 언제나 편안하고 친숙한 기업", "항상 열정으로 최선을 다하는 기업" 이미지를 상징화하였다.</p>
@@ -133,7 +137,7 @@
                 </div>
             </div>
         </section>
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side_quick.php'); ?>
+        
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/quick.php'); ?>

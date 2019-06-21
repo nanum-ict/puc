@@ -5,19 +5,37 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     
     <!-- Content -->
-    <main id="content" class="sub "> <!-- 폴더별 class -->
+    <main id="content" class="sub"> <!-- 폴더별 class -->
         <section class="sub-content "> <!-- 페이지명 class -->
             <div class="section-header">
-                <div class="page-path">
-                    <h3>사업안내</h3>
-                    <ol class="breadcrumb">
-                        <li>사업안내</li>
-                        <li>택지개발사업</li>
-                    </ol>
-                </div>
+                <h3 class="depth-title">사업안내</h3>
                 <h4 class="title">택지개발사업</h4>
                 <p class="summary">평택도시공사의 다양한 분양, 입찰 소식을 확인 할 수 있습니다.</p>
+                <div class="page-path">
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="/">
+                                <i class="icon-home"><span class="sr-only">메인으로 이동</span></i>
+                            </a>
+                        </li>
+                        <li>사업안내</li>
+                        <li>
+                            <div class="depth-2">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    택지개발사업
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a href="#">menu1</a>
+                                    <a href="#">menu1</a>
+                                    <a href="#">menu1</a>
+                                    <a href="#">menu1</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
             </div>
+            
             <div class="section-content">
                 <nav class="dropdown nav-tab">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="nav-tab" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -314,10 +332,12 @@
                 <br><br>
                 <!-- box-content style color gray -->
                 <div class="box">
-                    내용<br>
-                    내용<br>
-                    내용<br>
-                    내용
+                    <div class="content">
+                        내용<br>
+                        내용<br>
+                        내용<br>
+                        내용
+                    </div>
                 </div>
                 
                 <br><br>
@@ -349,12 +369,10 @@
             </div>
         </section>
         
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side_quick.php'); ?>
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/quick.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
-    <script src="/assets/js/sub.js"></script>
 </body>
 </html>

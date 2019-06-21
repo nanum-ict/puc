@@ -9,14 +9,37 @@
     <main id="content" class="sub customer"> <!-- 폴더별 class -->
         <section class="sub-content fulfill-standard"> <!-- 페이지명 class -->
             <div class="section-header">
+                <h3 class="depth-title">고객광장</h3>
+                <h4 class="title">고객서비스</h4>
                 <div class="page-path">
-                    <h3>고객광장</h3>
                     <ol class="breadcrumb">
+                        <li>
+                            <a href="/">
+                                <i class="icon-home"><span class="sr-only">메인으로 이동</span></i>
+                            </a>
+                        </li>
                         <li>고객광장</li>
-                        <li>고객서비스</li>
+                        <li>
+                            <div class="depth-2">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    고객서비스
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a href="/customer/charter.php">고객서비스</a>
+                                    <a href="/customer/faqlist.php">자주 묻는 질문</a>
+                                    <a href="/customer/advice_write.php">고객의 소리</a>
+                                    <a href="/customer/praise_list.php">칭찬합시다</a>
+                                    <a href="/customer/privacy.php">개인정보취급방법</a>
+                                    <a href="/customer/email_policy.php">이메일 추출방지정책</a>
+                                    <a href="/customer/bc_faqlist.php">브레인시티 자주 묻는 질문</a>
+                                    <a href="/customer/counseling.php">브레인시티 온라인 상담</a>
+                                    <a href="/customer/outline.php">정보공개</a>
+                                    <a href="/customer/sinmungo.php">안전신문고</a>
+                                </div>
+                            </div>
+                        </li>
                     </ol>
                 </div>
-                <h4 class="title">고객서비스</h4>
             </div>
             <div class="section-content">
                 <nav class="dropdown nav-tab">
@@ -35,16 +58,18 @@
                 <article>
                     <h5 class="sub-title">서비스 이행표준</h5>
                     <strong>고객을 맞이하는 자세</strong>
-                    <div class="box gray">
-                        <ul class="white-dot">
-                            <li>인사와 함께 소속과 이름을 밝히고, 친절한 자세와 존중하는 마음으로 대하겠습니다.</li>
-                            <li>관계부서와의 협조 등에 따른 모든 절차를 담당직원이 직접 행하도록 하겠습니다.</li>
-                            <li>담당직원이 부재중일 경우 타 직원이 대신하여 성실히 응대하겠습니다.</li>
-                            <li>명확하고 상세하며, 이해하기 쉽게 응대하겠습니다.</li>
-                            <li>민원처리기한은 최소 7일로 하되, 최대한 신속하게 처리하겠습니다.</li>
-                            <li>민원 성격상 8일 이상이 소요되는 사안의 경우, 처리진행상황을 통보하겠습니다.</li>
-                            <li>기한 내에 민원처리가 곤란하여 연장할 때에는 그 사유와 처리예정일을 지체없이 통보하겠습니다.</li>
-                        </ul>
+                    <div class="box">
+                        <div class="content">
+                            <ul class="white-dot">
+                                <li>인사와 함께 소속과 이름을 밝히고, 친절한 자세와 존중하는 마음으로 대하겠습니다.</li>
+                                <li>관계부서와의 협조 등에 따른 모든 절차를 담당직원이 직접 행하도록 하겠습니다.</li>
+                                <li>담당직원이 부재중일 경우 타 직원이 대신하여 성실히 응대하겠습니다.</li>
+                                <li>명확하고 상세하며, 이해하기 쉽게 응대하겠습니다.</li>
+                                <li>민원처리기한은 최소 7일로 하되, 최대한 신속하게 처리하겠습니다.</li>
+                                <li>민원 성격상 8일 이상이 소요되는 사안의 경우, 처리진행상황을 통보하겠습니다.</li>
+                                <li>기한 내에 민원처리가 곤란하여 연장할 때에는 그 사유와 처리예정일을 지체없이 통보하겠습니다.</li>
+                            </ul>
+                        </div>
                     </div>
                     <ol class="decimal-list type-1">
                         <li>
@@ -73,15 +98,17 @@
                     </ol>
                     <hr>
                     <strong>고객참여 및 의견제시</strong>
-                    <div class="box gray">
-                        <ul class="white-dot">
-                            <li>고객은 신문, 인터넷 등과 같은 매체를 통하여 우리공사가 제공하는 다양한 정보를 제공받을 수 있습니다.</li>
-                            <li>업무성격에 따라 중요한 정책을 결정할 때에는 공청회, 설명회 등 의견수렴 절차를 거치겠습니다.</li>
-                            <li>서비스에 대한 자문과 의견은 정책수립 및 추진과정에서 최대한 반영하도록 하겠습니다.</li>
-                            <li>정책 및 규정상 중대한 변화가 있는 경우 적절한 매체를 통해 이를 일반에 공개하겠습니다.</li>
-                            <li>홈페이지 등 주요장소에 「고객의 소리함」을 설치하여, 신속하게 확인하고 처리하겠습니다.</li>
-                            <li>민원과 개선사항은 모든 고객 및 직원이 알 수 있도록 온라인·오프라인으로 공개하겠습니다.</li>
-                        </ul>
+                    <div class="box">
+                        <div class="content">
+                            <ul class="white-dot">
+                                <li>고객은 신문, 인터넷 등과 같은 매체를 통하여 우리공사가 제공하는 다양한 정보를 제공받을 수 있습니다.</li>
+                                <li>업무성격에 따라 중요한 정책을 결정할 때에는 공청회, 설명회 등 의견수렴 절차를 거치겠습니다.</li>
+                                <li>서비스에 대한 자문과 의견은 정책수립 및 추진과정에서 최대한 반영하도록 하겠습니다.</li>
+                                <li>정책 및 규정상 중대한 변화가 있는 경우 적절한 매체를 통해 이를 일반에 공개하겠습니다.</li>
+                                <li>홈페이지 등 주요장소에 「고객의 소리함」을 설치하여, 신속하게 확인하고 처리하겠습니다.</li>
+                                <li>민원과 개선사항은 모든 고객 및 직원이 알 수 있도록 온라인·오프라인으로 공개하겠습니다.</li>
+                            </ul>
+                        </div>
                     </div>
                     <ul class="dot-list">
                         <li>
@@ -108,14 +135,16 @@
                     </ul>
                     <hr>
                     <strong>잘못된 서비스에 대한 시정 및 보상조치</strong>
-                    <div class="box gray">
-                        <ul class="white-dot">
-                            <li>잘못된 서비스에 대한 의견이나 조언은 접수 즉시 조사에 착수하겠습니다.</li>
-                            <li>신고사항에 대한 접수 결과는 3일 이내에 통보하겠습니다.</li>
-                            <li>신고사항은 접수된 날로부터 7일 이내에 시정하고 통보하겠습니다.</li>
-                            <li>8일 이상이 소요되는 신고 사안의 경우, 처리진행상황을 통보하겠습니다.</li>
-                            <li>신고한 고객의 신상은 비밀을 보장하겠습니다.</li>
-                        </ul>
+                    <div class="box">
+                        <div class="content">
+                            <ul class="white-dot">
+                                <li>잘못된 서비스에 대한 의견이나 조언은 접수 즉시 조사에 착수하겠습니다.</li>
+                                <li>신고사항에 대한 접수 결과는 3일 이내에 통보하겠습니다.</li>
+                                <li>신고사항은 접수된 날로부터 7일 이내에 시정하고 통보하겠습니다.</li>
+                                <li>8일 이상이 소요되는 신고 사안의 경우, 처리진행상황을 통보하겠습니다.</li>
+                                <li>신고한 고객의 신상은 비밀을 보장하겠습니다.</li>
+                            </ul>
+                        </div>
                     </div>
                     <ol class="decimal-list type-1">
                         <li>
@@ -149,7 +178,7 @@
             </div>
         </section>
         
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side_quick.php'); ?>
+        
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/quick.php'); ?>

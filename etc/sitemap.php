@@ -9,27 +9,31 @@
     <main id="content" class="sub etc"> <!-- 폴더별 class -->
         <section class="sub-content sitemap"> <!-- 페이지명 class -->
             <div class="section-header">
+                <h3 class="depth-title">이용안내</h3>
+                <h4 class="title">사이트맵</h4>
                 <div class="page-path">
-                    <h3>이용안내</h3>
                     <ol class="breadcrumb">
+                        <li>
+                            <a href="/">
+                                <i class="icon-home"><span class="sr-only">메인으로 이동</span></i>
+                            </a>
+                        </li>
                         <li>이용안내</li>
-                        <li>사이트맵</li>
+                        <li>
+                            <div class="depth-2">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    사이트맵
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a href="/etc/sitemap.php">사이트맵</a>
+                                    <a href="/etc/unified_search.php">통합검색</a>
+                                </div>
+                            </div>
+                        </li>
                     </ol>
                 </div>
-                <h4 class="title">사이트맵</h4>
             </div>
             <div class="section-content">
-                <nav class="dropdown nav-tab">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="nav-tab" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        사이트맵
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="nav-tab">
-                        <ul>
-                            <li><a href="/etc/unified_search.php">통합검색</a></li>
-                            <li class="active"><a href="/etc/sitemap.php">사이트맵</a></li>
-                        </ul>
-                    </div>
-                </nav>
                 <article>
                     <ul>
                         <li>
@@ -95,7 +99,7 @@
                 </article>
             </div>
         </section>
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side_quick.php'); ?>
+        
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/quick.php'); ?>
