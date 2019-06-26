@@ -419,7 +419,7 @@ a {
       color: #016ecd;
       font-weight: 500;
       margin-right: 5px; }
-  @media (min-width: 992px) {
+  @media (min-width: 1200px) {
     .charter .promise {
       margin-top: 40px;
       padding: 40px 30px; }
@@ -509,11 +509,15 @@ a {
   .fulfill-criteria .tab-content .tab-pane .guide .decimal-list.type-1 li:before {
     color: #016ecd; }
   .fulfill-criteria .tab-content .tab-pane .guide .note {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     color: #333; }
     .fulfill-criteria .tab-content .tab-pane .guide .note:before {
       content: '• '; }
+    @media (min-width: 1200px) {
+      .fulfill-criteria .tab-content .tab-pane .guide .note {
+        font-size: 16px;
+        line-height: 26px; } }
   .fulfill-criteria .tab-content .tab-pane .guide .table-responsive {
     margin-top: 20px; }
     .fulfill-criteria .tab-content .tab-pane .guide .table-responsive thead tr th:last-child {
@@ -534,9 +538,12 @@ a {
 
 .fulfill-standard article strong {
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   color: #333;
   margin-bottom: 20px; }
+  @media (min-width: 1200px) {
+    .fulfill-standard article strong {
+      font-size: 18px; } }
 .fulfill-standard article .box .content {
   text-align: left;
   padding: 20px;
@@ -544,10 +551,10 @@ a {
   background-color: #fff; }
 .fulfill-standard article .box .white-dot > li {
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
   color: #666;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 20px;
   padding-left: 10px; }
   .fulfill-standard article .box .white-dot > li ~ li {
     margin-top: 20px; }
@@ -558,7 +565,8 @@ a {
     content: '° '; }
   @media (min-width: 992px) {
     .fulfill-standard article .box .white-dot > li {
-      line-height: 28px; } }
+      font-size: 16px;
+      line-height: 26px; } }
 .fulfill-standard article .decimal-list {
   margin-top: 20px; }
   .fulfill-standard article .decimal-list > li ~ li {
@@ -576,7 +584,7 @@ a {
   .fulfill-standard article .dot-list > li > dl {
     overflow: hidden; }
     .fulfill-standard article .dot-list > li > dl dt {
-      font-size: 16px;
+      font-size: 14px;
       color: #333;
       float: left;
       clear: both;
@@ -585,9 +593,14 @@ a {
         content: ':';
         margin: 0 10px; }
     .fulfill-standard article .dot-list > li > dl dd {
-      font-size: 16px;
+      font-size: 14px;
       color: #666;
       font-weight: 400; }
+    @media (min-width: 1200px) {
+      .fulfill-standard article .dot-list > li > dl dt {
+        font-size: 16px; }
+      .fulfill-standard article .dot-list > li > dl dd {
+        font-size: 16px; } }
 .fulfill-standard article hr {
   margin: 30px 0;
   display: block;
@@ -611,7 +624,7 @@ a {
 .faqlist .question-list > li {
   position: relative;
   line-height: 24px;
-  font-size: 16px;
+  font-size: 14px;
   color: #333;
   padding-left: 20px;
   font-weight: 400; }
@@ -626,6 +639,7 @@ a {
     margin-top: 20px; }
   @media (min-width: 768px) {
     .faqlist .question-list > li {
+      font-size: 16px;
       line-height: 28px; } }
 .faqlist .dot-list {
   margin-top: 5px; }
@@ -721,7 +735,7 @@ a {
   .advice-write .write-form .btn-area .btn-submit {
     width: 150px;
     line-height: 40px;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     color: #fff;
     background-color: #016ecd;
@@ -735,10 +749,11 @@ a {
     transition-delay: 0s; }
     .advice-write .write-form .btn-area .btn-submit:hover {
       opacity: .7; }
-  @media (min-width: 768px) {
+  @media (min-width: 1200px) {
     .advice-write .write-form .btn-area {
       margin-top: 45px; }
       .advice-write .write-form .btn-area .btn-submit {
+        font-size: 16px;
         width: 180px;
         line-height: 45px; } }
 
@@ -867,13 +882,14 @@ a {
         line-height: 45px; } }
 
 .privacy article > .article-header .box .content {
-  padding: 133px 20px 20px;
+  padding: 110px 20px 20px;
   background-image: url(/assets/images/customer/bg_logo.jpg); }
   .privacy article > .article-header .box .content strong {
     color: #016ecd; }
   @media (min-width: 768px) {
     .privacy article > .article-header .box .content {
-      padding: 35px 40px 35px 173px; } }
+      padding: 30px 30px 30px 120px;
+      background-position: 15px 50%; } }
 .privacy article > .article-header > strong {
   display: block;
   font-size: 16px;
@@ -1075,12 +1091,15 @@ a {
       margin-top: 60px; } }
   .counseling .write-form .table-wrap > .indispensable {
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
     margin-bottom: 10px; }
     .counseling .write-form .table-wrap > .indispensable:before {
       content: '* ';
       color: #016ecd; }
+    @media (min-width: 1200px) {
+      .counseling .write-form .table-wrap > .indispensable {
+        font-size: 16px; } }
   .counseling .write-form .table-wrap tbody tr td .form-group textarea {
     padding: 10px !important;
     width: 100% !important;
@@ -1099,7 +1118,7 @@ a {
   .counseling .write-form .btn-area .btn-submit {
     width: 150px;
     line-height: 40px;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     color: #fff;
     background-color: #016ecd;
@@ -1117,6 +1136,7 @@ a {
     .counseling .write-form .btn-area {
       margin-top: 45px; }
       .counseling .write-form .btn-area .btn-submit {
+        font-size: 16px;
         width: 180px;
         line-height: 45px; } }
 
@@ -1171,18 +1191,25 @@ a {
     .officially article .sub-title ~ .sub-title {
       margin-top: 60px; } }
 .officially article > dl dt {
-  font-size: 16px;
+  font-size: 14px;
   color: #016ecd;
   font-weight: 400;
   margin-bottom: 15px; }
 .officially article > dl dd {
-  font-size: 16px;
+  font-size: 14px;
   color: #666;
   font-weight: 300; }
 .officially article.summary > p {
-  font-size: 16px;
+  font-size: 14px;
   color: #666;
   font-weight: 300; }
+@media (min-width: 1200px) {
+  .officially article > dl dt {
+    font-size: 16px; }
+  .officially article > dl dd {
+    font-size: 16px; }
+  .officially article.summary > p {
+    font-size: 16px; } }
 .officially .officially-list .search-form, .officially .officially-view .search-form {
   margin-top: 30px; }
 .officially .officially-list .tab-menu, .officially .officially-view .tab-menu {
@@ -1231,16 +1258,14 @@ a {
 .officially .officially-list .table-wrap, .officially .officially-view .table-wrap {
   margin-top: 30px; }
   .officially .officially-list .table-wrap .table thead tr th, .officially .officially-view .table-wrap .table thead tr th {
-    font-size: 13px;
     display: none; }
     .officially .officially-list .table-wrap .table thead tr th:nth-of-type(2), .officially .officially-view .table-wrap .table thead tr th:nth-of-type(2) {
-      width: 35%;
+      width: 40%;
       display: table-cell; }
     .officially .officially-list .table-wrap .table thead tr th.subject, .officially .officially-view .table-wrap .table thead tr th.subject {
-      width: 65%;
+      width: 60%;
       display: table-cell; }
   .officially .officially-list .table-wrap .table tbody tr td, .officially .officially-view .table-wrap .table tbody tr td {
-    font-size: 13px;
     display: none; }
     .officially .officially-list .table-wrap .table tbody tr td:nth-of-type(2), .officially .officially-view .table-wrap .table tbody tr td:nth-of-type(2) {
       letter-spacing: -.5px;

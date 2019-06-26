@@ -35,7 +35,7 @@
                 margin-right: 5px;
             }
         }
-        @media(min-width: $md) {
+        @media(min-width: $lg) {
             margin-top: 40px;
             padding: 40px 30px;
             > li {
@@ -175,11 +175,15 @@
                     }
                 }
                 .note {
-                    font-size: 16px;
-                    line-height: 24px;
+                    font-size: 14px;
+                    line-height: 20px;
                     color: #333;
                     &:before {
                         content: '• ';
+                    }
+                    @media(min-width: $lg) {
+                        font-size: 16px;
+                        line-height: 26px;
                     }
                 }
                 .table-responsive {
@@ -249,9 +253,12 @@
     article {
         strong {
             display: block;
-            font-size: 18px;
+            font-size: 16px;
             color: #333;
             margin-bottom: 20px;
+            @media(min-width: $lg) {
+                font-size: 18px;
+            }
         }
         .box {
             .content {
@@ -263,10 +270,10 @@
             .white-dot {
                 > li {
                     position: relative;
-                    font-size: 16px;
+                    font-size: 14px;
                     color: #666;
                     font-weight: 400;
-                    line-height: 24px;
+                    line-height: 20px;
                     padding-left: 10px;
                     & ~ li {
                         margin-top: 20px;
@@ -278,7 +285,8 @@
                         content: '° ';
                     }
                     @media(min-width: $md) {
-                        line-height: 28px;
+                        font-size: 16px;
+                        line-height: 26px;
                     }
                 }
             }
@@ -312,7 +320,7 @@
                 > dl {
                     overflow: hidden;
                     dt {
-                        font-size: 16px;
+                        font-size: 14px;
                         color: #333;
                         float: left;
                         clear: both;
@@ -323,9 +331,17 @@
                         }
                     }
                     dd {
-                        font-size: 16px;
+                        font-size: 14px;
                         color: #666;
                         font-weight: 400;
+                    }
+                    @media(min-width: $lg) {
+                        dt {
+                            font-size: 16px;
+                        }
+                        dd {
+                            font-size: 16px;
+                        }
                     }
                 }
             }
@@ -365,7 +381,7 @@
         > li {
             position: relative;
             line-height: 24px;
-            font-size: 16px;
+            font-size: 14px;
             color: #333;
             padding-left: 20px;
             font-weight: 400;
@@ -381,6 +397,7 @@
                 margin-top: 20px;
             }
             @media(min-width: $sm) {
+                font-size: 16px;
                 line-height: 28px;
             }
         }
@@ -568,7 +585,7 @@
             .btn-submit {
                 width: 150px;
                 line-height: 40px;
-                font-size: 16px;
+                font-size: 14px;
                 text-align: center;
                 color: #fff;
                 background-color: $kcolor;
@@ -577,9 +594,10 @@
                     opacity: .7;
                 }
             }
-            @media(min-width: $sm) {
+            @media(min-width: $lg) {
                 margin-top: 45px;
                 .btn-submit {
+                    font-size: 16px;
                     width: 180px;
                     line-height: 45px;
                 }
@@ -796,13 +814,14 @@
         > .article-header {
             .box {
                 .content {
-                    padding: 133px 20px 20px;
+                    padding: 110px 20px 20px;
                     background-image: url(/assets/images/customer/bg_logo.jpg);
                     strong {
                         color: $kcolor;
                     }
                     @media(min-width: $sm) {
-                        padding: 35px 40px 35px 173px;
+                        padding: 30px 30px 30px 120px;
+                        background-position: 15px 50%;
                     }
                 }
             }
@@ -1077,12 +1096,15 @@
             }
             > .indispensable {
                 display: inline-block;
-                font-size: 16px;
+                font-size: 14px;
                 color: #666;
                 margin-bottom: 10px;
                 &:before {
                     content: '* ';
                     color: $kcolor;
+                }
+                @media(min-width: $lg) {
+                    font-size: 16px;
                 }
             }
             tbody {
@@ -1134,7 +1156,7 @@
             .btn-submit {
                 width: 150px;
                 line-height: 40px;
-                font-size: 16px;
+                font-size: 14px;
                 text-align: center;
                 color: #fff;
                 background-color: $kcolor;
@@ -1146,6 +1168,7 @@
             @media(min-width: $sm) {
                 margin-top: 45px;
                 .btn-submit {
+                    font-size: 16px;
                     width: 180px;
                     line-height: 45px;
                 }
@@ -1239,22 +1262,37 @@
         }
         > dl {
             dt {
-                font-size: 16px;
+                font-size: 14px;
                 color: $kcolor;
                 font-weight: 400;
                 margin-bottom: 15px;
             }
             dd {
-                font-size: 16px;
+                font-size: 14px;
                 color: #666;
                 font-weight: 300;
             }
         }
         &.summary {
             > p {
-                font-size: 16px;
+                font-size: 14px;
                 color: #666;
                 font-weight: 300;
+            }
+        }
+        @media(min-width: $lg) {
+            > dl {
+                dt {
+                    font-size: 16px;
+                }
+                dd {
+                    font-size: 16px;
+                }
+            }
+            &.summary {
+                > p {
+                    font-size: 16px;
+                }
             }
         }
     }
@@ -1316,14 +1354,13 @@
                 thead {
                     tr {
                         th {
-                            font-size: 13px;
                             display: none;
                             &:nth-of-type(2) {
-                                width: 35%;
+                                width: 40%;
                                 display: table-cell;
                             }
                             &.subject {
-                                width: 65%;
+                                width: 60%;
                                 display: table-cell;
                             }
                         }
@@ -1332,7 +1369,6 @@
                 tbody {
                     tr {
                         td {
-                            font-size: 13px;
                             display: none;
                             &:nth-of-type(2) {
                                 letter-spacing: -.5px;

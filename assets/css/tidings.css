@@ -542,7 +542,7 @@ a {
     border-radius: 10px;
     background-color: #fff; }
     .charter .resolution .article-content > b {
-      font-size: 16px;
+      font-size: 15px;
       color: #333;
       font-weight: 400;
       display: block;
@@ -561,7 +561,7 @@ a {
       font-size: 14px; }
       .charter .resolution .article-content > .square-list > li ~ li {
         margin-top: 0; }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .charter .resolution {
     margin-top: 60px;
     padding: 50px; }
@@ -571,7 +571,7 @@ a {
       margin-top: 40px;
       padding: 70px 45px; }
       .charter .resolution .article-content > b {
-        font-size: 18px;
+        font-size: 17px;
         line-height: 30px; }
       .charter .resolution .article-content .decimal-list > li {
         font-size: 16px;
@@ -580,7 +580,9 @@ a {
         margin: 40px 0; }
       .charter .resolution .article-content .square-list > li {
         font-size: 16px;
-        line-height: 30px; } }
+        line-height: 30px; }
+        .charter .resolution .article-content .square-list > li:before {
+          top: 13px; } }
 
 .tab-list {
   font-size: 0; }
@@ -688,7 +690,7 @@ a {
         content: counter(circle-list-index); }
     .behavior .member .tab-content ul.space-1 > li ~ li, .behavior .member .tab-content ol.space-1 > li ~ li {
       margin-top: 20px; }
-    @media (min-width: 768px) {
+    @media (min-width: 1200px) {
       .behavior .member .tab-content ul li, .behavior .member .tab-content ol li {
         font-size: 16px !important;
         line-height: 24px !important; }
@@ -699,7 +701,7 @@ a {
       color: #666 !important;
       font-weight: 300 !important;
       line-height: 22px !important; }
-      @media (min-width: 768px) {
+      @media (min-width: 1200px) {
         .behavior .member .tab-content p {
           font-size: 16px !important;
           line-height: 24px !important; } }
@@ -708,7 +710,7 @@ a {
       color: #666 !important;
       font-weight: 300 !important;
       line-height: 22px !important; }
-      @media (min-width: 768px) {
+      @media (min-width: 1200px) {
         .behavior .member .tab-content dl dt, .behavior .member .tab-content dl dd {
           font-size: 16px !important;
           line-height: 24px !important; } }

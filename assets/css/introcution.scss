@@ -28,7 +28,7 @@
         .article-content {
             margin-top: 30px;
             > h5 {
-                font-size: 20px;
+                font-size: 18px;
                 color: $kcolor;
                 font-weight: 400;
                 line-height: 28px;
@@ -47,10 +47,10 @@
                 border-top: 2px solid $kcolor;
             }
             > p {
-                font-size: 16px;
+                font-size: 14px;
                 color: #666;
                 font-weight: 400;
-                line-height: 28px;
+                line-height: 24px;
                 > br {
                     display: none;
                     &.line-break {
@@ -65,16 +65,16 @@
             .article-content {
                 margin-top: 40px;
                 > h5 {
-                    font-size: 24px;
-                    line-height: 32px;
+                    font-size: 20px;
+                    line-height: 30px;
                 }
                 hr {
                     margin: 30px auto;
                     margin-left: 0;
                 }
                 > p {
-                    font-size: 18px;
-                    line-height: 30px;
+                    font-size: 16px;
+                    line-height: 28px;
                 }
             }
         }
@@ -113,9 +113,9 @@
         }
         > p {
             position: relative;
-            font-size: 16px;
+            font-size: 14px;
             color: #666;
-            line-height: 24px;
+            line-height: 22px;
             font-weight: 300;
             padding-left: 10px;
             &:before {
@@ -127,6 +127,10 @@
                 display: block;
                 content: "";
                 background-color: $kcolor;
+            }
+            @media(min-width: $sm) {
+                font-size: 16px;
+                line-height: 26px;
             }
         }
         > ul {
@@ -224,6 +228,9 @@
                 content: '\F02E';
                 margin-left: 10px;
             }
+            @media(min-width: $lg) {
+                font-size: 16px;
+            }
         }
     }
     @media(min-width: $sm) {
@@ -301,7 +308,6 @@
             margin-top: 40px;
             .btn-default {
                 width: 220px;
-                font-size: 16px;
             }
         }
     }
@@ -318,7 +324,7 @@
                     width: 66px;
                     height: 66px;
                     line-height: 66px;
-                    font-size: 20px;
+                    font-size: 18px;
                     font-weight: 400;
                     text-align: center;
                     color: #fff;
@@ -327,7 +333,7 @@
                     background-color: #009438;
                 }
                 p {
-                    font-size: 18px;
+                    font-size: 14px;
                     color: #666;
                     font-weight: 300;
                     line-height: 22px;
@@ -361,12 +367,15 @@
             margin-left: -100px;
             display: block;
             width: 200px;
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 400;
             color: #fff;
             text-align: center;
             line-height: 40px;
             border-radius: 30px;
+            @media(min-width: $lg) {
+                font-size: 18px;
+            }
         }
         > ul {
             > li {
@@ -391,13 +400,16 @@
                     > dd {
                         display: table-cell;
                         vertical-align: middle;
-                        font-size: 16px;
+                        font-size: 14px;
                         color: #666;
-                        line-height: 22px;
+                        line-height: 20px;
                         font-weight: 400;
                         padding-left: 10px;
                         br {
                             display: none;
+                        }
+                        @media(min-width: $sm) {
+                            padding-left: 0;
                         }
                     }
                 }
@@ -457,11 +469,13 @@
                     h5 {
                         display: table-cell;
                         margin: 0;
+                        font-size: 20px;
                         width: 105px;
                         height: 105px;
                         line-height: 105px;
                     }
                     p {
+                        font-size: 16px;
                         display: table-cell;
                         padding-left: 30px;
                         vertical-align: middle;
@@ -490,6 +504,8 @@
                             display: block;
                             text-align: center;
                             margin-top: 10px;
+                            font-size: 16px;
+                            line-height: 24px;
                             br {
                                 display: block;
                             }
@@ -543,12 +559,12 @@
             border-radius: 5px;
             border: 1px solid #ddd;
             h5 {
-                font-size: 24px;
+                font-size: 20px;
                 color: $kcolor;
                 font-weight: 400;
             }
             p {
-                font-size: 16px;
+                font-size: 14px;
                 color: #666;
                 line-height: 22px;
                 font-weight: 300;
@@ -592,7 +608,7 @@
                     display: table-cell;
                     vertical-align: top;
                     width: 55px;
-                    font-size: 24px;
+                    font-size: 20px;
                     color: $kcolor;
                 }
                 > dl {
@@ -601,7 +617,7 @@
                     padding-top: 3px;
                     padding-left: 45px;
                     > dt {
-                        font-size: 16px;
+                        font-size: 14px;
                         color: #333;
                         line-height: 22px;
                         font-weight: 400;
@@ -610,7 +626,7 @@
                         }
                     }
                     > dd {
-                        font-size: 16px;
+                        font-size: 14px;
                         color: #666;
                         line-height: 22px;
                         font-weight: 300;
@@ -627,6 +643,36 @@
                 p {
                     > br {
                         display: block;
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $lg) {
+        .history {
+            .summary {
+                h5 {
+                    font-size: 22px;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+            .history-list {
+                > li {
+                    > h6 {
+                        font-size: 22px;
+                    }
+                    > dl {
+                        > dt {
+                            font-size: 16px;
+                            line-height: 26px;
+                        }
+                        > dd {
+                            font-size: 16px;
+                            line-height: 26px;
+                        }
                     }
                 }
             }
@@ -712,11 +758,15 @@
         }
     }
     p {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 14px;
+        line-height: 22px;
         font-weight: 300;
         color: #666;
         padding-left: 15px;
+        @media(min-width: $lg) {
+            font-size: 16px;
+            line-height: 26px;
+        }
     }
     .square-list {
         padding-left: 15px;
@@ -777,7 +827,7 @@
         margin-top: 30px;
         > dl {
             > dt {
-                font-size: 16px;
+                font-size: 14px;
                 line-height: 24px;
                 font-weight: 500;
                 color: $kcolor;
@@ -803,7 +853,7 @@
                 }
             }
             > dd {
-                font-size: 16px;
+                font-size: 14px;
                 line-height: 24px;
                 color: #666;
                 font-weight: 400;
@@ -813,49 +863,15 @@
         @media(min-width: $sm) {
             margin-top: 60px;
         }
+        @media(min-width: $lg) {
+            > dl {
+                > dt {
+                    font-size: 16px;
+                }
+                > dd {
+                    font-size: 16px;
+                }
+            }
+        }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -52,9 +52,9 @@
         &.status {
             > ol {
                 > li {
-                    font-size: 16px;
+                    font-size: 14px;
                     color: #666;
-                    line-height: 24px;
+                    line-height: 20px;
                     & ~ li {
                         margin-top: 15px;
                         @media(min-width: $lg) {
@@ -69,6 +69,10 @@
                             top: 0;
                             left: 0;
                         }
+                    }
+                    @media(min-width: $lg) {
+                        font-size: 16px;
+                        line-height: 26px;
                     }
                 }
             }
@@ -181,9 +185,6 @@
                             tr {
                                 td {
                                     font-size: 16px;
-                                    strong {
-                                        font-size: 18px;
-                                    }
                                 }
                             }
                         }
@@ -233,9 +234,9 @@
         &.implement, &.plan {
             > ol {
                 > li {
-                    font-size: 16px;
+                    font-size: 14px;
                     color: #666;
-                    line-height: 24px;
+                    line-height: 20px;
                     & ~ li {
                         margin-top: 15px;
                         @media(min-width: $lg) {
@@ -265,6 +266,10 @@
                             height: 48px;
                         }
                     }
+                    @media(min-width: $lg) {
+                        font-size: 16px;
+                        line-height: 26px;
+                    }
                 }
             }
         }
@@ -283,6 +288,8 @@
             > li {
                 font-weight: 300;
                 color: #666;
+                font-size: 14px;
+                line-height: 20px;
                 > ul, ol {
                     padding-left: 10px;
                     > li {
@@ -303,23 +310,24 @@
                                 }
                             }
                             dd {
-                                font-size: 16px;
                                 font-weight: 300;
                                 color: #666;
                             }
                         }
                         > .note {
-                            font-size: 16px;
                             color: #666;
                             display: block;
                             font-weight: 300;
-                            line-height: 24px;
                             padding-left: 40px;
                             @media(min-width: $md) {
                                 line-height: 26px;
                             }
                         }
                     }
+                }
+                @media(min-width: $lg) {
+                    font-size: 16px;
+                    line-height: 26px;
                 }
             }
         }
@@ -331,9 +339,9 @@
                 margin-bottom: 45px;
             }
             small {
-                font-size: 16px;
+                font-size: 14px;
                 @media(min-width: $md) {
-                    font-size: 18px;
+                    font-size: 16px;
                 }
             }
         }
@@ -414,7 +422,6 @@
                     padding-left: 15px;
                     li {
                         margin-top: 0 !important;
-                        line-height: 26px;
                     }
                 }
                 figure {
@@ -530,9 +537,6 @@
             &.exempt {
                 .decimal-list {
                     > li {
-                        @media(min-width: $md) {
-                            line-height: 28px !important;
-                        }
                         & ~ li {
                             margin-top: 20px;
                             @media(min-width: $md) {
@@ -714,9 +718,9 @@
         &.implement, &.plan {
             > ol {
                 > li {
-                    font-size: 16px;
+                    font-size: 14px;
                     color: #666;
-                    line-height: 24px;
+                    line-height: 20px;
                     & ~ li {
                         margin-top: 15px;
                         @media(min-width: $lg) {
@@ -748,6 +752,10 @@
                     }
                     .attention {
                         font-weight: 300;
+                    }
+                    @media(min-width: $lg) {
+                        font-size: 16px;
+                        line-height: 26px;
                     }
                 }
             }

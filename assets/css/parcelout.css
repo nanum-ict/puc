@@ -548,7 +548,7 @@ a {
     color: #666;
     font-weight: 300;
     margin-bottom: 10px; }
-  @media (min-width: 768px) {
+  @media (min-width: 1200px) {
     .ownership article.purchase > dl dt {
       font-size: 16px; }
     .ownership article.purchase > dl dd {
@@ -558,7 +558,7 @@ a {
   color: #666;
   line-height: 22px;
   font-weight: 300; }
-  @media (min-width: 768px) {
+  @media (min-width: 1200px) {
     .ownership article.purchase > .attention {
       font-size: 16px; } }
 .ownership article.purchase > strong {
@@ -583,40 +583,46 @@ a {
 .taxguide article strong {
   display: block;
   color: #016ecd;
-  font-size: 16px; }
+  font-size: 14px; }
   .taxguide article strong ~ strong {
     margin-top: 30px; }
+  @media (min-width: 1200px) {
+    .taxguide article strong {
+      font-size: 16px; } }
 .taxguide article > p {
-  font-size: 16px;
+  font-size: 14px;
   color: #666;
   font-weight: 300;
-  line-height: 24px;
+  line-height: 20px;
   margin-top: 10px; }
-  @media (min-width: 992px) {
+  @media (min-width: 1200px) {
     .taxguide article > p {
-      line-height: 28px; } }
+      font-size: 16px;
+      line-height: 26px; } }
 .taxguide article > ul {
   margin-top: 10px; }
   .taxguide article > ul > li ~ li {
     margin-top: 5px; }
   .taxguide article > ul > li > dl > dt {
     display: inline-block;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     font-weight: 400; }
     .taxguide article > ul > li > dl > dt:after {
       content: ': '; }
   .taxguide article > ul > li > dl > dd {
     display: inline;
     color: #666;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     font-weight: 300; }
   @media (min-width: 992px) {
     .taxguide article > ul > li > dl dt {
-      line-height: 28px; }
+      font-size: 16px;
+      line-height: 26px; }
     .taxguide article > ul > li > dl dd {
-      line-height: 28px; } }
+      font-size: 16px;
+      line-height: 26px; } }
 
 @media (min-width: 768px) {
   .examination-view .view-head .information li {
@@ -640,7 +646,7 @@ a {
   .request-write .box .content > .btn-area .btn-default {
     width: 180px;
     line-height: 38px;
-    font-size: 16px;
+    font-size: 14px;
     display: inline-block;
     color: #fff;
     background-color: #f8b500;
@@ -663,7 +669,9 @@ a {
       top: 50%;
       right: 40px;
       line-height: 45px;
-      margin-top: -23px; } }
+      margin-top: -23px; }
+      .request-write .box .content .btn-area .btn-default {
+        font-size: 16px; } }
 .request-write .write-form .table-wrap {
   text-align: right;
   margin-top: 30px; }
@@ -675,12 +683,15 @@ a {
       margin-top: 60px; } }
   .request-write .write-form .table-wrap > .indispensable {
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
     margin-bottom: 10px; }
     .request-write .write-form .table-wrap > .indispensable:before {
       content: '* ';
       color: #016ecd; }
+    @media (min-width: 1200px) {
+      .request-write .write-form .table-wrap > .indispensable {
+        font-size: 16px; } }
   .request-write .write-form .table-wrap tbody tr td .form-group textarea {
     padding: 10px !important;
     width: 100% !important;
@@ -744,7 +755,7 @@ a {
   .request-write .write-form .btn-area .btn-submit {
     width: 150px;
     line-height: 40px;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     color: #fff;
     background-color: #016ecd;
@@ -762,6 +773,7 @@ a {
     .request-write .write-form .btn-area {
       margin-top: 45px; }
       .request-write .write-form .btn-area .btn-submit {
+        font-size: 16px;
         width: 180px;
         line-height: 45px; } }
 

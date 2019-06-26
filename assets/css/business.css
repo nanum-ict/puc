@@ -418,9 +418,9 @@ a {
       content: ":";
       margin: 0 5px; }
 .housing article.status > ol > li {
-  font-size: 16px;
+  font-size: 14px;
   color: #666;
-  line-height: 24px; }
+  line-height: 20px; }
   .housing article.status > ol > li ~ li {
     margin-top: 15px; }
     @media (min-width: 1200px) {
@@ -433,6 +433,10 @@ a {
       position: absolute;
       top: 0;
       left: 0; }
+  @media (min-width: 1200px) {
+    .housing article.status > ol > li {
+      font-size: 16px;
+      line-height: 26px; } }
 .housing article.implement .attention {
   margin-top: 10px; }
   .housing article.implement .attention span {
@@ -500,9 +504,7 @@ a {
     .housing article.implement .table-wrap .table thead tr th {
       font-size: 16px; }
     .housing article.implement .table-wrap .table tbody tr td {
-      font-size: 16px; }
-      .housing article.implement .table-wrap .table tbody tr td strong {
-        font-size: 18px; } }
+      font-size: 16px; } }
 
 .industrial-complex article ~ article {
   margin-top: 40px; }
@@ -527,9 +529,9 @@ a {
       content: ":";
       margin: 0 5px; }
 .industrial-complex article.implement > ol > li, .industrial-complex article.plan > ol > li {
-  font-size: 16px;
+  font-size: 14px;
   color: #666;
-  line-height: 24px; }
+  line-height: 20px; }
   .industrial-complex article.implement > ol > li ~ li, .industrial-complex article.plan > ol > li ~ li {
     margin-top: 15px; }
     @media (min-width: 1200px) {
@@ -548,6 +550,10 @@ a {
   @media (min-width: 768px) {
     .industrial-complex article.implement > ol > li.space, .industrial-complex article.plan > ol > li.space {
       height: 48px; } }
+  @media (min-width: 1200px) {
+    .industrial-complex article.implement > ol > li, .industrial-complex article.plan > ol > li {
+      font-size: 16px;
+      line-height: 26px; } }
 
 .substitute article ~ article {
   margin-top: 40px; }
@@ -556,7 +562,9 @@ a {
       margin-top: 60px; } }
 .substitute article ul > li, .substitute article ol > li {
   font-weight: 300;
-  color: #666; }
+  color: #666;
+  font-size: 14px;
+  line-height: 20px; }
   .substitute article ul > li > ul, .substitute article ul > li ol, .substitute article ol > li > ul, .substitute article ol > li ol {
     padding-left: 10px; }
     .substitute article ul > li > ul > li, .substitute article ul > li ol > li, .substitute article ol > li > ul > li, .substitute article ol > li ol > li {
@@ -574,29 +582,30 @@ a {
           content: ":";
           margin: 0 3px; }
       .substitute article ul > li > ul > li > dl dd, .substitute article ul > li ol > li > dl dd, .substitute article ol > li > ul > li > dl dd, .substitute article ol > li ol > li > dl dd {
-        font-size: 16px;
         font-weight: 300;
         color: #666; }
       .substitute article ul > li > ul > li > .note, .substitute article ul > li ol > li > .note, .substitute article ol > li > ul > li > .note, .substitute article ol > li ol > li > .note {
-        font-size: 16px;
         color: #666;
         display: block;
         font-weight: 300;
-        line-height: 24px;
         padding-left: 40px; }
         @media (min-width: 992px) {
           .substitute article ul > li > ul > li > .note, .substitute article ul > li ol > li > .note, .substitute article ol > li > ul > li > .note, .substitute article ol > li ol > li > .note {
             line-height: 26px; } }
+  @media (min-width: 1200px) {
+    .substitute article ul > li, .substitute article ol > li {
+      font-size: 16px;
+      line-height: 26px; } }
 .substitute.traffic-playground .section-title {
   margin-bottom: 20px; }
   @media (min-width: 992px) {
     .substitute.traffic-playground .section-title {
       margin-bottom: 45px; } }
   .substitute.traffic-playground .section-title small {
-    font-size: 16px; }
+    font-size: 14px; }
     @media (min-width: 992px) {
       .substitute.traffic-playground .section-title small {
-        font-size: 18px; } }
+        font-size: 16px; } }
 .substitute.traffic-playground .square-list li > b {
   font-weight: 400;
   display: block;
@@ -634,8 +643,7 @@ a {
 .substitute.traffic-playground .educational-contents > div .square-list {
   padding-left: 15px; }
   .substitute.traffic-playground .educational-contents > div .square-list li {
-    margin-top: 0 !important;
-    line-height: 26px; }
+    margin-top: 0 !important; }
 .substitute.traffic-playground .educational-contents > div figure {
   padding-left: 15px;
   margin-top: 20px; }
@@ -690,9 +698,6 @@ a {
   .substitute.parking-lot article.reduce-tariff > .attention {
     float: right;
     margin-top: 10px; }
-@media (min-width: 992px) {
-  .substitute.parking-lot article.exempt .decimal-list > li {
-    line-height: 28px !important; } }
 .substitute.parking-lot article.exempt .decimal-list > li ~ li {
   margin-top: 20px; }
   @media (min-width: 992px) {
@@ -787,9 +792,9 @@ a {
       .braincity article.outline > .square-list > li > dl dd .table-responsive {
         margin-top: 30px; } }
 .braincity article.implement > ol > li, .braincity article.plan > ol > li {
-  font-size: 16px;
+  font-size: 14px;
   color: #666;
-  line-height: 24px; }
+  line-height: 20px; }
   .braincity article.implement > ol > li ~ li, .braincity article.plan > ol > li ~ li {
     margin-top: 15px; }
     @media (min-width: 1200px) {
@@ -810,6 +815,10 @@ a {
       height: 48px; } }
   .braincity article.implement > ol > li .attention, .braincity article.plan > ol > li .attention {
     font-weight: 300; }
+  @media (min-width: 1200px) {
+    .braincity article.implement > ol > li, .braincity article.plan > ol > li {
+      font-size: 16px;
+      line-height: 26px; } }
 @media (min-width: 992px) {
   .braincity article ~ article {
     margin-top: 60px; } }

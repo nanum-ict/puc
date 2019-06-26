@@ -407,7 +407,7 @@ a {
 .greeting article .article-content {
   margin-top: 30px; }
   .greeting article .article-content > h5 {
-    font-size: 20px;
+    font-size: 18px;
     color: #016ecd;
     font-weight: 400;
     line-height: 28px; }
@@ -422,10 +422,10 @@ a {
     margin-left: 0;
     border-top: 2px solid #016ecd; }
   .greeting article .article-content > p {
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
     font-weight: 400;
-    line-height: 28px; }
+    line-height: 24px; }
     .greeting article .article-content > p > br {
       display: none; }
       .greeting article .article-content > p > br.line-break {
@@ -434,14 +434,14 @@ a {
   .greeting article .article-content {
     margin-top: 40px; }
     .greeting article .article-content > h5 {
-      font-size: 24px;
-      line-height: 32px; }
+      font-size: 20px;
+      line-height: 30px; }
     .greeting article .article-content hr {
       margin: 30px auto;
       margin-left: 0; }
     .greeting article .article-content > p {
-      font-size: 18px;
-      line-height: 30px; } }
+      font-size: 16px;
+      line-height: 28px; } }
 @media (min-width: 992px) {
   .greeting article {
     position: relative;
@@ -462,9 +462,9 @@ a {
   margin-top: 30px; }
 .ci article > p {
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
   color: #666;
-  line-height: 24px;
+  line-height: 22px;
   font-weight: 300;
   padding-left: 10px; }
   .ci article > p:before {
@@ -476,6 +476,10 @@ a {
     display: block;
     content: "";
     background-color: #016ecd; }
+  @media (min-width: 768px) {
+    .ci article > p {
+      font-size: 16px;
+      line-height: 26px; } }
 .ci article > ul {
   margin-top: 15px; }
   .ci article > ul > li .item {
@@ -550,6 +554,9 @@ a {
       font-family: 'fontello';
       content: '\F02E';
       margin-left: 10px; }
+    @media (min-width: 1200px) {
+      .ci .btn-area > .btn-default {
+        font-size: 16px; } }
 @media (min-width: 768px) {
   .ci article ~ article {
     margin-top: 40px; }
@@ -593,8 +600,7 @@ a {
   .ci .btn-area {
     margin-top: 40px; }
     .ci .btn-area .btn-default {
-      width: 220px;
-      font-size: 16px; } }
+      width: 220px; } }
 
 .vision .vision-mission > ul > li {
   text-align: center;
@@ -604,7 +610,7 @@ a {
     width: 66px;
     height: 66px;
     line-height: 66px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     text-align: center;
     color: #fff;
@@ -612,7 +618,7 @@ a {
     border-radius: 50%;
     background-color: #009438; }
   .vision .vision-mission > ul > li p {
-    font-size: 18px;
+    font-size: 14px;
     color: #666;
     font-weight: 300;
     line-height: 22px;
@@ -639,12 +645,15 @@ a {
     margin-left: -100px;
     display: block;
     width: 200px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     color: #fff;
     text-align: center;
     line-height: 40px;
     border-radius: 30px; }
+    @media (min-width: 1200px) {
+      .vision .working-principle > h5, .vision .core-value > h5 {
+        font-size: 18px; } }
   .vision .working-principle > ul > li ~ li, .vision .core-value > ul > li ~ li {
     margin-top: 10px; }
   .vision .working-principle > ul > li > dl, .vision .core-value > ul > li > dl {
@@ -664,13 +673,16 @@ a {
     .vision .working-principle > ul > li > dl > dd, .vision .core-value > ul > li > dl > dd {
       display: table-cell;
       vertical-align: middle;
-      font-size: 16px;
+      font-size: 14px;
       color: #666;
-      line-height: 22px;
+      line-height: 20px;
       font-weight: 400;
       padding-left: 10px; }
       .vision .working-principle > ul > li > dl > dd br, .vision .core-value > ul > li > dl > dd br {
         display: none; }
+      @media (min-width: 768px) {
+        .vision .working-principle > ul > li > dl > dd, .vision .core-value > ul > li > dl > dd {
+          padding-left: 0; } }
   .vision .working-principle.working-principle h5, .vision .core-value.working-principle h5 {
     background-color: #016ecd; }
   .vision .working-principle.working-principle > ul > li > dl, .vision .core-value.working-principle > ul > li > dl {
@@ -702,10 +714,12 @@ a {
     .vision .vision-mission > ul > li h5 {
       display: table-cell;
       margin: 0;
+      font-size: 20px;
       width: 105px;
       height: 105px;
       line-height: 105px; }
     .vision .vision-mission > ul > li p {
+      font-size: 16px;
       display: table-cell;
       padding-left: 30px;
       vertical-align: middle; }
@@ -725,7 +739,9 @@ a {
         .vision .working-principle > ul > li > dl > dd, .vision .core-value > ul > li > dl > dd {
           display: block;
           text-align: center;
-          margin-top: 10px; }
+          margin-top: 10px;
+          font-size: 16px;
+          line-height: 24px; }
           .vision .working-principle > ul > li > dl > dd br, .vision .core-value > ul > li > dl > dd br {
             display: block; }
     .vision .working-principle.working-principle h5, .vision .core-value.working-principle h5 {
@@ -756,11 +772,11 @@ a {
   border-radius: 5px;
   border: 1px solid #ddd; }
   .general-status .history .summary h5 {
-    font-size: 24px;
+    font-size: 20px;
     color: #016ecd;
     font-weight: 400; }
   .general-status .history .summary p {
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
     line-height: 22px;
     font-weight: 300;
@@ -798,7 +814,7 @@ a {
       display: table-cell;
       vertical-align: top;
       width: 55px;
-      font-size: 24px;
+      font-size: 20px;
       color: #016ecd; }
     .general-status .history .history-list > li > dl {
       display: table-cell;
@@ -806,14 +822,14 @@ a {
       padding-top: 3px;
       padding-left: 45px; }
       .general-status .history .history-list > li > dl > dt {
-        font-size: 16px;
+        font-size: 14px;
         color: #333;
         line-height: 22px;
         font-weight: 400; }
         .general-status .history .history-list > li > dl > dt ~ dt {
           margin-top: 5px; }
       .general-status .history .history-list > li > dl > dd {
-        font-size: 16px;
+        font-size: 14px;
         color: #666;
         line-height: 22px;
         font-weight: 300; }
@@ -823,6 +839,20 @@ a {
     margin: 0 auto; }
     .general-status .history .summary p > br {
       display: block; } }
+@media (min-width: 1200px) {
+  .general-status .history .summary h5 {
+    font-size: 22px; }
+  .general-status .history .summary p {
+    font-size: 16px;
+    line-height: 26px; }
+  .general-status .history .history-list > li > h6 {
+    font-size: 22px; }
+  .general-status .history .history-list > li > dl > dt {
+    font-size: 16px;
+    line-height: 26px; }
+  .general-status .history .history-list > li > dl > dd {
+    font-size: 16px;
+    line-height: 26px; } }
 
 .tab-menu {
   margin-top: 30px; }
@@ -885,11 +915,15 @@ a {
     .management .sub-title ~ .sub-title, .result .sub-title ~ .sub-title {
       margin-top: 40px; } }
 .management p, .result p {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 22px;
   font-weight: 300;
   color: #666;
   padding-left: 15px; }
+  @media (min-width: 1200px) {
+    .management p, .result p {
+      font-size: 16px;
+      line-height: 26px; } }
 .management .square-list, .result .square-list {
   padding-left: 15px; }
   .management .square-list > li, .result .square-list > li {
@@ -927,7 +961,7 @@ a {
 .location .details {
   margin-top: 30px; }
   .location .details > dl > dt {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     font-weight: 500;
     color: #016ecd;
@@ -947,7 +981,7 @@ a {
     .location .details > dl > dt.bus {
       background-image: url(/assets/images/introduction/ico_bus.jpg); }
   .location .details > dl > dd {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: #666;
     font-weight: 400;
@@ -955,5 +989,10 @@ a {
   @media (min-width: 768px) {
     .location .details {
       margin-top: 60px; } }
+  @media (min-width: 1200px) {
+    .location .details > dl > dt {
+      font-size: 16px; }
+    .location .details > dl > dd {
+      font-size: 16px; } }
 
 /*# sourceMappingURL=introcution.css.map */

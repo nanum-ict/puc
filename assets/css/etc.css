@@ -450,10 +450,10 @@ a {
       .unified-search .contents-result article ~ article {
         margin-top: 40px; } }
   .unified-search .contents-result .table-wrap .table tbody tr td {
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
     font-weight: 300;
-    line-height: 32px;
+    line-height: 28px;
     border: 0;
     border-bottom: 1px solid #ddd;
     padding: 5px 10px; }
@@ -484,6 +484,10 @@ a {
         transition-delay: 0s; }
         .unified-search .contents-result .table-wrap .table tbody tr td.more > a:hover {
           color: #016ecd; }
+    @media (min-width: 1200px) {
+      .unified-search .contents-result .table-wrap .table tbody tr td {
+        font-size: 16px;
+        line-height: 32px; } }
 @media (min-width: 768px) {
   .unified-search .search-form {
     margin-top: 50px; }
