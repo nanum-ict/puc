@@ -18,7 +18,8 @@
     $(window).on('load resize', function(){
         if ($('#header').width() == 240) {
             $('#gnb').addClass('responsive-gnb');
-            $('body').removeClass('nav-opened');
+            $('body').removeClass('nav-opened, .search-open');
+            $('.global-search').removeClass('on');
             $('.nav-body > ul > li').removeClass('active');
         } else {
             $('#gnb').removeClass('responsive-gnb');
@@ -45,4 +46,13 @@
         });
     });
     
+    // 전체 검색
+    $(document).on('click','.global-search .btn-area > .search-open', function(){
+        $('body').addClass('search-open');
+        $('.global-search').addClass('on');
+    });
+    $(document).on('click','.global-search .btn-area > .search-close, .global-search > .backdrop', function(){
+        $('body').removeClass('search-open');
+        $('.global-search').removeClass('on');
+    });
 })(jQuery);
