@@ -708,13 +708,22 @@ a {
   .request-write .write-form .table-wrap tbody tr td.lot-number .form-group .form-control {
     width: 150px;
     display: inline-block; }
-  .request-write .write-form .table-wrap tbody tr td.apply .form-group ~ .form-group, .request-write .write-form .table-wrap tbody tr td.contact .form-group ~ .form-group {
+  .request-write .write-form .table-wrap tbody tr td.apply .form-group ~ .form-group {
     margin-top: 10px; }
-  .request-write .write-form .table-wrap tbody tr td.apply .form-group label, .request-write .write-form .table-wrap tbody tr td.contact .form-group label {
+  .request-write .write-form .table-wrap tbody tr td.apply .form-group label {
     margin-right: 10px; }
-  .request-write .write-form .table-wrap tbody tr td.apply .form-group .form-control, .request-write .write-form .table-wrap tbody tr td.contact .form-group .form-control {
-    width: 79%;
+  .request-write .write-form .table-wrap tbody tr td.apply .form-group .form-control {
+    width: 76%;
     display: inline-block; }
+  .request-write .write-form .table-wrap tbody tr td.contact .form-group ~ .form-group {
+    margin-top: 10px; }
+  .request-write .write-form .table-wrap tbody tr td.contact .form-group label {
+    margin-right: 10px; }
+  .request-write .write-form .table-wrap tbody tr td.contact .form-group .form-control {
+    display: inline-block;
+    width: 22%;
+    padding-left: 3px;
+    padding-right: 3px; }
   @media (min-width: 768px) {
     .request-write .write-form .table-wrap tbody .form-group textarea {
       height: 200px !important; }
@@ -722,19 +731,32 @@ a {
       display: inline-block; }
     .request-write .write-form .table-wrap tbody tr td.lot-number .form-group .form-control {
       width: 300px; }
-    .request-write .write-form .table-wrap tbody tr td.apply .form-group, .request-write .write-form .table-wrap tbody tr td.contact .form-group {
+    .request-write .write-form .table-wrap tbody tr td.apply .form-group {
       display: inline-block; }
-      .request-write .write-form .table-wrap tbody tr td.apply .form-group ~ .form-group, .request-write .write-form .table-wrap tbody tr td.contact .form-group ~ .form-group {
+      .request-write .write-form .table-wrap tbody tr td.apply .form-group ~ .form-group {
         margin: 0;
         margin-left: 30px; }
-      .request-write .write-form .table-wrap tbody tr td.apply .form-group .form-control, .request-write .write-form .table-wrap tbody tr td.contact .form-group .form-control {
-        width: 230px; } }
+      .request-write .write-form .table-wrap tbody tr td.apply .form-group .form-control {
+        width: 215px; }
+    .request-write .write-form .table-wrap tbody tr td.contact .form-group .form-control {
+      width: 70px;
+      padding: 0 10px; }
+      .request-write .write-form .table-wrap tbody tr td.contact .form-group .form-control:nth-of-type(1) {
+        margin-right: 5px; }
+      .request-write .write-form .table-wrap tbody tr td.contact .form-group .form-control:nth-of-type(2) {
+        margin: 0 5px; }
+      .request-write .write-form .table-wrap tbody tr td.contact .form-group .form-control:nth-of-type(3) {
+        margin-left: 5px; } }
   @media (min-width: 992px) {
-    .request-write .write-form .table-wrap tbody tr td.apply .form-group .form-control, .request-write .write-form .table-wrap tbody tr td.contact .form-group .form-control {
+    .request-write .write-form .table-wrap tbody tr td.apply .form-group .form-control {
       width: 200px; } }
-  @media (min-width: 992px) {
-    .request-write .write-form .table-wrap tbody tr td.apply .form-group .form-control.addr, .request-write .write-form .table-wrap tbody tr td.contact .form-group .form-control.addr {
-      width: 310px; } }
+  @media (min-width: 1200px) {
+    .request-write .write-form .table-wrap tbody tr td.apply .form-group .form-control.addr {
+      width: 310px; }
+    .request-write .write-form .table-wrap tbody tr td.contact .form-group {
+      display: inline-block; }
+      .request-write .write-form .table-wrap tbody tr td.contact .form-group:last-child {
+        margin-left: 30px; } }
   @media (min-width: 1400px) {
     .request-write .write-form .table-wrap tbody tr td.apply .form-group {
       position: relative;

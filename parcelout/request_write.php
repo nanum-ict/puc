@@ -102,11 +102,19 @@
                                         <td class="contact">
                                             <div class="form-group">
                                                 <label for="u-tel">TEL</label>
-                                                <input type="text" id="u-tel" class="form-control">
+                                                <input type="text" id="u-tel" class="form-control"> -
+                                                <label for="tel-2" class="sr-only">전화번호</label>
+                                                <input type="text" id="tel-2" class="form-control"> -
+                                                <label for="tel-3" class="sr-only">전화번호</label>
+                                                <input type="text" id="tel-3" class="form-control">
                                             </div>
                                             <div class="form-group">
                                                 <label for="u-phone">H.P</label>
-                                                <input type="text" id="u-phone" class="form-control">
+                                                <input type="text" id="u-phone" class="form-control"> -
+                                                <label for="phone-2" class="sr-only">휴대폰번호</label>
+                                                <input type="text" id="phone-2" class="form-control"> -
+                                                <label for="phone-3" class="sr-only">휴대폰번호</label>
+                                                <input type="text" id="phone-3" class="form-control">
                                             </div>
                                         </td>
                                     </tr>

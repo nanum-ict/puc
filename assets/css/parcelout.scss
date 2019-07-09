@@ -550,7 +550,7 @@
                                 }
                             }
                         }
-                        &.apply, &.contact {
+                        &.apply {
                             .form-group {
                                 & ~ .form-group {
                                     margin-top: 10px;
@@ -559,8 +559,24 @@
                                     margin-right: 10px;
                                 }
                                 .form-control {
-                                    width: 79%;
+                                    width: 76%;
                                     display: inline-block;
+                                }
+                            }
+                        }
+                        &.contact {
+                            .form-group {
+                                & ~ .form-group {
+                                    margin-top: 10px;
+                                }
+                                label {
+                                    margin-right: 10px;
+                                }
+                                .form-control {
+                                    display: inline-block;
+                                    width: 22%;
+                                    padding-left: 3px;
+                                    padding-right: 3px;
                                 }
                             }
                         }
@@ -586,7 +602,7 @@
                                     }
                                 }
                             }
-                            &.apply, &.contact {
+                            &.apply {
                                 .form-group {
                                     display: inline-block;
                                     & ~ .form-group {
@@ -594,7 +610,24 @@
                                         margin-left: 30px;
                                     }
                                     .form-control {
-                                        width: 230px;
+                                        width: 215px;
+                                    }
+                                }
+                            }
+                            &.contact {
+                                .form-group {
+                                    .form-control {
+                                        width: 70px;
+                                        padding: 0 10px;
+                                        &:nth-of-type(1) {
+                                            margin-right: 5px;
+                                        }
+                                        &:nth-of-type(2) {
+                                            margin: 0 5px;
+                                        }
+                                        &:nth-of-type(3) {
+                                            margin-left: 5px;
+                                        }
                                     }
                                 }
                             }
@@ -604,7 +637,7 @@
                 @media(min-width: $md) {
                     tr {
                         td {
-                            &.apply, &.contact {
+                            &.apply {
                                 .form-group {
                                     .form-control {
                                         width: 200px;
@@ -614,15 +647,23 @@
                         }
                     }
                 }
-                @media(min-width: $md) {
+                @media(min-width: $lg) {
                     tr {
                         td {
-                            &.apply, &.contact {
+                            &.apply {
                                 .form-group {
                                     .form-control {
                                         &.addr {
                                             width: 310px;
                                         }
+                                    }
+                                }
+                            }
+                            &.contact {
+                                .form-group {
+                                    display: inline-block;
+                                    &:last-child {
+                                        margin-left: 30px;
                                     }
                                 }
                             }
