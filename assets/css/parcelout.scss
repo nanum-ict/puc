@@ -662,6 +662,9 @@
                             &.contact {
                                 .form-group {
                                     display: inline-block;
+                                    &.form-group {
+                                        margin-top: 0 !important;
+                                    }
                                     &:last-child {
                                         margin-left: 30px;
                                     }

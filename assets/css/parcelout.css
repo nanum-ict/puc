@@ -755,6 +755,8 @@ a {
       width: 310px; }
     .request-write .write-form .table-wrap tbody tr td.contact .form-group {
       display: inline-block; }
+      .request-write .write-form .table-wrap tbody tr td.contact .form-group.form-group {
+        margin-top: 0 !important; }
       .request-write .write-form .table-wrap tbody tr td.contact .form-group:last-child {
         margin-left: 30px; } }
   @media (min-width: 1400px) {
