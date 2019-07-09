@@ -17,7 +17,7 @@
             <div class="form-group">
                 <label for="g-search" class="sr-only">검색영역</label>
                 <input type="text" id="g-search" class="form-control" placeholder="검색어를 입력하세요">
-                <button type="submit" id="g-search" class="btn btn-search">
+                <button type="submit" class="btn btn-search">
                     <i class="icon-search"><span class="sr-only">검색버튼</span></i>
                 </button>
             </div>

@@ -1160,7 +1160,7 @@ a {
 .board-view {
   border-top: 2px solid #000; }
   .board-view .view-head .title {
-    font-size: 14px;
+    font-size: 16px;
     color: #333;
     font-weight: 400;
     line-height: 22px;
@@ -1197,6 +1197,14 @@ a {
         color: #666;
         font-weight: 300;
         display: inline; }
+        .board-view .view-head .information > li dl dd.ongoing {
+          padding: 0 5px;
+          color: #fff;
+          background-color: #f8b500; }
+        .board-view .view-head .information > li dl dd.finishing {
+          padding: 0 5px;
+          color: #fff;
+          background-color: #b0b0b0; }
   .board-view .view-content {
     font-size: 14px;
     color: #666;
@@ -1385,10 +1393,10 @@ a {
       margin-right: 0; }
     .paging .pagination > li > a {
       display: block;
-      font-size: 14px;
-      width: 34px;
+      font-size: 13px;
+      width: 24px;
       color: #777;
-      line-height: 32px;
+      line-height: 22px;
       border: 1px solid #ddd;
       -webkit-transition-property: all;
       transition-property: all;
@@ -1411,6 +1419,10 @@ a {
         opacity: 1; }
 @media (min-width: 1200px) {
   .paging .pagination > li {
-    margin-right: 10px; } }
+    margin-right: 10px; }
+    .paging .pagination > li > a {
+      width: 34px;
+      line-height: 32px;
+      font-size: 14px; } }
 
 /*# sourceMappingURL=sub.css.map */

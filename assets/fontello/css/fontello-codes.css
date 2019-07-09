@@ -15,3 +15,7 @@
 .icon-home:before { content: '\e80d'; } /* '' */
 .icon-cancel:before { content: '\e80e'; } /* '' */
 .icon-download:before { content: '\f02e'; } /* '' */
+.icon-angle-double-left:before { content: '\f100'; } /* '' */
+.icon-angle-double-right:before { content: '\f101'; } /* '' */
+.icon-angle-left:before { content: '\f104'; } /* '' */
+.icon-angle-right:before { content: '\f105'; } /* '' */

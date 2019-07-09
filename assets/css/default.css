@@ -448,6 +448,7 @@ body {
     #header > .global-search .btn-area {
       position: relative;
       z-index: 3;
+      vertical-align: top;
       display: inline-block; }
       #header > .global-search .btn-area .btn {
         width: 30px;

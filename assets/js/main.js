@@ -23,6 +23,7 @@
             autoControls: true,
             autoControlsCombine: true,
             controls: false,
+            touchEnabled : false,
             infiniteLoop: true
         });
     });

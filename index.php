@@ -204,7 +204,7 @@
             </article>
             <article class="banner-slider">
                 <ul>
-                    <li class="first">
+                    <li style="background-image: url(/assets/images/main/img_banner01_xs.jpg);">
                         <div class="details">
                             <div>
                                 <p>공공분야 갑질피해<br>신고하세요!!</p>
@@ -212,7 +212,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="second">
+                    <li style="background-image: url(/assets/images/main/img_banner01_xs.jpg);">
                         <div class="details">
                             <div>
                                 <p>공공분야 갑질피해<br>신고하세요!!</p>
@@ -220,7 +220,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="third">
+                    <li style="background-image: url(/assets/images/main/img_banner01_xs.jpg);">
                         <div class="details">
                             <div>
                                 <p>공공분야 갑질피해<br>신고하세요!!</p>

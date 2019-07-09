@@ -53,20 +53,44 @@
                         <ul class="information">
                             <li>
                                 <dl>
-                                    <dt>작성자</dt>
-                                    <dd>평택도시공사</dd>
+                                    <dt>사업부문</dt>
+                                    <dd>교통사업처</dd>
                                 </dl>
                             </li>
                             <li>
                                 <dl>
-                                    <dt>등록일</dt>
-                                    <dd>2016-04-12</dd>
+                                    <dt>작성부서</dt>
+                                    <dd>재무회계처</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>상태</dt>
+                                    <dd class="finishing">
+                                        진행중
+                                        <!-- 
+                                            ongoing == 진행중
+                                            finishing == 신청마감
+                                        -->
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>공고일</dt>
+                                    <dd>2018-11-12</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>마감일</dt>
+                                    <dd>2018-11-14</dd>
                                 </dl>
                             </li>
                             <li>
                                 <dl>
                                     <dt>조회</dt>
-                                    <dd>355</dd>
+                                    <dd>71</dd>
                                 </dl>
                             </li>
                         </ul>

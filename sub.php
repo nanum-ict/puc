@@ -344,9 +344,16 @@
                 <!-- pagenation -->
                 <nav class="paging">
                     <ul class="pagination">
+                        <li class="first">
+                            <a href="#">
+                                <i class="icon-angle-double-left">
+                                    <span class="sr-only">처음 페이지 이동</span>
+                                </i>
+                            </a>
+                        </li>
                         <li class="prev">
                             <a href="#" aria-label="Previous">
-                                <i class="icon-left-open-big">
+                                <i class="icon-angle-left">
                                     <span class="sr-only">이전 페이지 이동</span>
                                 </i>
                             </a>
@@ -358,8 +365,15 @@
                         <li><a href="#">5</a></li>
                         <li class="next">
                             <a href="#" aria-label="Next">
-                                <i class="icon-right-open-big">
+                                <i class="icon-angle-right">
                                     <span class="sr-only">다음 페이지 이동</span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="#">
+                                <i class="icon-angle-double-right">
+                                    <span class="sr-only">마지막 페이지 이동</span>
                                 </i>
                             </a>
                         </li>

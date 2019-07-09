@@ -383,15 +383,6 @@
             background-repeat: no-repeat;
             background-position: 70% 50%;
             background-size: cover;
-            &.first {
-                background-image: url(/assets/images/main/img_banner01_xs.jpg);
-            }
-            &.second {
-                background-image: url(/assets/images/main/img_banner01_xs.jpg);
-            }
-            &.third {
-                background-image: url(/assets/images/main/img_banner01_xs.jpg);
-            }
             > .details {
                 display: table;
                 width: 100%;
@@ -458,7 +449,7 @@
             float: right;
             display: inline-block;
             height: 10px;
-            .bx-controls-auto-item {
+            > .bx-controls-auto-item {
                 > a {
                     display: block;
                     position: relative;
@@ -508,9 +499,6 @@
                             line-height: 33px;
                         }
                         .btn-white {
-                            position: relative;
-                            overflow: hidden;
-                            z-index: 1;
                             @include transition();
                             &:hover {
                                 color: $kcolor;
