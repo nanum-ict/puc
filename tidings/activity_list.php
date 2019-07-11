@@ -94,16 +94,29 @@
                                         </li>
                                         <li>
                                             <dl>
-                                                <dt class="place">장소</dt>
-                                                <dd><p>평택물류단지 내 도로변(차량등록사업소 입구 출발)</p></dd>
+                                                <dt class="content">내용</dt>
+                                                <dd>
+                                                    <p>민족명절 추석을 맞이하여 도로변 청소 실시</p>
+                                                </dd>
                                             </dl>
                                         </li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/tidings/activity_view.php">
+                                <figure>
+                                    <img src="/assets/images/tidings/img_photo_list.jpg" class="img-fluid" alt="">
+                                </figure>
+                                <div class="details">
+                                    <h6>추석맞이 일제 대청소 실시</h6>
+                                    <small>추석맞이 일제 대청소 실시</small>
+                                    <ul class="infor-list">
                                         <li>
                                             <dl>
-                                                <dt class="personnel">참여인원</dt>
-                                                <dd>
-                                                    <p>평택도시공사 직원, 송탄동 직원 및 10개단체 회원 등</p>
-                                                </dd>
+                                                <dt class="date">일자</dt>
+                                                <dd><p>2018. 9. 17.(월) 16:00~18:00</p></dd>
                                             </dl>
                                         </li>
                                         <li>
@@ -135,16 +148,29 @@
                                         </li>
                                         <li>
                                             <dl>
-                                                <dt class="place">장소</dt>
-                                                <dd><p>평택물류단지 내 도로변(차량등록사업소 입구 출발)</p></dd>
+                                                <dt class="content">내용</dt>
+                                                <dd>
+                                                    <p>민족명절 추석을 맞이하여 도로변 청소 실시</p>
+                                                </dd>
                                             </dl>
                                         </li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/tidings/activity_view.php">
+                                <figure>
+                                    <img src="/assets/images/tidings/img_photo_list.jpg" class="img-fluid" alt="">
+                                </figure>
+                                <div class="details">
+                                    <h6>추석맞이 일제 대청소 실시</h6>
+                                    <small>추석맞이 일제 대청소 실시</small>
+                                    <ul class="infor-list">
                                         <li>
                                             <dl>
-                                                <dt class="personnel">참여인원</dt>
-                                                <dd>
-                                                    <p>평택도시공사 직원, 송탄동 직원 및 10개단체 회원 등</p>
-                                                </dd>
+                                                <dt class="date">일자</dt>
+                                                <dd><p>2018. 9. 17.(월) 16:00~18:00</p></dd>
                                             </dl>
                                         </li>
                                         <li>
@@ -176,20 +202,6 @@
                                         </li>
                                         <li>
                                             <dl>
-                                                <dt class="place">장소</dt>
-                                                <dd><p>평택물류단지 내 도로변(차량등록사업소 입구 출발)</p></dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt class="personnel">참여인원</dt>
-                                                <dd>
-                                                    <p>평택도시공사 직원, 송탄동 직원 및 10개단체 회원 등</p>
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
                                                 <dt class="content">내용</dt>
                                                 <dd>
                                                     <p>민족명절 추석을 맞이하여 도로변 청소 실시</p>
@@ -213,102 +225,6 @@
                                             <dl>
                                                 <dt class="date">일자</dt>
                                                 <dd><p>2018. 9. 17.(월) 16:00~18:00</p></dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt class="place">장소</dt>
-                                                <dd><p>평택물류단지 내 도로변(차량등록사업소 입구 출발)</p></dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt class="personnel">참여인원</dt>
-                                                <dd>
-                                                    <p>평택도시공사 직원, 송탄동 직원 및 10개단체 회원 등</p>
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt class="content">내용</dt>
-                                                <dd>
-                                                    <p>민족명절 추석을 맞이하여 도로변 청소 실시</p>
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/tidings/activity_view.php">
-                                <figure>
-                                    <img src="/assets/images/tidings/img_photo_list.jpg" class="img-fluid" alt="">
-                                </figure>
-                                <div class="details">
-                                    <h6>추석맞이 일제 대청소 실시</h6>
-                                    <small>추석맞이 일제 대청소 실시</small>
-                                    <ul class="infor-list">
-                                        <li>
-                                            <dl>
-                                                <dt class="date">일자</dt>
-                                                <dd><p>2018. 9. 17.(월) 16:00~18:00</p></dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt class="place">장소</dt>
-                                                <dd><p>평택물류단지 내 도로변(차량등록사업소 입구 출발)</p></dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt class="personnel">참여인원</dt>
-                                                <dd>
-                                                    <p>평택도시공사 직원, 송탄동 직원 및 10개단체 회원 등</p>
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt class="content">내용</dt>
-                                                <dd>
-                                                    <p>민족명절 추석을 맞이하여 도로변 청소 실시</p>
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/tidings/activity_view.php">
-                                <figure>
-                                    <img src="/assets/images/tidings/img_photo_list.jpg" class="img-fluid" alt="">
-                                </figure>
-                                <div class="details">
-                                    <h6>추석맞이 일제 대청소 실시</h6>
-                                    <small>추석맞이 일제 대청소 실시</small>
-                                    <ul class="infor-list">
-                                        <li>
-                                            <dl>
-                                                <dt class="date">일자</dt>
-                                                <dd><p>2018. 9. 17.(월) 16:00~18:00</p></dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt class="place">장소</dt>
-                                                <dd><p>평택물류단지 내 도로변(차량등록사업소 입구 출발)</p></dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt class="personnel">참여인원</dt>
-                                                <dd>
-                                                    <p>평택도시공사 직원, 송탄동 직원 및 10개단체 회원 등</p>
-                                                </dd>
                                             </dl>
                                         </li>
                                         <li>

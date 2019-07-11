@@ -502,9 +502,6 @@
         }
     }
     @media(min-width: $md) {
-        .tab-menu {
-            width: 600px;
-        }
         .member {
             .tab-content {
                 margin-top: 60px;
@@ -538,6 +535,70 @@
         }
     }
     .explain {
+        .privacy {
+            > dl {
+                padding: 15px 10px;
+                border-top: 1px solid #272727;
+                border-bottom: 1px solid #ddd;
+                @media(min-width: $lg) {
+                    padding: 25px 15px;
+                }
+                > dt {
+                    position: relative;
+                    font-size: 13px;
+                    color: #333;
+                    font-weight: 400;
+                    padding-left: 20px;
+                    @media(min-width: $lg) {
+                        font-size: 16px;
+                    }
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        content: '◎';
+                    }
+                }
+                > dd {
+                    margin-top: 20px;
+                    > ul {
+                        > li {
+                            position: relative;
+                            font-size: 13px;
+                            line-height: 24px;
+                            color: #333;
+                            font-weight: 400;
+                            padding-left: 15px;
+                            &:before {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                content: '-';
+                            }
+                            @media(min-width: $lg) {
+                                font-size: 16px;
+                                line-height: 28px;
+                            }
+                        }
+                    }
+                }
+            }
+            .consent {
+                margin-top: 10px;
+                font-size: 13px;
+                input[type="checkbox"] {
+                    position: relative;
+                    top: 2px;
+                    display: inline-block;
+                }
+                @media(min-width: $lg) {
+                    font-size: 16px;
+                    input[type="checkbox"] {
+                        top: 1px;
+                    }
+                }
+            }
+        }
         .write-form {
             .table-wrap {
                 text-align: right;
@@ -763,8 +824,7 @@
                                                 select {
                                                     display: inline-block;
                                                     width: 32%;
-                                                    padding-left: 0;
-                                                    padding-right: 0;
+                                                    padding: 0;
                                                 }
                                             }
                                             &.time {
@@ -783,33 +843,107 @@
                                             }
                                         }
                                     }
-                                    &.oath {
-                                        padding-top: 20px;
-                                        padding-bottom: 20px;
-                                        text-align: center;
-                                        label {
-                                            &:last-child {
-                                                margin-right: 0;
-                                            }
-                                        }
-                                        .form-control {
-                                            width: 65px;
-                                        }
-                                        > p {
-                                            font-weight: 300;
-                                            color: #333;
-                                            margin-top: 10px;
-                                        }
-                                        .declarer {
-                                            label {
-                                                margin-right: 0;
-                                            }
-                                            .form-control {
-                                                width: 150px;
-                                            }
-                                        }
+                                }
+                            }
+                        }
+                    }
+                }
+                .privacy {
+                    > dl {
+                        padding: 15px 10px;
+                        border-top: 1px solid #272727;
+                        border-bottom: 1px solid #ddd;
+                        background-color: #f6f6f6;
+                        @media(min-width: $lg) {
+                            padding: 25px 15px;
+                        }
+                        > dt {
+                            position: relative;
+                            font-size: 13px;
+                            color: #333;
+                            font-weight: 400;
+                            padding-left: 20px;
+                            @media(min-width: $lg) {
+                                font-size: 15px;
+                            }
+                            &:before {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                content: '◎';
+                            }
+                        }
+                        > dd {
+                            margin-top: 20px;
+                            > ul {
+                                > li {
+                                    position: relative;
+                                    font-size: 13px;
+                                    line-height: 24px;
+                                    color: #333;
+                                    font-weight: 400;
+                                    padding-left: 15px;
+                                    &:before {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        content: '-';
+                                    }
+                                    @media(min-width: $lg) {
+                                        font-size: 15px;
+                                        line-height: 28px;
                                     }
                                 }
+                            }
+                        }
+                    }
+                    .consent {
+                        margin-top: 10px;
+                        font-size: 13px;
+                        input[type="checkbox"] {
+                            position: relative;
+                            top: 2px;
+                            display: inline-block;
+                        }
+                        @media(min-width: $lg) {
+                            font-size: 15px;
+                            input[type="checkbox"] {
+                                top: 1px;
+                            }
+                        }
+                    }
+                }
+                .oath {
+                    padding-top: 20px;
+                    text-align: center;
+                    .form-control {
+                        display: inline-block;
+                        width: 65px;
+                    }
+                    > p {
+                        font-weight: 300;
+                        color: #333;
+                        margin-top: 10px;
+                    }
+                    .declarer {
+                        margin-top: 10px;
+                        label {
+                            margin-right: 0;
+                        }
+                        .form-control {
+                            width: 150px;
+                        }
+                    }
+                    .form-group {
+                        & ~ .form-group {
+                            margin-top: 10px;
+                        }
+                        label {
+                            display: inline-block;
+                            line-height: 32px;
+                            margin-right: 10px;
+                            &:last-child {
+                                margin-right: 0;
                             }
                         }
                     }
@@ -889,18 +1023,6 @@
                                                 }
                                             }
                                         }
-                                        &.oath {
-                                            .form-group {
-                                                .form-control {
-                                                    width: 100px;
-                                                }
-                                                &.declarer {
-                                                    .form-control {
-                                                        width: 300px;
-                                                    }
-                                                }
-                                            }
-                                        }
                                     }
                                 }
                             }
@@ -929,6 +1051,18 @@
                                             }
                                         }
                                     }
+                                }
+                            }
+                        }
+                    }
+                    .oath {
+                        .form-group {
+                            .form-control {
+                                width: 100px;
+                            }
+                            &.declarer {
+                                .form-control {
+                                    width: 300px;
                                 }
                             }
                         }
@@ -1019,13 +1153,6 @@
                                         &.date {
                                             background-image: url(/assets/images/tidings/ico_date.png);
                                         }
-                                        &.place {
-                                            background-image: url(/assets/images/tidings/ico_place.png);
-                                        }
-                                        &.personnel {
-                                            width: 100px;
-                                            background-image: url(/assets/images/tidings/ico_personnel.png);
-                                        }
                                         &.content {
                                             background-image: url(/assets/images/tidings/ico_document.png);
                                         }
@@ -1044,6 +1171,9 @@
                                             text-overflow: ellipsis;
                                             display: block;
                                             width: 100%;
+                                            br {
+                                                display: none !important;
+                                            }
                                         }
                                     }
                                 }
@@ -1095,24 +1225,6 @@
             > ul {
                 > li {
                     min-height: 222px;
-                    > a {
-                        .details {
-                            > ul {
-                                overflow: hidden;
-                                > li {
-                                    float: left;
-                                    width: 50%;
-                                    &:nth-of-type(2n + 1) {
-                                        clear: both;
-                                        padding-right: 15px;
-                                    }
-                                    &:nth-of-type(2n + 2) {
-                                        padding-left: 15px;
-                                    }
-                                }
-                            }
-                        }
-                    }
                 }
             }
         }
@@ -1139,32 +1251,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

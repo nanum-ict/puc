@@ -199,21 +199,34 @@
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td colspan="2" class="oath">
-                                            <div class="form-group">
-                                                <label><input type="text" class="form-control"> 년</label>
-                                                <label><input type="text" class="form-control"> 월</label>
-                                                <label><input type="text" class="form-control"> 일</label>
-                                            </div>
-                                            <p>본인은 상기와 같은 내용을 거짓없이 신고 합니다.</p>
-                                            <div class="form-group declarer">
-                                                <label>신고자 <input type="text" class="form-control"></label>
-                                            </div>
-                                        </td>
-                                    </tr>
                                 </tbody>
                             </table>
+                        </div>
+                        <h6 class="sub-title">개인 정보 수집 및 이용 안내</h6>
+                        <div class="privacy">
+                            <dl>
+                                <dt>개인정보의 수집 및 이용에 관한 사항</dt>
+                                <dd>
+                                    <ul>
+                                        <li>수집·이용목적 : 본인확인, 개인 식별 등 클린센터 신고 관련 업무 처리 </li>
+                                        <li>수집·이용항목 : 필수(이름), 선택(소속,직급) </li>
+                                        <li>보유·이용기간 : 영구(공공기록물 관리에 관한 법률 시행령 제 25조, 제 26조)</li>
+                                        <li>개인정보 수집·이용을 거부할 권리가 있으며 이 경우 클린센터 등록이 제한 됩니다.</li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                            <label class="consent"><input type="checkbox"> 위 개인정보 수집 및 이용에 동의합니다.</label>
+                        </div>
+                        <div class="oath">
+                            <div class="form-group">
+                                <label><input type="text" class="form-control"> 년</label>
+                                <label><input type="text" class="form-control"> 월</label>
+                                <label><input type="text" class="form-control"> 일</label>
+                            </div>
+                            <p>본인은 상기와 같은 내용을 거짓없이 신고 합니다.</p>
+                            <div class="form-group declarer">
+                                <label>신고자 <input type="text" class="form-control"></label>
+                            </div>
                         </div>
                         <div class="btn-area">
                             <button type="submit" class="btn btn-submit">신고서 접수</button>

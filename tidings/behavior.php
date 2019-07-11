@@ -41,16 +41,26 @@
                 </div>
             </div>
             <div class="section-content">
-                <nav class="dropdown nav-tab">
+               <nav class="dropdown nav-tab">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="nav-tab" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         윤리규범
                     </button>
                     <div class="dropdown-menu" aria-labelledby="nav-tab">
                         <ul>
-                            <li><a href="/tidings/charter.php">윤리헌장</a></li>
-                            <li class="active"><a href="/tidings/behavior.php">임직원행동강령</a></li>
+                            <li><a href="/tidings/ethical.php">PUC 윤리경영</a></li>
+                            <li class="active"><a href="/tidings/charter.php">윤리규범</a></li>
+                            <li><a href="/tidings/clear.php">사이버감사실</a></li>
+                            <li><a href="/tidings/activity_list.php">사회공헌활동</a></li>
+                            <li><a href="/tidings/human.php">인권경영</a></li>
+                            <li><a href="/tidings/upright_list.php">PUC 청렴소식지</a></li>
                         </ul>
                     </div>
+                </nav>
+                <nav class="tab-menu">
+                    <ul>
+                        <li><a href="/tidings/charter.php">윤리헌장</a></li>
+                        <li class="active"><a href="/tidings/behavior.php">임직원행동강령</a></li>
+                    </ul>
                 </nav>
                 <article class="member">
                     <ul class="nav tab-list" role="tablist">

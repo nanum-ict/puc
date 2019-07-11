@@ -1237,6 +1237,7 @@ a {
         display: block;
         text-align: center;
         line-height: 42px;
+        padding: 0 !important;
         letter-spacing: -1px;
         -webkit-transition-property: all;
         transition-property: all;

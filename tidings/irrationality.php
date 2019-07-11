@@ -65,25 +65,40 @@
                     </ul>
                 </nav>
                 <article class="explain">
-                    <h5 class="sub-title">임직원의 부조리 및 행동강령 위반사항에 관하여 신고하는 공간입니다</h5>
-                    <ul class="circle">
-                        <li>알선, 청탁, 금품수수</li>
-                        <li>예산의 목적 외 사용</li>
-                        <li>성희롱, 직무관계자와 골프 및 사행성 오락</li>
-                    </ul>
-                    <h5 class="sub-title">인터넷 신고 외에 방문, 우편 신고도 접수하고 있습니다</h5>
-                    <p class="attention">문의 : 안전감사실 (<a href="tel:03180538843">031-8053-8843</a>)</p>
-                    <h5 class="sub-title">신고자 준수사항</h5>
-                    <div class="summary">
+                    <form action="#">
+                        <h5 class="sub-title">임직원의 부조리 및 행동강령 위반사항에 관하여 신고하는 공간입니다</h5>
                         <ul class="circle">
-                            <li>신고 대상은 임직원의 『임직원행동강령』 규정 위반 행위 및 부조리입니다.</li>
-                            <li>신고 내용은 반드시 사실에 근거해 6하원칙에 따라 명확히 작성해 주시고 규정 위반행위를 증명할 수 있는 자료가 있다면 참고자료를 첨부하여 주시기 바랍니다</li>
-                            <li>『임직원행동강령』 위반 행위 및 부조리와 무관한 내용이거나, 구체적이지 않은 경우에는 신고가 접수되지 않을 수 있음을 알려 드립니다</li>
-                            <li>신고자는 근거 없이 타인을 비방하거나 허위사실을 신고하지 않으며 오로지 양심에 따라 본 신고서를 작성해 주시기 바랍니다.</li>
+                            <li>알선, 청탁, 금품수수</li>
+                            <li>예산의 목적 외 사용</li>
+                            <li>성희롱, 직무관계자와 골프 및 사행성 오락</li>
                         </ul>
-                    </div>
-                    <div class="write-form">
-                        <form action="#">
+                        <h5 class="sub-title">인터넷 신고 외에 방문, 우편 신고도 접수하고 있습니다</h5>
+                        <p class="attention">문의 : 안전감사실 (<a href="tel:03180538843">031-8053-8843</a>)</p>
+                        <h5 class="sub-title">신고자 준수사항</h5>
+                        <div class="summary">
+                            <ul class="circle">
+                                <li>신고 대상은 임직원의 『임직원행동강령』 규정 위반 행위 및 부조리입니다.</li>
+                                <li>신고 내용은 반드시 사실에 근거해 6하원칙에 따라 명확히 작성해 주시고 규정 위반행위를 증명할 수 있는 자료가 있다면 참고자료를 첨부하여 주시기 바랍니다</li>
+                                <li>『임직원행동강령』 위반 행위 및 부조리와 무관한 내용이거나, 구체적이지 않은 경우에는 신고가 접수되지 않을 수 있음을 알려 드립니다</li>
+                                <li>신고자는 근거 없이 타인을 비방하거나 허위사실을 신고하지 않으며 오로지 양심에 따라 본 신고서를 작성해 주시기 바랍니다.</li>
+                            </ul>
+                        </div>
+                        <h5 class="sub-title">개인 정보 수집 및 이용 안내</h5>
+                        <div class="privacy">
+                            <dl>
+                                <dt>개인정보의 수집 및 이용에 관한 사항</dt>
+                                <dd>
+                                    <ul>
+                                        <li>수집·이용목적 : 본인확인, 개인 식별, 처리결과 회신 등 갑질피해 신고·지원센터 관련 업무 처리</li>
+                                        <li>수집·이용항목 : 필수(E-mail)</li>
+                                        <li>보유·이용기간 : 영구(공공기록물 관리에 관한 법률 시행령 제 25조, 제 26조)</li>
+                                        <li>개인정보 수집·이용을 거부할 권리가 있으며 이 경우 갑질피해 신고·지원센터 등록이 제한됩니다.</li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                            <label class="consent"><input type="checkbox"> 위 개인정보 수집 및 이용에 동의합니다.</label>
+                        </div>
+                        <div class="write-form">
                             <div class="table-wrap">
                                 <span class="indispensable">필수입력</span>
                                 <table class="table write">
@@ -134,8 +149,8 @@
                             <div class="btn-area">
                                 <button type="submit" class="btn btn-submit">제출하기</button>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </article>
             </div>
         </section>

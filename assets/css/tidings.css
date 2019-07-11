@@ -715,8 +715,6 @@ a {
           font-size: 16px !important;
           line-height: 24px !important; } }
 @media (min-width: 992px) {
-  .behavior .tab-menu {
-    width: 600px; }
   .behavior .member .tab-content {
     margin-top: 60px; } }
 
@@ -733,6 +731,57 @@ a {
           display: none; } }
     .cyber .tab-menu > ul > li.space > a {
       padding: 5px 0; }
+.cyber .explain .privacy > dl {
+  padding: 15px 10px;
+  border-top: 1px solid #272727;
+  border-bottom: 1px solid #ddd; }
+  @media (min-width: 1200px) {
+    .cyber .explain .privacy > dl {
+      padding: 25px 15px; } }
+  .cyber .explain .privacy > dl > dt {
+    position: relative;
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+    padding-left: 20px; }
+    @media (min-width: 1200px) {
+      .cyber .explain .privacy > dl > dt {
+        font-size: 16px; } }
+    .cyber .explain .privacy > dl > dt:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '◎'; }
+  .cyber .explain .privacy > dl > dd {
+    margin-top: 20px; }
+    .cyber .explain .privacy > dl > dd > ul > li {
+      position: relative;
+      font-size: 13px;
+      line-height: 24px;
+      color: #333;
+      font-weight: 400;
+      padding-left: 15px; }
+      .cyber .explain .privacy > dl > dd > ul > li:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '-'; }
+      @media (min-width: 1200px) {
+        .cyber .explain .privacy > dl > dd > ul > li {
+          font-size: 16px;
+          line-height: 28px; } }
+.cyber .explain .privacy .consent {
+  margin-top: 10px;
+  font-size: 13px; }
+  .cyber .explain .privacy .consent input[type="checkbox"] {
+    position: relative;
+    top: 2px;
+    display: inline-block; }
+  @media (min-width: 1200px) {
+    .cyber .explain .privacy .consent {
+      font-size: 16px; }
+      .cyber .explain .privacy .consent input[type="checkbox"] {
+        top: 1px; } }
 .cyber .explain .write-form .table-wrap {
   text-align: right; }
   .cyber .explain .write-form .table-wrap > .indispensable {
@@ -880,8 +929,7 @@ a {
         .report-modal .modal-dialog .modal-content .modal-body .table-wrap .table tbody tr td.date-time .form-group.date select {
           display: inline-block;
           width: 32%;
-          padding-left: 0;
-          padding-right: 0; }
+          padding: 0; }
         .report-modal .modal-dialog .modal-content .modal-body .table-wrap .table tbody tr td.date-time .form-group.time label > input[type="radio"] {
           position: relative;
           top: 2px; }
@@ -890,22 +938,82 @@ a {
           width: 70px;
           padding-left: 0;
           padding-right: 0; }
-        .report-modal .modal-dialog .modal-content .modal-body .table-wrap .table tbody tr td.oath {
-          padding-top: 20px;
-          padding-bottom: 20px;
-          text-align: center; }
-          .report-modal .modal-dialog .modal-content .modal-body .table-wrap .table tbody tr td.oath label:last-child {
-            margin-right: 0; }
-          .report-modal .modal-dialog .modal-content .modal-body .table-wrap .table tbody tr td.oath .form-control {
-            width: 65px; }
-          .report-modal .modal-dialog .modal-content .modal-body .table-wrap .table tbody tr td.oath > p {
-            font-weight: 300;
+      .report-modal .modal-dialog .modal-content .modal-body .privacy > dl {
+        padding: 15px 10px;
+        border-top: 1px solid #272727;
+        border-bottom: 1px solid #ddd;
+        background-color: #f6f6f6; }
+        @media (min-width: 1200px) {
+          .report-modal .modal-dialog .modal-content .modal-body .privacy > dl {
+            padding: 25px 15px; } }
+        .report-modal .modal-dialog .modal-content .modal-body .privacy > dl > dt {
+          position: relative;
+          font-size: 13px;
+          color: #333;
+          font-weight: 400;
+          padding-left: 20px; }
+          @media (min-width: 1200px) {
+            .report-modal .modal-dialog .modal-content .modal-body .privacy > dl > dt {
+              font-size: 15px; } }
+          .report-modal .modal-dialog .modal-content .modal-body .privacy > dl > dt:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: '◎'; }
+        .report-modal .modal-dialog .modal-content .modal-body .privacy > dl > dd {
+          margin-top: 20px; }
+          .report-modal .modal-dialog .modal-content .modal-body .privacy > dl > dd > ul > li {
+            position: relative;
+            font-size: 13px;
+            line-height: 24px;
             color: #333;
-            margin-top: 10px; }
-          .report-modal .modal-dialog .modal-content .modal-body .table-wrap .table tbody tr td.oath .declarer label {
+            font-weight: 400;
+            padding-left: 15px; }
+            .report-modal .modal-dialog .modal-content .modal-body .privacy > dl > dd > ul > li:before {
+              position: absolute;
+              top: 0;
+              left: 0;
+              content: '-'; }
+            @media (min-width: 1200px) {
+              .report-modal .modal-dialog .modal-content .modal-body .privacy > dl > dd > ul > li {
+                font-size: 15px;
+                line-height: 28px; } }
+      .report-modal .modal-dialog .modal-content .modal-body .privacy .consent {
+        margin-top: 10px;
+        font-size: 13px; }
+        .report-modal .modal-dialog .modal-content .modal-body .privacy .consent input[type="checkbox"] {
+          position: relative;
+          top: 2px;
+          display: inline-block; }
+        @media (min-width: 1200px) {
+          .report-modal .modal-dialog .modal-content .modal-body .privacy .consent {
+            font-size: 15px; }
+            .report-modal .modal-dialog .modal-content .modal-body .privacy .consent input[type="checkbox"] {
+              top: 1px; } }
+      .report-modal .modal-dialog .modal-content .modal-body .oath {
+        padding-top: 20px;
+        text-align: center; }
+        .report-modal .modal-dialog .modal-content .modal-body .oath .form-control {
+          display: inline-block;
+          width: 65px; }
+        .report-modal .modal-dialog .modal-content .modal-body .oath > p {
+          font-weight: 300;
+          color: #333;
+          margin-top: 10px; }
+        .report-modal .modal-dialog .modal-content .modal-body .oath .declarer {
+          margin-top: 10px; }
+          .report-modal .modal-dialog .modal-content .modal-body .oath .declarer label {
             margin-right: 0; }
-          .report-modal .modal-dialog .modal-content .modal-body .table-wrap .table tbody tr td.oath .declarer .form-control {
+          .report-modal .modal-dialog .modal-content .modal-body .oath .declarer .form-control {
             width: 150px; }
+        .report-modal .modal-dialog .modal-content .modal-body .oath .form-group ~ .form-group {
+          margin-top: 10px; }
+        .report-modal .modal-dialog .modal-content .modal-body .oath .form-group label {
+          display: inline-block;
+          line-height: 32px;
+          margin-right: 10px; }
+          .report-modal .modal-dialog .modal-content .modal-body .oath .form-group label:last-child {
+            margin-right: 0; }
       .report-modal .modal-dialog .modal-content .modal-body .btn-area {
         margin-top: 30px;
         text-align: center; }
@@ -960,14 +1068,14 @@ a {
             width: 60%; }
           .report-modal .modal-dialog .modal-content .modal-body .table-wrap .table tbody tr td.date-time .form-group.time {
             width: 38%; }
-        .report-modal .modal-dialog .modal-content .modal-body .table-wrap .table tbody tr td.oath .form-group .form-control {
-          width: 100px; }
-        .report-modal .modal-dialog .modal-content .modal-body .table-wrap .table tbody tr td.oath .form-group.declarer .form-control {
-          width: 300px; }
       .report-modal .modal-dialog .modal-content .modal-body .table-wrap .table.oath-write tbody tr:nth-of-type(2) td .form-control {
         width: 250px; }
       .report-modal .modal-dialog .modal-content .modal-body .table-wrap .table.oath-write tbody tr:nth-of-type(3) td .form-control {
         width: 200px; }
+      .report-modal .modal-dialog .modal-content .modal-body .oath .form-group .form-control {
+        width: 100px; }
+      .report-modal .modal-dialog .modal-content .modal-body .oath .form-group.declarer .form-control {
+        width: 300px; }
       .report-modal .modal-dialog .modal-content .modal-body .btn-area {
         margin-top: 40px; } }
 @media (min-width: 1200px) {
@@ -1047,11 +1155,6 @@ a {
                 content: '|'; }
               .activity-list .photo-list > ul > li > a .details .infor-list li > dl > dt.date {
                 background-image: url(/assets/images/tidings/ico_date.png); }
-              .activity-list .photo-list > ul > li > a .details .infor-list li > dl > dt.place {
-                background-image: url(/assets/images/tidings/ico_place.png); }
-              .activity-list .photo-list > ul > li > a .details .infor-list li > dl > dt.personnel {
-                width: 100px;
-                background-image: url(/assets/images/tidings/ico_personnel.png); }
               .activity-list .photo-list > ul > li > a .details .infor-list li > dl > dt.content {
                 background-image: url(/assets/images/tidings/ico_document.png); }
             .activity-list .photo-list > ul > li > a .details .infor-list li > dl > dd {
@@ -1068,6 +1171,8 @@ a {
                 text-overflow: ellipsis;
                 display: block;
                 width: 100%; }
+                .activity-list .photo-list > ul > li > a .details .infor-list li > dl > dd > p br {
+                  display: none !important; }
       .activity-list .photo-list > ul > li > a:hover {
         background-color: #f6f6f6; }
         .activity-list .photo-list > ul > li > a:hover h6 {
@@ -1095,17 +1200,7 @@ a {
   .activity-list .photo-list {
     margin-top: 40px; }
     .activity-list .photo-list > ul > li {
-      min-height: 222px; }
-      .activity-list .photo-list > ul > li > a .details > ul {
-        overflow: hidden; }
-        .activity-list .photo-list > ul > li > a .details > ul > li {
-          float: left;
-          width: 50%; }
-          .activity-list .photo-list > ul > li > a .details > ul > li:nth-of-type(2n + 1) {
-            clear: both;
-            padding-right: 15px; }
-          .activity-list .photo-list > ul > li > a .details > ul > li:nth-of-type(2n + 2) {
-            padding-left: 15px; } }
+      min-height: 222px; } }
 
 .activity-view .board-view {
   margin-top: 30px; }
