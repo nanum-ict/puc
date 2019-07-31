@@ -18,7 +18,8 @@
     $(window).on('load resize', function(){
         if ($('#header').width() == 240) {
             $('#gnb').addClass('responsive-gnb');
-            $('body').removeClass('nav-opened, search-open');
+            $('body').removeClass('nav-opened');
+            $('body').removeClass('search-open');
             $('.global-search').removeClass('on');
             $('.nav-body > ul > li').removeClass('active');
         } else {
