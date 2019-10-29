@@ -47,8 +47,26 @@
                         <p>언제나 시민과 더불어 함께하는 평택도시공사가 되겠습니다.</p>
                     </div>
                 </div>
-                <div class="search-form">
+                <div class="search-form select-search">
                     <form action="#">
+                        <div class="form-group">
+                            <div>
+                                <select class="form-control">
+                                    <option>구분</option>
+                                </select>
+                            </div>
+                            <div>
+                                <select class="form-control">
+                                    <option>연도</option>
+                                    <option>2014 연도</option>
+                                </select>
+                            </div>
+                            <div>
+                                <select class="form-control">
+                                    <option>월</option>
+                                </select>
+                            </div>
+                        </div>
                         <div class="form-group">
                             <input type="text" id="board-search" class="form-control" placeholder="검색어를 입력해 주세요.">
                             <label for="board-search" class="sr-only">게시판 검색</label>
