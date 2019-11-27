@@ -11,28 +11,28 @@
         <span class="bar"></span>
         <span class="bar"></span>
     </button>
+    <div class="global-search">
+        <div class="search-backdrop"></div>
+        <form action="#">
+            <div class="form-group">
+                <label for="g-search" class="sr-only">검색영역</label>
+                <input type="text" id="g-search" class="form-control" placeholder="검색어를 입력하세요">
+                <button type="submit" class="btn btn-search">
+                    <i class="icon-search"><span class="sr-only">검색버튼</span></i>
+                </button>
+            </div>
+            <div class="btn-area">
+                <button type="button" class="btn search-open">
+                    <i class="icon-search"><span class="sr-only">검색창 열기</span></i>
+                </button>
+                <button type="button" class="btn search-close">
+                    <i class="icon-cancel"><span class="sr-only">검색창 닫기</span></i>
+                </button>
+            </div>
+        </form>
+    </div>
     <nav id="gnb">
         <div class="backdrop"></div>
-        <div class="global-search">
-            <div class="search-backdrop"></div>
-            <form action="#">
-                <div class="form-group">
-                    <label for="g-search" class="sr-only">검색영역</label>
-                    <input type="text" id="g-search" class="form-control" placeholder="검색어를 입력하세요">
-                    <button type="submit" class="btn btn-search">
-                        <i class="icon-search"><span class="sr-only">검색버튼</span></i>
-                    </button>
-                </div>
-                <div class="btn-area">
-                    <button type="button" class="btn search-open">
-                        <i class="icon-search"><span class="sr-only">검색창 열기</span></i>
-                    </button>
-                    <button type="button" class="btn search-close">
-                        <i class="icon-cancel"><span class="sr-only">검색창 닫기</span></i>
-                    </button>
-                </div>
-            </form>
-        </div>
         <div class="nav-wrap">
             <h2 class="nav-logo">
                 <a href="/">

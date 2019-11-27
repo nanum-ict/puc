@@ -491,65 +491,6 @@ body {
     width: 100%;
     height: 100%;
     margin-left: 260px; }
-  #gnb .global-search {
-    position: fixed;
-    top: 34px;
-    right: 15px; }
-    #gnb .global-search > .search-backdrop {
-      display: none; }
-    #gnb .global-search .form-group {
-      position: relative;
-      display: none;
-      z-index: 3; }
-      #gnb .global-search .form-group .form-control {
-        width: 230px;
-        height: 30px;
-        font-size: 13px;
-        border: 0;
-        border-radius: 30px;
-        padding-right: 35px; }
-      #gnb .global-search .form-group > .btn-search {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 30px;
-        height: 30px;
-        font-size: 14px;
-        color: #333;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px; }
-    #gnb .global-search .btn-area {
-      position: relative;
-      z-index: 3;
-      display: inline-block;
-      vertical-align: top; }
-      #gnb .global-search .btn-area .btn {
-        width: 30px;
-        height: 30px;
-        font-size: 18px;
-        line-height: 30px;
-        color: #323232;
-        text-align: center; }
-        #gnb .global-search .btn-area .btn.search-open {
-          display: block; }
-        #gnb .global-search .btn-area .btn.search-close {
-          color: #fff;
-          display: none; }
-    #gnb .global-search.on .search-backdrop {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 2;
-      display: block;
-      background-color: rgba(0, 0, 0, 0.7); }
-    #gnb .global-search.on .form-group {
-      display: inline-block; }
-    #gnb .global-search.on .btn-area .btn.search-open {
-      display: none; }
-    #gnb .global-search.on .btn-area .btn.search-close {
-      display: block; }
   #gnb .nav-wrap {
     overflow-y: auto;
     width: 260px;
@@ -690,24 +631,6 @@ body {
       background-color: #ebebeb; }
       #gnb .backdrop {
         display: none; }
-      #gnb .global-search {
-        position: absolute;
-        top: 65px;
-        right: 0;
-        width: 100%;
-        z-index: 102;
-        margin-top: 0;
-        padding: 0 20px; }
-        #gnb .global-search .form-group {
-          display: block;
-          width: 100%; }
-          #gnb .global-search .form-group .form-control {
-            width: 100%;
-            border: 1px solid #ddd; }
-          #gnb .global-search .form-group .btn-search {
-            line-height: 28px; }
-        #gnb .global-search .btn-area {
-          display: none; }
       #gnb .nav-wrap {
         overflow: hidden;
         width: 100%;
@@ -902,6 +825,84 @@ body {
     .nav-opened #header .btn-nav {
       left: 340px; } }
 
+.global-search {
+  position: absolute;
+  top: 34px;
+  right: 15px; }
+  .global-search > .search-backdrop {
+    display: none; }
+  .global-search .form-group {
+    position: relative;
+    display: none;
+    z-index: 3; }
+    .global-search .form-group .form-control {
+      width: 230px;
+      height: 30px;
+      font-size: 13px;
+      border: 0;
+      border-radius: 30px;
+      padding-right: 35px; }
+    .global-search .form-group > .btn-search {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 30px;
+      height: 30px;
+      font-size: 14px;
+      color: #333;
+      border-top-right-radius: 30px;
+      border-bottom-right-radius: 30px; }
+  .global-search .btn-area {
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+    vertical-align: top; }
+    .global-search .btn-area .btn {
+      width: 30px;
+      height: 30px;
+      font-size: 18px;
+      line-height: 30px;
+      color: #323232;
+      text-align: center; }
+      .global-search .btn-area .btn.search-open {
+        display: block; }
+      .global-search .btn-area .btn.search-close {
+        color: #fff;
+        display: none; }
+  .global-search.on .search-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7); }
+  .global-search.on .form-group {
+    display: inline-block; }
+  .global-search.on .btn-area .btn.search-open {
+    display: none; }
+  .global-search.on .btn-area .btn.search-close {
+    display: block; }
+  @media (min-width: 1200px) {
+    .global-search {
+      top: 0;
+      right: 0;
+      width: 100%;
+      z-index: 102;
+      margin-top: 0;
+      padding: 0 20px; }
+      .global-search .form-group {
+        display: block;
+        width: 100%; }
+        .global-search .form-group .form-control {
+          width: 100%;
+          border: 1px solid #ddd; }
+        .global-search .form-group .btn-search {
+          line-height: 28px; }
+      .global-search .btn-area {
+        display: none; } }
+
 #footer {
   padding-bottom: 30px;
   background-color: #ebebeb; }
@@ -1077,27 +1078,16 @@ body {
     text-align: center; }
     .quick > ul > li ~ li {
       margin-top: 30px; }
-    .quick > ul > li > a img {
-      display: block;
-      margin: 0 auto; }
-    .quick > ul > li > a p {
-      font-size: 14px;
-      color: #333;
-      font-weight: 400;
-      margin-top: 10px;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 0.15s;
-      transition-duration: 0.15s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0s;
-      transition-delay: 0s; }
-      .quick > ul > li > a p > span {
-        font-weight: 400;
+    .quick > ul > li > a {
+      display: inline-block; }
+      .quick > ul > li > a img {
         display: block;
-        line-height: 21px;
-        color: #666;
+        margin: 0 auto; }
+      .quick > ul > li > a p {
+        font-size: 14px;
+        color: #333;
+        font-weight: 400;
+        margin-top: 10px;
         -webkit-transition-property: all;
         transition-property: all;
         -webkit-transition-duration: 0.15s;
@@ -1106,10 +1096,23 @@ body {
         transition-timing-function: linear;
         -webkit-transition-delay: 0s;
         transition-delay: 0s; }
-    .quick > ul > li > a:hover p {
-      color: #016ecd; }
-      .quick > ul > li > a:hover p span {
+        .quick > ul > li > a p > span {
+          font-weight: 400;
+          display: block;
+          line-height: 21px;
+          color: #666;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+      .quick > ul > li > a:hover p {
         color: #016ecd; }
+        .quick > ul > li > a:hover p span {
+          color: #016ecd; }
     .quick > ul > li.qr-code > a img {
       width: 48px; }
   @media (min-width: 1520px) {
